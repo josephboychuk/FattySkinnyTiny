@@ -33,6 +33,13 @@
 								<MusicTrack Name="Fatty" ID="{CF7A0E28-097B-4984-8E06-B2CD76179DE6}" ShortID="155115531">
 									<PropertyList>
 										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DA903815-86C0-45D8-A768-8357B9ECF666}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
@@ -55,6 +62,35 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+												<CustomState Name="" ID="{7225867B-D8AF-4F60-B147-2426CA80EB0E}" ShortID="722943120">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+												<CustomState Name="" ID="{E417F10C-834D-4624-851C-CA89C527170F}" ShortID="744883298"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+												<CustomState Name="" ID="{FAD483F6-C693-45D9-97A0-63FCDEF1B0D3}" ShortID="184164019">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{80230AC0-7304-443E-96FD-BB2C80764DCF}">
 											<PropertyList>
@@ -137,6 +173,35 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+												<CustomState Name="" ID="{654FF431-798D-4A4A-A28E-3DF9342385B2}" ShortID="812651332">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+												<CustomState Name="" ID="{52BF802C-A7D6-497F-90EF-DCF7F6C4DCC8}" ShortID="311322531">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+												<CustomState Name="" ID="{1735E741-399B-4FEA-91B9-3F423EB9156F}" ShortID="679805461"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{3BEB6D1A-2107-46BD-B2B9-B3B0BCC66138}">
 											<PropertyList>
@@ -219,6 +284,35 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+												<CustomState Name="" ID="{654DBE79-D21F-41F2-BB4A-006A24C0A8BC}" ShortID="43314242"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+												<CustomState Name="" ID="{66999F05-9FE7-4D99-A5A0-E5BBB5F06D0E}" ShortID="155998847">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+												<CustomState Name="" ID="{B741F875-0CBF-4B8D-8F9F-32BB0E805655}" ShortID="494321190">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{AA4FC83C-0A09-4D66-ACB3-5FE08E79250B}">
 											<PropertyList>
@@ -299,7 +393,7 @@
 						</MusicSegment>
 						<MusicSegment Name="pt_02" ID="{02C7B825-DE6D-4948-A347-BC185947861D}" ShortID="200322469">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="6461.54166666667"/>
+								<Property Name="EndPosition" Type="Real64" Value="6807.69230769231"/>
 								<Property Name="Tempo" Type="Real64" Value="130"/>
 								<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
 							</PropertyList>
@@ -340,6 +434,35 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+												<CustomState Name="" ID="{633139F5-E057-4E54-8B98-171F5C7FA62F}" ShortID="617573178"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+												<CustomState Name="" ID="{D8FBDC25-1F89-464E-B0D1-4C9845A9DCD4}" ShortID="611146836">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+												<CustomState Name="" ID="{EFC57AEE-0520-4FDC-AC6B-6C984F6B13A7}" ShortID="601565741">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{C83CB3FE-0786-4390-BD7B-04BA3CE39DB9}">
 											<PropertyList>
@@ -425,6 +548,35 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+												<CustomState Name="" ID="{5BC80BF4-0FD8-4A52-B78D-B9A792A8B1D2}" ShortID="285398728">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+												<CustomState Name="" ID="{6B222AB9-3E67-4617-A43C-506DE627EC86}" ShortID="902010322"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+												<CustomState Name="" ID="{089A675C-08D4-4AAB-BE82-C1D2F5C49BD1}" ShortID="828206350">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{876DD2F5-DA1E-4E56-BE8D-33D04B9D447B}">
 											<PropertyList>
@@ -510,6 +662,35 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+												<CustomState Name="" ID="{0F211980-CF57-4AF1-9C01-2CE00BE5B8A8}" ShortID="763024324">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+												<CustomState Name="" ID="{62B6D4B1-9EC9-4A22-940D-1F66CC458B0A}" ShortID="49085641">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+												<CustomState Name="" ID="{6F94278A-C034-46D4-B04C-4750BA8E3F9C}" ShortID="107572605"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{96E54ACD-D40F-49B0-B569-4398C4DF6257}">
 											<PropertyList>
@@ -580,7 +761,7 @@
 											<MusicCue Name="Exit Cue" ID="{772759EF-E7AF-4B52-BBCC-B99EEC6E5A01}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+													<Property Name="TimeMs" Type="Real64" Value="5538.46153846154"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
@@ -631,6 +812,35 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+												<CustomState Name="" ID="{E26B22BD-1A45-46F4-84EF-319D2A655A26}" ShortID="1018753970"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+												<CustomState Name="" ID="{8C2913A6-7F9C-4F24-A15D-7175F6449882}" ShortID="556987907">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+												<CustomState Name="" ID="{D7BF7806-35CD-4CE4-A68A-EEC23FA98406}" ShortID="487163377">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{D2EC14BC-D58F-4AB9-A491-9DA4485087C9}">
 											<PropertyList>
@@ -716,6 +926,35 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+												<CustomState Name="" ID="{62DB1D9B-A807-4CDD-896D-D67F916E7EBA}" ShortID="723147438">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+												<CustomState Name="" ID="{2860B370-0A06-48AC-8FC5-51D0C1FE0C49}" ShortID="608019989"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+												<CustomState Name="" ID="{8548635A-FEE7-4F0E-A6CF-AED28C3B9EA5}" ShortID="105473154">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{A24173B9-E0F2-4BE3-901D-B951031CE076}">
 											<PropertyList>
@@ -801,6 +1040,35 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+												<CustomState Name="" ID="{90A5ACE1-F2BE-4664-BA00-495E8D09FB4B}" ShortID="207887235">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+												<CustomState Name="" ID="{FBC74167-272C-4653-A83E-D4FEA8692E27}" ShortID="602352480">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+												<CustomState Name="" ID="{5CA4D7B3-4074-4DDF-B12A-558FC496A84B}" ShortID="806005756"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{ACBC996D-718D-4B24-A06D-19B61EDEF821}">
 											<PropertyList>
@@ -871,7 +1139,7 @@
 											<MusicCue Name="Exit Cue" ID="{5F51E8D3-7DC2-4ED4-BDFA-C62882FDFDF1}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+													<Property Name="TimeMs" Type="Real64" Value="5538.46153846154"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
@@ -881,7 +1149,7 @@
 						</MusicSegment>
 						<MusicSegment Name="pt_04" ID="{E60DC816-92BA-41B3-B42E-39BB36AC606C}" ShortID="636629841">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="6498.37407918969"/>
+								<Property Name="EndPosition" Type="Real64" Value="7153.84615384615"/>
 								<Property Name="Tempo" Type="Real64" Value="130"/>
 								<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
 							</PropertyList>
@@ -922,6 +1190,35 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+												<CustomState Name="" ID="{B8774B0E-E7DF-4E53-9A0A-646F4F145C58}" ShortID="989860082"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+												<CustomState Name="" ID="{61ABA7FD-BBD0-4185-A98E-EADFB1284A8A}" ShortID="262222184">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+												<CustomState Name="" ID="{9A7F22C7-4F44-4B22-992D-D95EF8052A5A}" ShortID="222182293">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{5D106D4E-35F5-45FB-A5DC-237ABDF3724D}">
 											<PropertyList>
@@ -1007,6 +1304,35 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+												<CustomState Name="" ID="{6916A048-B765-452D-B474-8B6A7A62E2E9}" ShortID="914714851">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+												<CustomState Name="" ID="{D4219AAE-C6EF-477E-99E0-3D2D1B72C7B3}" ShortID="136355919"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+												<CustomState Name="" ID="{8A0F87D9-FBC5-43A3-BBD6-716DA34935FE}" ShortID="611525417">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{1C99DBEE-3078-423B-A3A9-644874E76B5F}">
 											<PropertyList>
@@ -1092,6 +1418,35 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+												<CustomState Name="" ID="{6F6E8A85-9E39-418A-BD33-5ED5D151442E}" ShortID="393831600">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+												<CustomState Name="" ID="{C5302D0B-24F7-4C81-A319-CB20434EE2FF}" ShortID="60691935">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+												<CustomState Name="" ID="{CD6D8C21-4647-438D-ACDE-9A64316AA9E7}" ShortID="610696203"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{1D001369-520F-4B94-9743-E6F7712A6F9F}">
 											<PropertyList>
@@ -1162,7 +1517,7 @@
 											<MusicCue Name="Exit Cue" ID="{F2829D30-EB29-496B-9BE6-B1983A801718}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+													<Property Name="TimeMs" Type="Real64" Value="5538.46153846154"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
@@ -1186,7 +1541,38 @@
 					</TransitionList>
 					<ObjectLists/>
 					<Playlist>
-						<MusicPlaylistItem Name="" ID="{44665C8B-1765-4776-8B64-0B88235D18C3}" ShortID="245497976"/>
+						<MusicPlaylistItem Name="" ID="{44665C8B-1765-4776-8B64-0B88235D18C3}" ShortID="245497976">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+								<Property Name="PlayMode" Type="int16" Value="1"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{A3045CA2-EB6E-4CAA-8AF8-6AD6D2286AFA}" ShortID="88407750">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="pt_01" ID="{3A64F209-8673-4596-A4C7-7C37C766B891}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{195F66B3-5360-44CD-9D91-794A3C7E5349}" ShortID="625421464">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="pt_02" ID="{02C7B825-DE6D-4948-A347-BC185947861D}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{2067F474-2B89-4EB5-876C-47FF2E504C6E}" ShortID="957013745">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="pt_03" ID="{49406EF3-CA77-4C54-92B3-B58C138188E4}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{28DDC0EA-9792-499E-A39E-BB9CB427A97C}" ShortID="680031726">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="pt_04" ID="{E60DC816-92BA-41B3-B42E-39BB36AC606C}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
 			</ChildrenList>
