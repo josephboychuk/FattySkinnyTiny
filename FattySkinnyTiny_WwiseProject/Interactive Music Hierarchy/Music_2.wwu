@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{85C9FEB6-316F-4074-9A33-D52E61976D31}" SchemaVersion="103" RootDocumentID="{A8928005-3DA6-4346-A504-EF826E462066}" ParentDocumentID="{A8928005-3DA6-4346-A504-EF826E462066}">
+	<InteractiveMusic>
+		<WorkUnit Name="Music_2" ID="{85C9FEB6-316F-4074-9A33-D52E61976D31}" OwnerID="{A8928005-3DA6-4346-A504-EF826E462066}" PersistMode="Nested">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="Music" ID="{72745BCC-F46B-4F10-BEF6-19B87296E05B}" ShortID="413761856">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="130"/>
+						<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="pt_01" ID="{3A64F209-8673-4596-A4C7-7C37C766B891}" ShortID="395293387">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="6871.08655616943"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Fatty" ID="{CF7A0E28-097B-4984-8E06-B2CD76179DE6}" ShortID="155115531">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fatty_pt1_a" ID="{C2B492AD-60D5-486C-84A8-41380ECE5045}">
+											<Language>SFX</Language>
+											<AudioFile>Fatty_pt1_a.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="763445320"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Fatty_pt1_b" ID="{C6A94FD4-10C5-4EA6-A5E4-EB0129BEBC4F}">
+											<Language>SFX</Language>
+											<AudioFile>Fatty_pt1_b.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="642445686"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{80230AC0-7304-443E-96FD-BB2C80764DCF}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{00232E62-06E7-4120-AB51-EEB8EC59E817}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Fatty_pt1_a" ID="{F62910A8-F82D-4AF9-8A40-EAF0287160F5}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Fatty_pt1_a" ID="{C2B492AD-60D5-486C-84A8-41380ECE5045}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{507BDB74-D25A-45BB-9B59-D21543CB2CCD}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Fatty_pt1_b" ID="{118ECCE8-30C6-43C6-965A-22D73F2A25A4}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Fatty_pt1_b" ID="{C6A94FD4-10C5-4EA6-A5E4-EB0129BEBC4F}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Skinny" ID="{E6C4C3FC-A1EE-4838-9E61-1BD7506053EB}" ShortID="367198109">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skinny_pt1_a" ID="{A68CB008-29CE-40AB-A015-E4B734CC7DAD}">
+											<Language>SFX</Language>
+											<AudioFile>Skinny_pt1_a.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="769121661"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Skinny_pt1_b" ID="{6690DAC2-AE60-45B9-9E61-93277B2C9E6B}">
+											<Language>SFX</Language>
+											<AudioFile>Skinny_pt1_b.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="555616514"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{3BEB6D1A-2107-46BD-B2B9-B3B0BCC66138}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{1C0E518B-B779-4918-831A-EE95A718373B}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Skinny_pt1_a" ID="{C83BAE8C-169A-49B6-B6AB-6E4A59A59088}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Skinny_pt1_a" ID="{A68CB008-29CE-40AB-A015-E4B734CC7DAD}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{DB75840E-C9D5-4DF3-AD47-44B081A8B9E1}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Skinny_pt1_b" ID="{B9BF8BD0-628D-49FD-A1C2-017EDE60B2C0}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Skinny_pt1_b" ID="{6690DAC2-AE60-45B9-9E61-93277B2C9E6B}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Tiny" ID="{3486A7A1-E226-4049-B9A2-7B21E93E22AB}" ShortID="872951332">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Tiny_pt1_a" ID="{BAADA3BB-1066-46EC-BC3A-3AC9A7BEB51A}">
+											<Language>SFX</Language>
+											<AudioFile>Tiny_pt1_a.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="879318595"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Tiny_pt1_b" ID="{A6645E8D-4025-4CB9-B131-5B5F87635A24}">
+											<Language>SFX</Language>
+											<AudioFile>Tiny_pt1_b.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="751605722"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{AA4FC83C-0A09-4D66-ACB3-5FE08E79250B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{59F944C4-2E46-4F9C-A2CD-237B12B2AD78}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Tiny_pt1_a" ID="{F749DC41-2D08-45DF-A081-7098FE00D993}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Tiny_pt1_a" ID="{BAADA3BB-1066-46EC-BC3A-3AC9A7BEB51A}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{35C8C27D-202C-40D2-A937-8E0367B08CD9}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Tiny_pt1_b" ID="{64411AE3-96CC-40ED-AE90-8A3B4D22AEEF}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Tiny_pt1_b" ID="{A6645E8D-4025-4CB9-B131-5B5F87635A24}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{EF92589C-26AF-4AC1-8281-2EFC54C1C6AC}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{D19CA962-F741-49BA-86CD-A6F1A5396062}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="5538.46153846154"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="pt_02" ID="{02C7B825-DE6D-4948-A347-BC185947861D}" ShortID="200322469">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="6461.54166666667"/>
+								<Property Name="Tempo" Type="Real64" Value="130"/>
+								<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Tiny" ID="{C869F0D1-990B-4F7C-B7EB-72A066F90F6E}" ShortID="916045440">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Tiny_pt2_a" ID="{93F17926-5D12-4DA2-A3A5-72F4977E9501}">
+											<Language>SFX</Language>
+											<AudioFile>Tiny_pt2_a.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="563782076"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Tiny_pt2_b" ID="{E50641B2-5C54-4687-8D04-7642A0A8840E}">
+											<Language>SFX</Language>
+											<AudioFile>Tiny_pt2_b.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="706464136"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C83CB3FE-0786-4390-BD7B-04BA3CE39DB9}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{C12CD722-5606-4309-8B83-FA41AC5E51BC}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Tiny_pt2_a" ID="{A2272005-4A5F-4608-BCF8-C84C849ED918}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Tiny_pt2_a" ID="{93F17926-5D12-4DA2-A3A5-72F4977E9501}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{5EADB5D7-A9F7-4FB2-BAD3-DB5BFE5C9A94}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Tiny_pt2_b" ID="{09825C51-5FBA-41F6-9B7E-3F0FC417A17F}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Tiny_pt2_b" ID="{E50641B2-5C54-4687-8D04-7642A0A8840E}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Fatty" ID="{DC9F5EC0-0D54-4A08-A120-39128275AC9A}" ShortID="654962487">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fatty_pt2_a" ID="{D475C3C8-24D6-456A-AFA3-200902A56740}">
+											<Language>SFX</Language>
+											<AudioFile>Fatty_pt2_a.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="830685147"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Fatty_pt2_b" ID="{0A1F4C43-5AA5-4368-B643-88FFB28E2124}">
+											<Language>SFX</Language>
+											<AudioFile>Fatty_pt2_b.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="240965194"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{876DD2F5-DA1E-4E56-BE8D-33D04B9D447B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{D85893C8-09F9-405D-8D3D-6A9689B91498}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Fatty_pt2_a" ID="{4334D2B0-9608-4080-B0D8-80AC35B51FDB}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Fatty_pt2_a" ID="{D475C3C8-24D6-456A-AFA3-200902A56740}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{5AA3872F-AF60-4126-AD33-46ED215D2F37}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Fatty_pt2_b" ID="{6BB8A928-7CF0-406F-8862-DCDB702E4382}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Fatty_pt2_b" ID="{0A1F4C43-5AA5-4368-B643-88FFB28E2124}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Skinny" ID="{54AD4739-9F0A-4883-8410-4CB58FC56476}" ShortID="151774212">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skinny_pt2_a" ID="{888723E0-1A13-4FAF-9024-2E10BE938C8A}">
+											<Language>SFX</Language>
+											<AudioFile>Skinny_pt2_a.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1013141905"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Skinny_pt2_b" ID="{381E7F2B-97D4-454A-94F2-AF8289969925}">
+											<Language>SFX</Language>
+											<AudioFile>Skinny_pt2_b.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="787842188"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{96E54ACD-D40F-49B0-B569-4398C4DF6257}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{A3C93ACC-C658-4C17-ABAE-BB6144FC3487}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Skinny_pt2_a" ID="{C14264B2-43AD-4686-8400-F2677E449218}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Skinny_pt2_a" ID="{888723E0-1A13-4FAF-9024-2E10BE938C8A}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{307BA448-2A84-4EC4-9ADD-26AB755EE7CC}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Skinny_pt2_b" ID="{C9B5AB7E-EDFB-40F6-BEF1-BC82C58F3031}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Skinny_pt2_b" ID="{381E7F2B-97D4-454A-94F2-AF8289969925}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{3F239C2E-6DF2-4472-902E-55BE31CEDE4E}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{772759EF-E7AF-4B52-BBCC-B99EEC6E5A01}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="pt_03" ID="{49406EF3-CA77-4C54-92B3-B58C138188E4}" ShortID="127650002">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="6461.54166666667"/>
+								<Property Name="Tempo" Type="Real64" Value="130"/>
+								<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Tiny" ID="{C9C4A6FD-0C51-4C3A-A75B-5BD2FAECEC6B}" ShortID="924528815">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Tiny_pt3_a" ID="{5257E9CF-7694-4763-AE4D-87DD4E67FF6B}">
+											<Language>SFX</Language>
+											<AudioFile>Tiny_pt3_a.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="684460362"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Tiny_pt3_b" ID="{652A7CA2-1DF1-47BA-8220-57975230D3FA}">
+											<Language>SFX</Language>
+											<AudioFile>Tiny_pt3_b.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="602856539"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D2EC14BC-D58F-4AB9-A491-9DA4485087C9}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{6E0C0275-CDA8-4FB4-8FC3-7B0BBCD96F41}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Tiny_pt3_a" ID="{9F9A008F-73D3-4B1F-AB29-7DACEED0932F}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Tiny_pt3_a" ID="{5257E9CF-7694-4763-AE4D-87DD4E67FF6B}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{06E84606-468F-4BF6-AACB-1D88A824E6F5}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Tiny_pt3_b" ID="{400D1D7B-A6AE-42F3-9BD9-97DA074B204B}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Tiny_pt3_b" ID="{652A7CA2-1DF1-47BA-8220-57975230D3FA}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Fatty" ID="{734717C3-51B2-4045-A93D-E14AFF27508F}" ShortID="503636305">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fatty_pt3_a" ID="{714DBE4A-50DC-4D6B-9EA9-1B27212DCF54}">
+											<Language>SFX</Language>
+											<AudioFile>Fatty_pt3_a.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="980219617"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Fatty_pt3_b" ID="{D2FB8FAC-730E-4E23-8854-1C3F53BF28CB}">
+											<Language>SFX</Language>
+											<AudioFile>Fatty_pt3_b.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="493999728"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A24173B9-E0F2-4BE3-901D-B951031CE076}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{4DBC02D4-9358-4A91-A8FA-359D8345C690}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Fatty_pt3_a" ID="{0723ABC0-48FE-4A9F-8172-165BA248A036}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Fatty_pt3_a" ID="{714DBE4A-50DC-4D6B-9EA9-1B27212DCF54}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{4B10A0AE-5397-4A12-8534-1922CC789AC0}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Fatty_pt3_b" ID="{CD91A97C-DB55-4B11-95FB-409FC1B7F834}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Fatty_pt3_b" ID="{D2FB8FAC-730E-4E23-8854-1C3F53BF28CB}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Skinny" ID="{F1BE8036-BD0B-4047-927A-9E496AA3EEA7}" ShortID="418970454">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skinny_pt3_a" ID="{FDF8F92D-59DA-49E4-8ACB-A62B4F094340}">
+											<Language>SFX</Language>
+											<AudioFile>Skinny_pt3_a.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="638042796"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Skinny_pt3_b" ID="{66259224-E356-4EC0-976F-B16EE4605BF2}">
+											<Language>SFX</Language>
+											<AudioFile>Skinny_pt3_b.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="36758138"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{ACBC996D-718D-4B24-A06D-19B61EDEF821}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{F454C584-C319-4BBD-A3BB-9BB384C1FFF1}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Skinny_pt3_a" ID="{6D4F50EE-59FA-4B9E-9F83-CB8EBF2E947F}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Skinny_pt3_a" ID="{FDF8F92D-59DA-49E4-8ACB-A62B4F094340}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{D78A9B56-5301-4DE6-94CB-8867F2871B43}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Skinny_pt3_b" ID="{F5D7F4DF-343D-4811-A21A-912670D6830C}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Skinny_pt3_b" ID="{66259224-E356-4EC0-976F-B16EE4605BF2}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{B34F3FA0-9B1B-487E-99BD-880C153237D2}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{5F51E8D3-7DC2-4ED4-BDFA-C62882FDFDF1}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="pt_04" ID="{E60DC816-92BA-41B3-B42E-39BB36AC606C}" ShortID="636629841">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="6498.37407918969"/>
+								<Property Name="Tempo" Type="Real64" Value="130"/>
+								<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Tiny" ID="{F2845A41-2568-4CB8-A8BA-0FD609F2E844}" ShortID="989040038">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Tiny_pt4_a" ID="{421861B9-A62B-4D7F-8DFD-B6BA69E70FE6}">
+											<Language>SFX</Language>
+											<AudioFile>Tiny_pt4_a.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="362703368"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Tiny_pt4_b" ID="{6D18A073-E478-4E66-9DBE-353753F8B9C0}">
+											<Language>SFX</Language>
+											<AudioFile>Tiny_pt4_b.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="183824269"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{5D106D4E-35F5-45FB-A5DC-237ABDF3724D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{3AD425AD-E3F0-450B-BBCC-FF5FCCB93B41}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Tiny_pt4_a" ID="{A80777FA-9AE2-4957-B52E-2190C4C2076B}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Tiny_pt4_a" ID="{421861B9-A62B-4D7F-8DFD-B6BA69E70FE6}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{30D0AF98-669C-4742-9DF8-CE8D5DC5FC5B}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Tiny_pt4_b" ID="{9EF35CA2-ABCD-4738-BF01-9965BF3B6694}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Tiny_pt4_b" ID="{6D18A073-E478-4E66-9DBE-353753F8B9C0}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Fatty" ID="{2213050B-025D-4D1D-9AC2-B13C5FC753CF}" ShortID="483992577">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fatty_pt4_a" ID="{FA8063D8-8895-40CD-81DE-99D1BE66A8E6}">
+											<Language>SFX</Language>
+											<AudioFile>Fatty_pt4_a.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="435232982"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Fatty_pt4_b" ID="{79738021-5D8E-4891-80CB-8A7D1593E737}">
+											<Language>SFX</Language>
+											<AudioFile>Fatty_pt4_b.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1019111010"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{1C99DBEE-3078-423B-A3A9-644874E76B5F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{6D9DA3D1-DAEC-47C5-A67C-BD7D62E313A9}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Fatty_pt4_a" ID="{B9F13B87-B53A-401B-AFF4-AA8E53D27332}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Fatty_pt4_a" ID="{FA8063D8-8895-40CD-81DE-99D1BE66A8E6}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{802506A4-908E-42D7-97A4-E328BDF3FC00}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Fatty_pt4_b" ID="{D919C190-A0EB-4EBC-B38D-F96F4CCB63ED}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Fatty_pt4_b" ID="{79738021-5D8E-4891-80CB-8A7D1593E737}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Skinny" ID="{9E1DC655-095D-44DC-81B6-8F6135136971}" ShortID="220525985">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skinny_pt4_a" ID="{DB1F689E-9F20-4DEC-8358-B19F5C234362}">
+											<Language>SFX</Language>
+											<AudioFile>Skinny_pt4_a.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="836693500"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Skinny_pt4_b" ID="{83201267-1DF3-4934-B26F-D77B8A73424C}">
+											<Language>SFX</Language>
+											<AudioFile>Skinny_pt4_b.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="833433429"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{1D001369-520F-4B94-9743-E6F7712A6F9F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{503DEEA4-5AAD-480E-BE17-7FEFA9908D73}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Skinny_pt4_a" ID="{455409FF-FCFB-4C65-A3BF-04802FD17C3C}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Skinny_pt4_a" ID="{DB1F689E-9F20-4DEC-8358-B19F5C234362}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{91D41225-2F56-46D2-9BA5-2191A8282AF2}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Skinny_pt4_b" ID="{9B27CABF-DAEE-40B9-80B6-FE6E2641EBB4}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6461.54166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Skinny_pt4_b" ID="{83201267-1DF3-4934-B26F-D77B8A73424C}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{B57FC175-B869-4C3B-921F-28A5F20F8216}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{F2829D30-EB29-496B-9BE6-B1983A801718}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{0A2AF040-1FD8-4CD6-B200-875B93B71932}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{D7281CDF-418B-4993-9A95-9C0AA99AD99D}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{44665C8B-1765-4776-8B64-0B88235D18C3}" ShortID="245497976"/>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
