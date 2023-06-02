@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\Content\WwiseAudio\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="3131847704">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="278617630" Name="Play_ambience" ObjectPath="\Events\Default Work Unit\Play_ambience" GUID="{9EAE0423-FC96-438A-9004-13020A51A48B}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="82225827" Language="SFX">
+							<ShortName>ambience_pt2_a.wav</ShortName>
+							<Path>SFX\ambience_pt2_a_10C4C929.wem</Path>
+						</File>
+						<File Id="779903999" Language="SFX">
+							<ShortName>ambience_pt1_b.wav</ShortName>
+							<Path>SFX\ambience_pt1_b_10C4C929.wem</Path>
+						</File>
+						<File Id="857147491" Language="SFX">
+							<ShortName>ambience_pt1_a.wav</ShortName>
+							<Path>SFX\ambience_pt1_a_10C4C929.wem</Path>
+						</File>
+						<File Id="998531078" Language="SFX">
+							<ShortName>ambience_pt2_b.wav</ShortName>
+							<Path>SFX\ambience_pt2_b_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3465618802" Name="Play_bounce" ObjectPath="\Events\Default Work Unit\Play_bounce" GUID="{5E44FED3-C634-40D8-880E-EA134921731D}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1133619286" Name="Play_fireleaves_burn" ObjectPath="\Events\Default Work Unit\Play_fireleaves_burn" GUID="{251214DA-214C-45E5-AFF9-9FEED73AC53C}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3729125446" Name="Play_fireleaves_drop" ObjectPath="\Events\Default Work Unit\Play_fireleaves_drop" GUID="{FE0D6A0A-371B-41AE-B76E-F4B553D89012}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1175895827" Name="Play_flower_platform_grow" ObjectPath="\Events\Default Work Unit\Play_flower_platform_grow" GUID="{FD2ECB3E-954F-4FF5-B5C1-2956D28ACB41}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2631540721" Name="Play_flower_platform_move" ObjectPath="\Events\Default Work Unit\Play_flower_platform_move" GUID="{DB43039D-3938-438A-BB1C-A2D73E00555C}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3552089723" Name="Play_flying" ObjectPath="\Events\Default Work Unit\Play_flying" GUID="{B3F1F30D-7021-46E2-A19A-5E165BD2A16C}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3854155799" Name="Play_footsteps" ObjectPath="\Events\Default Work Unit\Play_footsteps" GUID="{BCF66B52-5FAD-4770-BBB1-2EE969C03758}" DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<DefaultSwitchValue>{AEA0E3E5-DA18-414B-AE06-A629EC0D56AD}</DefaultSwitchValue>
+					<SwitchContainers/>
+				</Event>
+				<Event Id="2764105556" Name="Play_impact" ObjectPath="\Events\Default Work Unit\Play_impact" GUID="{69CBFAAA-84FA-4579-9B14-A679CED72991}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1241030149" Name="Play_light_switch" ObjectPath="\Events\Default Work Unit\Play_light_switch" GUID="{79D51D09-5B20-4786-A116-104104DDB7EE}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3050387092" Name="Play_log_fall" ObjectPath="\Events\Default Work Unit\Play_log_fall" GUID="{BF263C14-44FA-401D-86F4-A686522380E9}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2154606991" Name="Play_magic_shoot" ObjectPath="\Events\Default Work Unit\Play_magic_shoot" GUID="{8C04AA8D-B906-44F8-8684-BD0C1A637557}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" GUID="{8841BE0E-D058-4436-BE04-9C5A0C8E0F88}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="36758138" Language="SFX">
+							<ShortName>Skinny_pt3_b.wav</ShortName>
+							<Path>SFX\Skinny_pt3_b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="183824269" Language="SFX">
+							<ShortName>Tiny_pt4_b.wav</ShortName>
+							<Path>SFX\Tiny_pt4_b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="240965194" Language="SFX">
+							<ShortName>Fatty_pt2_b.wav</ShortName>
+							<Path>SFX\Fatty_pt2_b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="362703368" Language="SFX">
+							<ShortName>Tiny_pt4_a.wav</ShortName>
+							<Path>SFX\Tiny_pt4_a_D79FB2B7.wem</Path>
+						</File>
+						<File Id="435232982" Language="SFX">
+							<ShortName>Fatty_pt4_a.wav</ShortName>
+							<Path>SFX\Fatty_pt4_a_D79FB2B7.wem</Path>
+						</File>
+						<File Id="493999728" Language="SFX">
+							<ShortName>Fatty_pt3_b.wav</ShortName>
+							<Path>SFX\Fatty_pt3_b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="555616514" Language="SFX">
+							<ShortName>Skinny_pt1_b.wav</ShortName>
+							<Path>SFX\Skinny_pt1_b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="563782076" Language="SFX">
+							<ShortName>Tiny_pt2_a.wav</ShortName>
+							<Path>SFX\Tiny_pt2_a_D79FB2B7.wem</Path>
+						</File>
+						<File Id="602856539" Language="SFX">
+							<ShortName>Tiny_pt3_b.wav</ShortName>
+							<Path>SFX\Tiny_pt3_b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="638042796" Language="SFX">
+							<ShortName>Skinny_pt3_a.wav</ShortName>
+							<Path>SFX\Skinny_pt3_a_D79FB2B7.wem</Path>
+						</File>
+						<File Id="642445686" Language="SFX">
+							<ShortName>Fatty_pt1_b.wav</ShortName>
+							<Path>SFX\Fatty_pt1_b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="684460362" Language="SFX">
+							<ShortName>Tiny_pt3_a.wav</ShortName>
+							<Path>SFX\Tiny_pt3_a_D79FB2B7.wem</Path>
+						</File>
+						<File Id="706464136" Language="SFX">
+							<ShortName>Tiny_pt2_b.wav</ShortName>
+							<Path>SFX\Tiny_pt2_b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="751605722" Language="SFX">
+							<ShortName>Tiny_pt1_b.wav</ShortName>
+							<Path>SFX\Tiny_pt1_b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="763445320" Language="SFX">
+							<ShortName>Fatty_pt1_a.wav</ShortName>
+							<Path>SFX\Fatty_pt1_a_D79FB2B7.wem</Path>
+						</File>
+						<File Id="769121661" Language="SFX">
+							<ShortName>Skinny_pt1_a.wav</ShortName>
+							<Path>SFX\Skinny_pt1_a_D79FB2B7.wem</Path>
+						</File>
+						<File Id="787842188" Language="SFX">
+							<ShortName>Skinny_pt2_b.wav</ShortName>
+							<Path>SFX\Skinny_pt2_b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="830685147" Language="SFX">
+							<ShortName>Fatty_pt2_a.wav</ShortName>
+							<Path>SFX\Fatty_pt2_a_D79FB2B7.wem</Path>
+						</File>
+						<File Id="833433429" Language="SFX">
+							<ShortName>Skinny_pt4_b.wav</ShortName>
+							<Path>SFX\Skinny_pt4_b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="836693500" Language="SFX">
+							<ShortName>Skinny_pt4_a.wav</ShortName>
+							<Path>SFX\Skinny_pt4_a_D79FB2B7.wem</Path>
+						</File>
+						<File Id="879318595" Language="SFX">
+							<ShortName>Tiny_pt1_a.wav</ShortName>
+							<Path>SFX\Tiny_pt1_a_D79FB2B7.wem</Path>
+						</File>
+						<File Id="980219617" Language="SFX">
+							<ShortName>Fatty_pt3_a.wav</ShortName>
+							<Path>SFX\Fatty_pt3_a_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1013141905" Language="SFX">
+							<ShortName>Skinny_pt2_a.wav</ShortName>
+							<Path>SFX\Skinny_pt2_a_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1019111010" Language="SFX">
+							<ShortName>Fatty_pt4_b.wav</ShortName>
+							<Path>SFX\Fatty_pt4_b_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1834004125" Name="Play_rolling" ObjectPath="\Events\Default Work Unit\Play_rolling" GUID="{82696220-DF16-4105-88B1-1054909BEC3F}" DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<DefaultSwitchValue>{AEA0E3E5-DA18-414B-AE06-A629EC0D56AD}</DefaultSwitchValue>
+					<SwitchContainers/>
+				</Event>
+				<Event Id="1550538440" Name="Play_stone_wall_break" ObjectPath="\Events\Default Work Unit\Play_stone_wall_break" GUID="{E5815321-E92E-4B72-8B5F-6D7A70EBD378}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1679516317" Name="Play_vines_break" ObjectPath="\Events\Default Work Unit\Play_vines_break" GUID="{89781431-C94C-42F4-9BB3-45AF96957D97}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2888877088" Name="Play_web" ObjectPath="\Events\Default Work Unit\Play_web" GUID="{B2493A6C-AA4F-4A01-8940-25D49107F529}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="4172310830" Name="Play_webbing" ObjectPath="\Events\Default Work Unit\Play_webbing" GUID="{CD10D120-0AB8-4D30-9899-4E8684308E32}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="970838549" Name="surface_materials" ObjectPath="\Switches\Default Work Unit\surface_materials" GUID="{5F050073-5151-46BA-ACB5-B3EB538B4979}">
+					<Switches>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\surface_materials\Grass" GUID="{AEA0E3E5-DA18-414B-AE06-A629EC0D56AD}"/>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\surface_materials\Stone" GUID="{F7C5A267-955F-4EC2-BD71-207AE7802797}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\surface_materials\Wood" GUID="{6F80DE84-DDC4-4CD5-BE95-4125503E2252}"/>
+						<Switch Id="114672780" Name="Plant" ObjectPath="\Switches\Default Work Unit\surface_materials\Plant" GUID="{0DED959B-4328-4439-84AF-F44676D27D0A}"/>
+						<Switch Id="1941802987" Name="Mushroom" ObjectPath="\Switches\Default Work Unit\surface_materials\Mushroom" GUID="{0893B94B-067A-4898-929F-32FEEA912F52}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
