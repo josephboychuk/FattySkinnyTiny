@@ -34,6 +34,9 @@
 									<PropertyList>
 										<Property Name="MusicTrackType" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{DA903815-86C0-45D8-A768-8357B9ECF666}"/>
@@ -151,6 +154,11 @@
 								<MusicTrack Name="Skinny" ID="{E6C4C3FC-A1EE-4838-9E61-1BD7506053EB}" ShortID="367198109">
 									<PropertyList>
 										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
@@ -523,6 +531,11 @@
 								<MusicTrack Name="Fatty" ID="{DC9F5EC0-0D54-4A08-A120-39128275AC9A}" ShortID="654962487">
 									<PropertyList>
 										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -637,6 +650,11 @@
 								<MusicTrack Name="Skinny" ID="{54AD4739-9F0A-4883-8410-4CB58FC56476}" ShortID="151774212">
 									<PropertyList>
 										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -901,6 +919,11 @@
 								<MusicTrack Name="Fatty" ID="{734717C3-51B2-4045-A93D-E14AFF27508F}" ShortID="503636305">
 									<PropertyList>
 										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1015,6 +1038,11 @@
 								<MusicTrack Name="Skinny" ID="{F1BE8036-BD0B-4047-927A-9E496AA3EEA7}" ShortID="418970454">
 									<PropertyList>
 										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1279,6 +1307,11 @@
 								<MusicTrack Name="Fatty" ID="{2213050B-025D-4D1D-9AC2-B13C5FC753CF}" ShortID="483992577">
 									<PropertyList>
 										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1393,6 +1426,11 @@
 								<MusicTrack Name="Skinny" ID="{9E1DC655-095D-44DC-81B6-8F6135136971}" ShortID="220525985">
 									<PropertyList>
 										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
