@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A8294F09-4D6C-435E-AE54-68BC25971861}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{A8294F09-4D6C-435E-AE54-68BC25971861}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="test_session" ID="{701E0164-2F76-496D-8CB6-02543A2A5D8F}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Music" ID="{8841BE0E-D058-4436-BE04-9C5A0C8E0F88}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_light_switch_close" ID="{1350C5DF-26DC-4D93-AFC9-932F8ACED286}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_ambience" ID="{9EAE0423-FC96-438A-9004-13020A51A48B}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_light_switch_open" ID="{79D51D09-5B20-4786-A116-104104DDB7EE}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_stone_wall_impact" ID="{F6CC96AB-F363-4FD5-B2C7-1767BE1F42EC}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_log_fall" ID="{BF263C14-44FA-401D-86F4-A686522380E9}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="light" ID="{0444F154-1F0B-4F1B-88EB-B88A8F150FA8}"/>
+						<CurrentStateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Grass" ID="{AEA0E3E5-DA18-414B-AE06-A629EC0D56AD}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>
