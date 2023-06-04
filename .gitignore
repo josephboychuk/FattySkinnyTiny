@@ -74,5 +74,8 @@ Plugins/Wwise/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+FattySkinnyTiny_WwiseProject/.cache/*
+FattySkinnyTiny_WwiseProject/FattySkinnyTiny_WwiseProject.marcu.validaitoncache/*
+
 
 

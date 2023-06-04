@@ -16,7 +16,7 @@
     "Id": "3161908922",
     "GUID": "{ECA3E31C-442D-42A7-8CFB-EE71058648FD}",
     "Language": "SFX",
-    "Hash": "3131847704",
+    "Hash": "2414549878",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -120,22 +120,62 @@
       "SwitchContainers": []
      },
      {
-      "Id": "2764105556",
-      "Name": "Play_impact",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_impact",
-      "GUID": "{69CBFAAA-84FA-4579-9B14-A679CED72991}",
+      "Id": "527872876",
+      "Name": "Play_light_switch_close",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_light_switch_close",
+      "GUID": "{1350C5DF-26DC-4D93-AFC9-932F8ACED286}",
       "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationMin": "1.354333",
+      "DurationMax": "1.491917",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "72998977",
+        "Language": "SFX",
+        "ShortName": "branch_switch_close_3.wav",
+        "Path": "SFX\\branch_switch_close_3_10C4C929.wem"
+       },
+       {
+        "Id": "645304332",
+        "Language": "SFX",
+        "ShortName": "branch_switch_close_1.wav",
+        "Path": "SFX\\branch_switch_close_1_10C4C929.wem"
+       },
+       {
+        "Id": "744327706",
+        "Language": "SFX",
+        "ShortName": "branch_switch_close_2.wav",
+        "Path": "SFX\\branch_switch_close_2_10C4C929.wem"
+       }
+      ]
      },
      {
-      "Id": "1241030149",
-      "Name": "Play_light_switch",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_light_switch",
+      "Id": "3225086072",
+      "Name": "Play_light_switch_open",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_light_switch_open",
       "GUID": "{79D51D09-5B20-4786-A116-104104DDB7EE}",
       "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationMin": "1.354333",
+      "DurationMax": "1.491917",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "90673199",
+        "Language": "SFX",
+        "ShortName": "branch_switch_2.wav",
+        "Path": "SFX\\branch_switch_2_10C4C929.wem"
+       },
+       {
+        "Id": "802513100",
+        "Language": "SFX",
+        "ShortName": "branch_switch_3.wav",
+        "Path": "SFX\\branch_switch_3_10C4C929.wem"
+       },
+       {
+        "Id": "868182513",
+        "Language": "SFX",
+        "ShortName": "branch_switch_1.wav",
+        "Path": "SFX\\branch_switch_1_10C4C929.wem"
+       }
+      ]
      },
      {
       "Id": "3050387092",
@@ -143,8 +183,28 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_log_fall",
       "GUID": "{BF263C14-44FA-401D-86F4-A686522380E9}",
       "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationMin": "1.428875",
+      "DurationMax": "1.428875",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "466404038",
+        "Language": "SFX",
+        "ShortName": "log_fall_1.wav",
+        "Path": "SFX\\log_fall_1_10C4C929.wem"
+       },
+       {
+        "Id": "585176789",
+        "Language": "SFX",
+        "ShortName": "log_fall_2.wav",
+        "Path": "SFX\\log_fall_2_10C4C929.wem"
+       },
+       {
+        "Id": "774807191",
+        "Language": "SFX",
+        "ShortName": "log_fall_3.wav",
+        "Path": "SFX\\log_fall_3_10C4C929.wem"
+       }
+      ]
      },
      {
       "Id": "2154606991",
@@ -320,10 +380,39 @@
       "SwitchContainers": []
      },
      {
-      "Id": "1550538440",
-      "Name": "Play_stone_wall_break",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_stone_wall_break",
-      "GUID": "{E5815321-E92E-4B72-8B5F-6D7A70EBD378}",
+      "Id": "1311575309",
+      "Name": "Play_stone_wall_impact",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_stone_wall_impact",
+      "GUID": "{F6CC96AB-F363-4FD5-B2C7-1767BE1F42EC}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.490375",
+      "DurationMax": "1.490375",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "91224221",
+        "Language": "SFX",
+        "ShortName": "stone_wall_hit3.wav",
+        "Path": "SFX\\stone_wall_hit3_10C4C929.wem"
+       },
+       {
+        "Id": "622474612",
+        "Language": "SFX",
+        "ShortName": "stone_wall_hit1.wav",
+        "Path": "SFX\\stone_wall_hit1_10C4C929.wem"
+       },
+       {
+        "Id": "947188190",
+        "Language": "SFX",
+        "ShortName": "stone_wall_hit2.wav",
+        "Path": "SFX\\stone_wall_hit2_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "416991207",
+      "Name": "Play_tree_impact",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_tree_impact",
+      "GUID": "{DD29A006-FC96-4E24-835D-551C0528C785}",
       "DurationType": "OneShot",
       "DurationMin": "0.",
       "DurationMax": "0."
