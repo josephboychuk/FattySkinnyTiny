@@ -30,7 +30,7 @@
 						<Action Name="" ID="{5951D1E7-AB97-4C24-97EC-E8EB1DA6DCA5}" ShortID="1058607942">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="rolling" ID="{F809D240-3996-4AEF-8DE7-8EA285BBD62E}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+									<ObjectRef Name="rolling_bounce" ID="{F809D240-3996-4AEF-8DE7-8EA285BBD62E}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

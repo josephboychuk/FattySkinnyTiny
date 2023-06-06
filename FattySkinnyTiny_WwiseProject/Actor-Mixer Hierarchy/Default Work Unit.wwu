@@ -372,17 +372,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="bounce" ID="{DB490559-6827-4C9C-A8C9-8630803860D6}" ShortID="290161382">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
-								</Reference>
-							</ReferenceList>
-							<ObjectLists/>
-						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="impact" ID="{57DA9B37-AF16-4C37-9D9F-83D21993D0EF}" ShortID="133036165">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -503,7 +492,7 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
-						<SwitchContainer Name="rolling" ID="{F809D240-3996-4AEF-8DE7-8EA285BBD62E}" ShortID="505130878">
+						<SwitchContainer Name="rolling_bounce" ID="{F809D240-3996-4AEF-8DE7-8EA285BBD62E}" ShortID="505130878">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -520,17 +509,6 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="grass" ID="{668DAA38-E453-4EF3-97E6-9E9638D5CA4E}" ShortID="536909105">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
-										</Reference>
-									</ReferenceList>
-									<ObjectLists/>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="mushroom" ID="{A8DB0430-2FB3-4458-8B5C-9A88FF1004EB}" ShortID="602227576">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -574,12 +552,109 @@
 									</ReferenceList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="mushroom" ID="{2C32B02A-5816-4150-8408-E3AD1E2BD080}" ShortID="675266427">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{08A20EFA-58BE-4AA8-8F67-326E536796B5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="mushroom_bounce_1" ID="{061C37BE-C86A-4893-A7E7-52E2BE9A9775}" ShortID="422971505">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="mushroom_bounce_1" ID="{6476573C-310C-4F65-861E-C79D2C506782}">
+													<Language>SFX</Language>
+													<AudioFile>mushroom_bounce_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="89859282"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="mushroom_bounce_1" ID="{6476573C-310C-4F65-861E-C79D2C506782}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="mushroom_bounce_2" ID="{514D8863-C9C6-40F5-AF78-E29EEAF77F16}" ShortID="612499740">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="mushroom_bounce_2" ID="{A223EC35-BAC0-45E1-9527-E4DB545ABC58}">
+													<Language>SFX</Language>
+													<AudioFile>mushroom_bounce_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="290251547"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="mushroom_bounce_2" ID="{A223EC35-BAC0-45E1-9527-E4DB545ABC58}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="mushroom_bounce_3" ID="{6F240278-684A-42D6-AB60-0408FD476AC0}" ShortID="310990123">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="mushroom_bounce_3" ID="{306FDCE4-8B66-4516-ADC3-C5D3CE42E1C5}">
+													<Language>SFX</Language>
+													<AudioFile>mushroom_bounce_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="978635977"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="mushroom_bounce_3" ID="{306FDCE4-8B66-4516-ADC3-C5D3CE42E1C5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<ObjectLists/>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
-										<ItemRef Name="mushroom" ID="{A8DB0430-2FB3-4458-8B5C-9A88FF1004EB}"/>
+										<ItemRef Name="mushroom" ID="{2C32B02A-5816-4150-8408-E3AD1E2BD080}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="grass" ID="{668DAA38-E453-4EF3-97E6-9E9638D5CA4E}"/>
@@ -595,12 +670,6 @@
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
-									<Grouping>
-										<SwitchRef Name="Mushroom" ID="{0893B94B-067A-4898-929F-32FEEA912F52}"/>
-										<ItemList>
-											<ItemRef Name="mushroom" ID="{A8DB0430-2FB3-4458-8B5C-9A88FF1004EB}"/>
-										</ItemList>
-									</Grouping>
 									<Grouping>
 										<SwitchRef Name="Stone" ID="{F7C5A267-955F-4EC2-BD71-207AE7802797}"/>
 										<ItemList>
@@ -687,17 +756,6 @@
 											</ReferenceList>
 											<ObjectLists/>
 										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="mushroom" ID="{34EF93EF-59DF-4683-913C-FF566A436B98}" ShortID="132087515">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
-												</Reference>
-											</ReferenceList>
-											<ObjectLists/>
-										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="plant" ID="{6C8A3901-E716-46F3-A483-4705D9325E63}" ShortID="510268667">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -721,9 +779,6 @@
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="grass" ID="{8863C330-3712-4E90-BD26-9EB30DFE9C26}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="mushroom" ID="{34EF93EF-59DF-4683-913C-FF566A436B98}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="wood" ID="{8316D6FB-5032-4869-B8BD-E6883276094D}"/>
