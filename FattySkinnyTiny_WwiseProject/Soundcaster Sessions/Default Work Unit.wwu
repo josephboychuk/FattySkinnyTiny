@@ -33,7 +33,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="light" ID="{0444F154-1F0B-4F1B-88EB-B88A8F150FA8}"/>
-						<CurrentStateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+						<CurrentStateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Grass" ID="{AEA0E3E5-DA18-414B-AE06-A629EC0D56AD}"/>
