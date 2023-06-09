@@ -19,7 +19,7 @@
 						<Action Name="" ID="{968F2D49-B3F5-4E6E-A6AB-144CCDB9B0FE}" ShortID="113036262">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="bounce" ID="{DB490559-6827-4C9C-A8C9-8630803860D6}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+									<ObjectRef Name="landing_bouncing" ID="{D5CFE986-6578-412A-AA50-6750FFEA1B79}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

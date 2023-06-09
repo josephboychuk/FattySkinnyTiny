@@ -14,6 +14,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<BlendContainer Name="ambience" ID="{D0C9B8C4-F8F7-47D4-B209-071F9DFEA5B5}" ShortID="1055621808">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -383,13 +390,6 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="stone_wall" ID="{EFAAB13F-216A-4CA2-B1C5-BA7522998BEA}" ShortID="141741504">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>3</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -399,7 +399,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="stone_wall_hit1" ID="{76470453-1060-4E8E-B1A1-5B09E0204A9D}" ShortID="872206214">
+										<Sound Name="new_stonewall_break_1" ID="{9723A251-84DC-4277-A62E-D76F76667544}" ShortID="442631245">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -409,27 +409,20 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="stone_wall_hit1" ID="{F7C10156-7D70-4CCB-B8CA-EB6F108540C2}">
+												<AudioFileSource Name="new_stonewall_break_1" ID="{8147EC00-E44B-49A7-881A-5D2AF17FC39D}">
 													<Language>SFX</Language>
-													<AudioFile>stone_wall_hit1.wav</AudioFile>
+													<AudioFile>new_stonewall_break_1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="622474612"/>
+														<MediaID ID="29453528"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists/>
 											<ActiveSourceList>
-												<ActiveSource Name="stone_wall_hit1" ID="{F7C10156-7D70-4CCB-B8CA-EB6F108540C2}" Platform="Linked"/>
+												<ActiveSource Name="new_stonewall_break_1" ID="{8147EC00-E44B-49A7-881A-5D2AF17FC39D}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="stone_wall_hit2" ID="{2DFB81E5-41D9-4E0B-BCA9-7DEA59D2CFAD}" ShortID="418574400">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>2</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
+										<Sound Name="new_stonewall_break_2" ID="{4E643102-308E-44F7-BAB1-CB4488A5FB8B}" ShortID="727208928">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -439,20 +432,20 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="stone_wall_hit2" ID="{25817A31-B230-44A5-83F4-DA74DD131EE4}">
+												<AudioFileSource Name="new_stonewall_break_2" ID="{26C29D46-AFB3-4654-B73D-2BF5D1F9A1E7}">
 													<Language>SFX</Language>
-													<AudioFile>stone_wall_hit2.wav</AudioFile>
+													<AudioFile>new_stonewall_break_2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="947188190"/>
+														<MediaID ID="682025321"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists/>
 											<ActiveSourceList>
-												<ActiveSource Name="stone_wall_hit2" ID="{25817A31-B230-44A5-83F4-DA74DD131EE4}" Platform="Linked"/>
+												<ActiveSource Name="new_stonewall_break_2" ID="{26C29D46-AFB3-4654-B73D-2BF5D1F9A1E7}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="stone_wall_hit3" ID="{6F880F77-0970-42F0-B9DA-96F6899D5B98}" ShortID="822047879">
+										<Sound Name="new_stonewall_break_3" ID="{0DCD3E4B-6D62-4D06-A85D-9E6597ACB83C}" ShortID="1040450506">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -462,17 +455,17 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="stone_wall_hit3" ID="{7E30D543-3348-4195-A7D2-82986322F8C9}">
+												<AudioFileSource Name="new_stonewall_break_3" ID="{56B11432-4D92-4B99-8BC6-46EEE1CF1B0D}">
 													<Language>SFX</Language>
-													<AudioFile>stone_wall_hit3.wav</AudioFile>
+													<AudioFile>new_stonewall_break_3.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="91224221"/>
+														<MediaID ID="88573490"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists/>
 											<ActiveSourceList>
-												<ActiveSource Name="stone_wall_hit3" ID="{7E30D543-3348-4195-A7D2-82986322F8C9}" Platform="Linked"/>
+												<ActiveSource Name="new_stonewall_break_3" ID="{56B11432-4D92-4B99-8BC6-46EEE1CF1B0D}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -597,92 +590,92 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
-						<RandomSequenceContainer Name="landing" ID="{99833222-345B-4227-92BA-2F72DE77B0F6}" ShortID="112197103">
+						<SwitchContainer Name="landing_bouncing" ID="{D5CFE986-6578-412A-AA50-6750FFEA1B79}" ShortID="300722743">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
 								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Grass" ID="{AEA0E3E5-DA18-414B-AE06-A629EC0D56AD}" WorkUnitID="{44F0FA83-C13B-417E-92ED-8FF690F1A1F2}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
 								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="surface_materials" ID="{5F050073-5151-46BA-ACB5-B3EB538B4979}" WorkUnitID="{44F0FA83-C13B-417E-92ED-8FF690F1A1F2}"/>
+								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<SwitchContainer Name="landing_bouncing" ID="{D5CFE986-6578-412A-AA50-6750FFEA1B79}" ShortID="300722743">
+								<RandomSequenceContainer Name="stone" ID="{1403E520-0F15-4166-80F1-D41A8DB2A7C4}" ShortID="287930618">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
 										</Reference>
-										<Reference Name="DefaultSwitchOrState">
-											<ObjectRef Name="Wood" ID="{6F80DE84-DDC4-4CD5-BE95-4125503E2252}" WorkUnitID="{44F0FA83-C13B-417E-92ED-8FF690F1A1F2}"/>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="wood" ID="{8316D6FB-5032-4869-B8BD-E6883276094D}" ShortID="698892440">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
 										</Reference>
-										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="surface_materials" ID="{5F050073-5151-46BA-ACB5-B3EB538B4979}" WorkUnitID="{44F0FA83-C13B-417E-92ED-8FF690F1A1F2}"/>
+									</ReferenceList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="grass" ID="{8863C330-3712-4E90-BD26-9EB30DFE9C26}" ShortID="1017374972">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="plant" ID="{6C8A3901-E716-46F3-A483-4705D9325E63}" ShortID="510268667">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="mushroom" ID="{2C32B02A-5816-4150-8408-E3AD1E2BD080}" ShortID="675266427">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{08A20EFA-58BE-4AA8-8F67-326E536796B5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<RandomSequenceContainer Name="stone" ID="{1403E520-0F15-4166-80F1-D41A8DB2A7C4}" ShortID="287930618">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
-												</Reference>
-											</ReferenceList>
-											<ObjectLists/>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="wood" ID="{8316D6FB-5032-4869-B8BD-E6883276094D}" ShortID="698892440">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
-												</Reference>
-											</ReferenceList>
-											<ObjectLists/>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="grass" ID="{8863C330-3712-4E90-BD26-9EB30DFE9C26}" ShortID="1017374972">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
-												</Reference>
-											</ReferenceList>
-											<ObjectLists/>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="plant" ID="{6C8A3901-E716-46F3-A483-4705D9325E63}" ShortID="510268667">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
-												</Reference>
-											</ReferenceList>
-											<ObjectLists/>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="mushroom" ID="{2C32B02A-5816-4150-8408-E3AD1E2BD080}" ShortID="675266427">
-											<PropertyList>
-												<Property Name="Pitch" Type="int32">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{08A20EFA-58BE-4AA8-8F67-326E536796B5}">
-																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="1"/>
-																	<Property Name="Min" Type="Real64" Value="-1"/>
-																</PropertyList>
-															</Modifier>
-														</ModifierInfo>
-													</ModifierList>
-												</Property>
-											</PropertyList>
+										<Sound Name="mushroom_bounce_1" ID="{061C37BE-C86A-4893-A7E7-52E2BE9A9775}" ShortID="422971505">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -692,103 +685,122 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="mushroom_bounce_1" ID="{061C37BE-C86A-4893-A7E7-52E2BE9A9775}" ShortID="422971505">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="mushroom_bounce_1" ID="{6476573C-310C-4F65-861E-C79D2C506782}">
-															<Language>SFX</Language>
-															<AudioFile>mushroom_bounce_1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="89859282"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ObjectLists/>
-													<ActiveSourceList>
-														<ActiveSource Name="mushroom_bounce_1" ID="{6476573C-310C-4F65-861E-C79D2C506782}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="mushroom_bounce_2" ID="{514D8863-C9C6-40F5-AF78-E29EEAF77F16}" ShortID="612499740">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="mushroom_bounce_2" ID="{A223EC35-BAC0-45E1-9527-E4DB545ABC58}">
-															<Language>SFX</Language>
-															<AudioFile>mushroom_bounce_2.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="290251547"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ObjectLists/>
-													<ActiveSourceList>
-														<ActiveSource Name="mushroom_bounce_2" ID="{A223EC35-BAC0-45E1-9527-E4DB545ABC58}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="mushroom_bounce_3" ID="{6F240278-684A-42D6-AB60-0408FD476AC0}" ShortID="310990123">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="mushroom_bounce_3" ID="{306FDCE4-8B66-4516-ADC3-C5D3CE42E1C5}">
-															<Language>SFX</Language>
-															<AudioFile>mushroom_bounce_3.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="978635977"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ObjectLists/>
-													<ActiveSourceList>
-														<ActiveSource Name="mushroom_bounce_3" ID="{306FDCE4-8B66-4516-ADC3-C5D3CE42E1C5}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
+												<AudioFileSource Name="mushroom_bounce_1" ID="{6476573C-310C-4F65-861E-C79D2C506782}">
+													<Language>SFX</Language>
+													<AudioFile>mushroom_bounce_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="89859282"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists/>
-										</RandomSequenceContainer>
+											<ActiveSourceList>
+												<ActiveSource Name="mushroom_bounce_1" ID="{6476573C-310C-4F65-861E-C79D2C506782}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="mushroom_bounce_2" ID="{514D8863-C9C6-40F5-AF78-E29EEAF77F16}" ShortID="612499740">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="mushroom_bounce_2" ID="{A223EC35-BAC0-45E1-9527-E4DB545ABC58}">
+													<Language>SFX</Language>
+													<AudioFile>mushroom_bounce_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="290251547"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="mushroom_bounce_2" ID="{A223EC35-BAC0-45E1-9527-E4DB545ABC58}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="mushroom_bounce_3" ID="{6F240278-684A-42D6-AB60-0408FD476AC0}" ShortID="310990123">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="mushroom_bounce_3" ID="{306FDCE4-8B66-4516-ADC3-C5D3CE42E1C5}">
+													<Language>SFX</Language>
+													<AudioFile>mushroom_bounce_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="978635977"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="mushroom_bounce_3" ID="{306FDCE4-8B66-4516-ADC3-C5D3CE42E1C5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
-									<GroupingInfo>
-										<GroupingBehaviorList>
-											<GroupingBehavior>
-												<ItemRef Name="plant" ID="{6C8A3901-E716-46F3-A483-4705D9325E63}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="stone" ID="{1403E520-0F15-4166-80F1-D41A8DB2A7C4}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="mushroom" ID="{2C32B02A-5816-4150-8408-E3AD1E2BD080}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="grass" ID="{8863C330-3712-4E90-BD26-9EB30DFE9C26}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="wood" ID="{8316D6FB-5032-4869-B8BD-E6883276094D}"/>
-											</GroupingBehavior>
-										</GroupingBehaviorList>
-									</GroupingInfo>
-								</SwitchContainer>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<ObjectLists/>
-						</RandomSequenceContainer>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="plant" ID="{6C8A3901-E716-46F3-A483-4705D9325E63}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="stone" ID="{1403E520-0F15-4166-80F1-D41A8DB2A7C4}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="mushroom" ID="{2C32B02A-5816-4150-8408-E3AD1E2BD080}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="grass" ID="{8863C330-3712-4E90-BD26-9EB30DFE9C26}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="wood" ID="{8316D6FB-5032-4869-B8BD-E6883276094D}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Mushroom" ID="{0893B94B-067A-4898-929F-32FEEA912F52}"/>
+										<ItemList>
+											<ItemRef Name="mushroom" ID="{2C32B02A-5816-4150-8408-E3AD1E2BD080}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Stone" ID="{F7C5A267-955F-4EC2-BD71-207AE7802797}"/>
+										<ItemList>
+											<ItemRef Name="stone" ID="{1403E520-0F15-4166-80F1-D41A8DB2A7C4}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Wood" ID="{6F80DE84-DDC4-4CD5-BE95-4125503E2252}"/>
+										<ItemList>
+											<ItemRef Name="wood" ID="{8316D6FB-5032-4869-B8BD-E6883276094D}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Plant" ID="{0DED959B-4328-4439-84AF-F44676D27D0A}"/>
+										<ItemList>
+											<ItemRef Name="plant" ID="{6C8A3901-E716-46F3-A483-4705D9325E63}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Grass" ID="{AEA0E3E5-DA18-414B-AE06-A629EC0D56AD}"/>
+										<ItemList>
+											<ItemRef Name="grass" ID="{8863C330-3712-4E90-BD26-9EB30DFE9C26}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
@@ -896,6 +908,35 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
 												</Reference>
 											</ReferenceList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+														<CustomState Name="" ID="{79CF759A-39DB-433F-BDC0-0E52812DE63F}" ShortID="981830802">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+														<CustomState Name="" ID="{61DB9A04-D570-46E7-BE8B-2D9A57DF4793}" ShortID="822362341">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+														<CustomState Name="" ID="{A5159604-25CF-4F6B-9794-786B3AD31F29}" ShortID="510762466"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="grass_tiny" ID="{81235696-B472-4325-B40A-FC031A9096D0}" ShortID="664451024">
@@ -907,6 +948,35 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
 												</Reference>
 											</ReferenceList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+														<CustomState Name="" ID="{A6DC8528-3C48-450B-9062-33C0ADDF610F}" ShortID="660281154"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+														<CustomState Name="" ID="{3E338F64-4761-43B4-A103-65636B092056}" ShortID="829909230">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+														<CustomState Name="" ID="{7AEC1C3E-0E96-4699-91B8-9039C6B129BA}" ShortID="158572478">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
@@ -1009,6 +1079,35 @@
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+														<CustomState Name="" ID="{331E8081-4DC7-4484-8E6B-3635842692F7}" ShortID="683045370">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+														<CustomState Name="" ID="{53B649D2-B07F-4995-ADB2-5DF66BFBF766}" ShortID="6515528">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+														<CustomState Name="" ID="{F8D389B0-5231-4F6C-9755-A4AADDBC2FDE}" ShortID="1003493224"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="mushroom_tiny" ID="{59526ECF-EF7E-4046-9143-AE79A2B15D61}" ShortID="53033487">
@@ -1091,6 +1190,35 @@
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+														<CustomState Name="" ID="{13B19BC3-09D8-4DD1-A89D-41DAB21A402D}" ShortID="301524973"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+														<CustomState Name="" ID="{32CF117F-9CE9-4106-BA5C-FAABAEF528BE}" ShortID="1012820795">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+														<CustomState Name="" ID="{F3558E25-FFF8-4523-AB68-E5C558A30214}" ShortID="217301685">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
@@ -1115,6 +1243,35 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
 												</Reference>
 											</ReferenceList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+														<CustomState Name="" ID="{2638B90D-D49D-434A-BA62-E9FD5E256333}" ShortID="489932777">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+														<CustomState Name="" ID="{3B3BA42B-D957-4EDF-B546-869EAAA4AD5B}" ShortID="491899375">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+														<CustomState Name="" ID="{9E8E5115-2CE7-429B-BEEA-6B11C7DE6470}" ShortID="764373693"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="stone_tiny" ID="{0D09A51B-CC4C-4904-8F02-1D1E66648E24}" ShortID="754780040">
@@ -1126,6 +1283,35 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
 												</Reference>
 											</ReferenceList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+														<CustomState Name="" ID="{DF6153F7-E97D-4045-84A5-E443BA1B6D80}" ShortID="166626874"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+														<CustomState Name="" ID="{51A9064C-05BF-4389-BB07-A89970B205D9}" ShortID="849562537">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+														<CustomState Name="" ID="{9C6B8538-80EE-4946-8289-44AA0BA42495}" ShortID="200443488">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
@@ -1150,6 +1336,35 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
 												</Reference>
 											</ReferenceList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+														<CustomState Name="" ID="{90857770-BA35-49C8-987E-2B766655FDCB}" ShortID="939943030">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+														<CustomState Name="" ID="{DBCCA3D9-6D47-4021-A2F5-CDD57406DB48}" ShortID="752766747">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+														<CustomState Name="" ID="{9CE1B3AB-25F8-4E68-B808-D6BCD34B7C51}" ShortID="794054740"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="wood_tiny" ID="{89EB932A-C48E-4084-9BF2-6BCDE931F731}" ShortID="912286547">
@@ -1161,6 +1376,35 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
 												</Reference>
 											</ReferenceList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+														<CustomState Name="" ID="{799DE99B-2320-40CB-8371-0F51996C6A46}" ShortID="116671393"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+														<CustomState Name="" ID="{C8A01AA1-F9B2-4A11-8B4E-0D2DEF8E668B}" ShortID="353126582">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+														<CustomState Name="" ID="{B0C224F2-6FAA-495A-90E8-3CB7D0C817F2}" ShortID="874692284">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
@@ -1185,6 +1429,35 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
 												</Reference>
 											</ReferenceList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+														<CustomState Name="" ID="{EBD47E23-20BD-4C48-A4E0-46F007CDD123}" ShortID="363478790">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+														<CustomState Name="" ID="{B8E54565-F9B5-4D21-992F-8FF920C8CBCD}" ShortID="821383277">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+														<CustomState Name="" ID="{3AC57F87-E038-40E7-85F1-DC9D1CC310C2}" ShortID="785006682"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="plant_tiny" ID="{1DCB431A-A6A5-4CC0-81C0-1DF452C4E8FE}" ShortID="784067630">
@@ -1196,6 +1469,35 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
 												</Reference>
 											</ReferenceList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+														<CustomState Name="" ID="{1722C834-A555-4202-AC44-30F5A6831DC0}" ShortID="652168211"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+														<CustomState Name="" ID="{1C46A149-3A01-4A39-95AB-549AE2B2935D}" ShortID="73778242">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+														<CustomState Name="" ID="{66FD0E60-14B1-47DB-8550-501E4E201153}" ShortID="150905917">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>

@@ -26,8 +26,16 @@
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_footsteps" ID="{BCF66B52-5FAD-4770-BBB1-2EE969C03758}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_log_fall" ID="{BF263C14-44FA-401D-86F4-A686522380E9}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
 							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_bounce" ID="{5E44FED3-C634-40D8-880E-EA134921731D}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="3" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
@@ -36,7 +44,7 @@
 						<CurrentStateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Grass" ID="{AEA0E3E5-DA18-414B-AE06-A629EC0D56AD}"/>
+						<CurrentSwitchRef Name="Mushroom" ID="{0893B94B-067A-4898-929F-32FEEA912F52}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

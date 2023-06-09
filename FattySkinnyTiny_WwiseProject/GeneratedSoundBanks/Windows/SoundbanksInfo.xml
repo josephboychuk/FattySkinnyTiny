@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="2414549878">
+		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="3723181461">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -41,15 +41,77 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3465618802" Name="Play_bounce" ObjectPath="\Events\Default Work Unit\Play_bounce" GUID="{5E44FED3-C634-40D8-880E-EA134921731D}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3465618802" Name="Play_bounce" ObjectPath="\Events\Default Work Unit\Play_bounce" GUID="{5E44FED3-C634-40D8-880E-EA134921731D}" DurationType="OneShot" DurationMin="0." DurationMax="0.246642">
+					<IncludedMemoryFiles>
+						<File Id="89859282" Language="SFX">
+							<ShortName>mushroom_bounce_1.wav</ShortName>
+							<Path>SFX\mushroom_bounce_1_10C4C929.wem</Path>
+						</File>
+						<File Id="290251547" Language="SFX">
+							<ShortName>mushroom_bounce_2.wav</ShortName>
+							<Path>SFX\mushroom_bounce_2_10C4C929.wem</Path>
+						</File>
+						<File Id="978635977" Language="SFX">
+							<ShortName>mushroom_bounce_3.wav</ShortName>
+							<Path>SFX\mushroom_bounce_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{AEA0E3E5-DA18-414B-AE06-A629EC0D56AD}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{0893B94B-067A-4898-929F-32FEEA912F52}">
+							<Media>
+								<File Id="89859282"/>
+								<File Id="290251547"/>
+								<File Id="978635977"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="1133619286" Name="Play_fireleaves_burn" ObjectPath="\Events\Default Work Unit\Play_fireleaves_burn" GUID="{251214DA-214C-45E5-AFF9-9FEED73AC53C}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3729125446" Name="Play_fireleaves_drop" ObjectPath="\Events\Default Work Unit\Play_fireleaves_drop" GUID="{FE0D6A0A-371B-41AE-B76E-F4B553D89012}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="1175895827" Name="Play_flower_platform_grow" ObjectPath="\Events\Default Work Unit\Play_flower_platform_grow" GUID="{FD2ECB3E-954F-4FF5-B5C1-2956D28ACB41}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="2631540721" Name="Play_flower_platform_move" ObjectPath="\Events\Default Work Unit\Play_flower_platform_move" GUID="{DB43039D-3938-438A-BB1C-A2D73E00555C}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3552089723" Name="Play_flying" ObjectPath="\Events\Default Work Unit\Play_flying" GUID="{B3F1F30D-7021-46E2-A19A-5E165BD2A16C}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="3854155799" Name="Play_footsteps" ObjectPath="\Events\Default Work Unit\Play_footsteps" GUID="{BCF66B52-5FAD-4770-BBB1-2EE969C03758}" DurationType="OneShot" DurationMin="0." DurationMax="0.">
+				<Event Id="3854155799" Name="Play_footsteps" ObjectPath="\Events\Default Work Unit\Play_footsteps" GUID="{BCF66B52-5FAD-4770-BBB1-2EE969C03758}" DurationType="OneShot" DurationMin="0." DurationMax="0.252208">
+					<IncludedMemoryFiles>
+						<File Id="118899840" Language="SFX">
+							<ShortName>mushroom_tiny_3.wav</ShortName>
+							<Path>SFX\mushroom_tiny_3_10C4C929.wem</Path>
+						</File>
+						<File Id="164259074" Language="SFX">
+							<ShortName>mushroom_skinny_2.wav</ShortName>
+							<Path>SFX\mushroom_skinny_2_10C4C929.wem</Path>
+						</File>
+						<File Id="307841909" Language="SFX">
+							<ShortName>mushroom_tiny_2.wav</ShortName>
+							<Path>SFX\mushroom_tiny_2_10C4C929.wem</Path>
+						</File>
+						<File Id="340495881" Language="SFX">
+							<ShortName>mushroom_tiny_1.wav</ShortName>
+							<Path>SFX\mushroom_tiny_1_10C4C929.wem</Path>
+						</File>
+						<File Id="780672990" Language="SFX">
+							<ShortName>mushroom_skinny_3.wav</ShortName>
+							<Path>SFX\mushroom_skinny_3_10C4C929.wem</Path>
+						</File>
+						<File Id="793829561" Language="SFX">
+							<ShortName>mushroom_skinny_1.wav</ShortName>
+							<Path>SFX\mushroom_skinny_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 					<DefaultSwitchValue>{AEA0E3E5-DA18-414B-AE06-A629EC0D56AD}</DefaultSwitchValue>
-					<SwitchContainers/>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{0893B94B-067A-4898-929F-32FEEA912F52}">
+							<Media>
+								<File Id="118899840"/>
+								<File Id="164259074"/>
+								<File Id="307841909"/>
+								<File Id="340495881"/>
+								<File Id="780672990"/>
+								<File Id="793829561"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="527872876" Name="Play_light_switch_close" ObjectPath="\Events\Default Work Unit\Play_light_switch_close" GUID="{1350C5DF-26DC-4D93-AFC9-932F8ACED286}" DurationType="OneShot" DurationMin="1.354333" DurationMax="1.491917">
 					<IncludedMemoryFiles>
@@ -204,19 +266,19 @@
 					<DefaultSwitchValue>{AEA0E3E5-DA18-414B-AE06-A629EC0D56AD}</DefaultSwitchValue>
 					<SwitchContainers/>
 				</Event>
-				<Event Id="1311575309" Name="Play_stone_wall_impact" ObjectPath="\Events\Default Work Unit\Play_stone_wall_impact" GUID="{F6CC96AB-F363-4FD5-B2C7-1767BE1F42EC}" DurationType="OneShot" DurationMin="1.490375" DurationMax="1.490375">
+				<Event Id="1311575309" Name="Play_stone_wall_impact" ObjectPath="\Events\Default Work Unit\Play_stone_wall_impact" GUID="{F6CC96AB-F363-4FD5-B2C7-1767BE1F42EC}" DurationType="OneShot" DurationMin="2.507688" DurationMax="2.635229">
 					<IncludedMemoryFiles>
-						<File Id="91224221" Language="SFX">
-							<ShortName>stone_wall_hit3.wav</ShortName>
-							<Path>SFX\stone_wall_hit3_10C4C929.wem</Path>
+						<File Id="29453528" Language="SFX">
+							<ShortName>new_stonewall_break_1.wav</ShortName>
+							<Path>SFX\new_stonewall_break_1_10C4C929.wem</Path>
 						</File>
-						<File Id="622474612" Language="SFX">
-							<ShortName>stone_wall_hit1.wav</ShortName>
-							<Path>SFX\stone_wall_hit1_10C4C929.wem</Path>
+						<File Id="88573490" Language="SFX">
+							<ShortName>new_stonewall_break_3.wav</ShortName>
+							<Path>SFX\new_stonewall_break_3_10C4C929.wem</Path>
 						</File>
-						<File Id="947188190" Language="SFX">
-							<ShortName>stone_wall_hit2.wav</ShortName>
-							<Path>SFX\stone_wall_hit2_10C4C929.wem</Path>
+						<File Id="682025321" Language="SFX">
+							<ShortName>new_stonewall_break_2.wav</ShortName>
+							<Path>SFX\new_stonewall_break_2_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
