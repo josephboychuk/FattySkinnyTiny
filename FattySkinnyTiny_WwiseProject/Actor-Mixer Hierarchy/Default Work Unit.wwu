@@ -1601,6 +1601,77 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="fire_leaves_drop_1" ID="{27D088A1-0EF5-4674-A878-2BD273C5E198}" ShortID="803435254">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="fire_leaves_drop_1" ID="{C6E9E468-538E-4EBA-9B74-18B950CB5E64}">
+													<Language>SFX</Language>
+													<AudioFile>fire_leaves_drop_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="734311365"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="fire_leaves_drop_1" ID="{C6E9E468-538E-4EBA-9B74-18B950CB5E64}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="fire_leaves_drop_2" ID="{FD36A67D-48D7-4ED1-AE63-652A9AB3F12E}" ShortID="28814400">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="fire_leaves_drop_2" ID="{3A30476C-D279-420F-AEB0-68BCDCFDCBD1}">
+													<Language>SFX</Language>
+													<AudioFile>fire_leaves_drop_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="723742052"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="fire_leaves_drop_2" ID="{3A30476C-D279-420F-AEB0-68BCDCFDCBD1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="fire_leaves_drop_3" ID="{957CF2DF-A33D-4F6D-A77E-A0815B749169}" ShortID="791571087">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="fire_leaves_drop_3" ID="{27CAF291-F02E-4906-8747-A732F0633614}">
+													<Language>SFX</Language>
+													<AudioFile>fire_leaves_drop_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="521725469"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="fire_leaves_drop_3" ID="{27CAF291-F02E-4906-8747-A732F0633614}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="burn" ID="{EAF036FC-866D-47EC-BB48-FDC430DEA365}" ShortID="828872461">
