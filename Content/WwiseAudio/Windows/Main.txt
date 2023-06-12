@@ -43,18 +43,28 @@ State	ID	Name	State Group			Notes
 	1935470627	light	brightness			
 
 Custom State	ID	Name	State Group	Owner		Notes
+	6515528	Fatty	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\mushroom\mushroom_skinny		
 	49085641	Fatty	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_02\Skinny		
 	60691935	Fatty	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_04\Skinny		
+	73778242	Fatty	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\plant\plant_tiny		
 	105473154	Skinny	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_03\Fatty		
+	150905917	Skinny	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\plant\plant_tiny		
 	155998847	Fatty	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_01\Tiny		
+	158572478	Skinny	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\grass\grass_tiny		
 	184164019	Skinny	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_01\Fatty		
+	200443488	Skinny	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\stone\stone_tiny		
 	207887235	Tiny	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_03\Skinny		
+	217301685	Skinny	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\mushroom\mushroom_tiny		
 	222182293	Skinny	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_04\Tiny		
 	262222184	Fatty	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_04\Tiny		
 	285398728	Tiny	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_02\Fatty		
 	311322531	Fatty	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_01\Skinny		
+	353126582	Fatty	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\wood\wood_tiny		
+	363478790	Tiny	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\plant\plant_skinny		
 	393831600	Tiny	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_04\Skinny		
 	487163377	Skinny	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_03\Tiny		
+	489932777	Tiny	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\stone\stone_skinny		
+	491899375	Fatty	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\stone\stone_skinny		
 	494321190	Skinny	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_01\Tiny		
 	556987907	Fatty	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_03\Tiny		
 	559050734	dark	brightness	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\ambience\ambience_bright		
@@ -63,21 +73,38 @@ Custom State	ID	Name	State Group	Owner		Notes
 	611146836	Fatty	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_02\Tiny		
 	611525417	Skinny	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_04\Fatty		
 	654373692	light	brightness	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\ambience\ambience_dark		
+	683045370	Tiny	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\mushroom\mushroom_skinny		
 	722943120	Tiny	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_01\Fatty		
 	723147438	Tiny	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_03\Fatty		
+	752766747	Fatty	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\wood\wood_skinny		
 	763024324	Tiny	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_02\Skinny		
 	812651332	Tiny	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_01\Skinny		
+	821383277	Fatty	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\plant\plant_skinny		
+	822362341	Fatty	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\grass\grass_skinny		
 	828206350	Skinny	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_02\Fatty		
+	829909230	Fatty	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\grass\grass_tiny		
+	849562537	Fatty	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\stone\stone_tiny		
+	874692284	Skinny	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\wood\wood_tiny		
 	914714851	Tiny	Character	\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_04\Fatty		
+	939943030	Tiny	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\wood\wood_skinny		
+	981830802	Tiny	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\grass\grass_skinny		
+	1012820795	Fatty	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\mushroom\mushroom_tiny		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	29453528	new_stonewall_break_1	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\new_stonewall_break_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fatty\impact\stone_wall\new_stonewall_break_1		253046
 	36758138	Skinny	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\Skinny_pt3_b_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_03\Skinny		1240680
 	72998977	branch_switch_close_3	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\branch_switch_close_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactables\light_switch_close\branch_switch_close_3		130080
 	82225827	ambience_pt2_a	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\ambience_pt2_a_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\ambience\ambience_bright\ambience_pt2\ambience_pt2_a		3168064
+	88573490	new_stonewall_break_3	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\new_stonewall_break_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fatty\impact\stone_wall\new_stonewall_break_3		240802
+	89859282	mushroom_bounce_1	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\mushroom_bounce_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fatty\landing_bouncing\mushroom\mushroom_bounce_1		23728
 	90673199	branch_switch_2	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\branch_switch_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactables\light_switch_open\branch_switch_2		143288
-	91224221	stone_wall_hit3	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\stone_wall_hit3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fatty\impact\stone_wall\stone_wall_hit3		143140
+	118899840	mushroom_tiny_3	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\mushroom_tiny_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\mushroom\mushroom_tiny\mushroom_tiny_3		24276
+	164259074	mushroom_skinny_2	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\mushroom_skinny_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\mushroom\mushroom_skinny\mushroom_skinny_2		24276
 	183824269	Tiny	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\Tiny_pt4_b_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_04\Tiny		1240680
 	240965194	Fatty	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\Fatty_pt2_b_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_02\Fatty		1240680
+	290251547	mushroom_bounce_2	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\mushroom_bounce_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fatty\landing_bouncing\mushroom\mushroom_bounce_2		23728
+	307841909	mushroom_tiny_2	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\mushroom_tiny_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\mushroom\mushroom_tiny\mushroom_tiny_2		24276
+	340495881	mushroom_tiny_1	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\mushroom_tiny_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\mushroom\mushroom_tiny\mushroom_tiny_1		24276
 	362703368	Tiny	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\Tiny_pt4_a_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_04\Tiny		1240680
 	435232982	Fatty	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\Fatty_pt4_a_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_04\Fatty		1240680
 	466404038	log_fall_1	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\log_fall_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\log_fall\log_fall_1		137236
@@ -86,10 +113,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	563782076	Tiny	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\Tiny_pt2_a_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_02\Tiny		1240680
 	585176789	log_fall_2	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\log_fall_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\log_fall\log_fall_2		137236
 	602856539	Tiny	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\Tiny_pt3_b_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_03\Tiny		1240680
-	622474612	stone_wall_hit1	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\stone_wall_hit1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fatty\impact\stone_wall\stone_wall_hit1		143140
 	638042796	Skinny	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\Skinny_pt3_a_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_03\Skinny		1240680
 	642445686	Fatty	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\Fatty_pt1_b_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_01\Fatty		1240680
 	645304332	branch_switch_close_1	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\branch_switch_close_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactables\light_switch_close\branch_switch_close_1		141526
+	682025321	new_stonewall_break_2	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\new_stonewall_break_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fatty\impact\stone_wall\new_stonewall_break_2		243196
 	684460362	Tiny	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\Tiny_pt3_a_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_03\Tiny		1240680
 	706464136	Tiny	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\Tiny_pt2_b_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_02\Tiny		1240680
 	744327706	branch_switch_close_2	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\branch_switch_close_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactables\light_switch_close\branch_switch_close_2		143288
@@ -98,7 +125,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	769121661	Skinny	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\Skinny_pt1_a_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_01\Skinny		1240680
 	774807191	log_fall_3	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\log_fall_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\log_fall\log_fall_3		137236
 	779903999	ambience_pt1_b	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\ambience_pt1_b_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\ambience\ambience_bright\ambience_pt1\ambience_pt1_b		2688064
+	780672990	mushroom_skinny_3	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\mushroom_skinny_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\mushroom\mushroom_skinny\mushroom_skinny_3		24276
 	787842188	Skinny	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\Skinny_pt2_b_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_02\Skinny		1240680
+	793829561	mushroom_skinny_1	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\mushroom_skinny_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\mushroom\mushroom_skinny\mushroom_skinny_1		24276
 	802513100	branch_switch_3	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\branch_switch_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactables\light_switch_open\branch_switch_3		130080
 	830685147	Fatty	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\Fatty_pt2_a_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_02\Fatty		1240680
 	833433429	Skinny	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\Skinny_pt4_b_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_04\Skinny		1240680
@@ -106,7 +135,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	857147491	ambience_pt1_a	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\ambience_pt1_a_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\ambience\ambience_bright\ambience_pt1\ambience_pt1_a		2688064
 	868182513	branch_switch_1	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\branch_switch_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactables\light_switch_open\branch_switch_1		141526
 	879318595	Tiny	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\Tiny_pt1_a_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_01\Tiny		1240680
-	947188190	stone_wall_hit2	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\stone_wall_hit2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fatty\impact\stone_wall\stone_wall_hit2		143140
+	978635977	mushroom_bounce_3	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\mushroom_bounce_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fatty\landing_bouncing\mushroom\mushroom_bounce_3		23728
 	980219617	Fatty	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\Fatty_pt3_a_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_03\Fatty		1240680
 	998531078	ambience_pt2_b	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\ambience_pt2_b_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\ambience\ambience_bright\ambience_pt2\ambience_pt2_b		3168064
 	1013141905	Skinny	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\Skinny_pt2_a_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_02\Skinny		1240680

@@ -28,7 +28,7 @@
     "Id": "3161908922",
     "GUID": "{ECA3E31C-442D-42A7-8CFB-EE71058648FD}",
     "Language": "SFX",
-    "Hash": "2414549878",
+    "Hash": "2450640839",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -73,7 +73,44 @@
       "GUID": "{5E44FED3-C634-40D8-880E-EA134921731D}",
       "DurationType": "OneShot",
       "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationMax": "0.246642",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "89859282",
+        "Language": "SFX",
+        "ShortName": "mushroom_bounce_1.wav",
+        "Path": "SFX\\mushroom_bounce_1_10C4C929.wem"
+       },
+       {
+        "Id": "290251547",
+        "Language": "SFX",
+        "ShortName": "mushroom_bounce_2.wav",
+        "Path": "SFX\\mushroom_bounce_2_10C4C929.wem"
+       },
+       {
+        "Id": "978635977",
+        "Language": "SFX",
+        "ShortName": "mushroom_bounce_3.wav",
+        "Path": "SFX\\mushroom_bounce_3_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{AEA0E3E5-DA18-414B-AE06-A629EC0D56AD}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{0893B94B-067A-4898-929F-32FEEA912F52}",
+        "Media": [
+         {
+          "Id": "89859282"
+         },
+         {
+          "Id": "290251547"
+         },
+         {
+          "Id": "978635977"
+         }
+        ]
+       }
+      ]
      },
      {
       "Id": "1133619286",
@@ -127,9 +164,71 @@
       "GUID": "{BCF66B52-5FAD-4770-BBB1-2EE969C03758}",
       "DurationType": "OneShot",
       "DurationMin": "0.",
-      "DurationMax": "0.",
+      "DurationMax": "0.252208",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "118899840",
+        "Language": "SFX",
+        "ShortName": "mushroom_tiny_3.wav",
+        "Path": "SFX\\mushroom_tiny_3_10C4C929.wem"
+       },
+       {
+        "Id": "164259074",
+        "Language": "SFX",
+        "ShortName": "mushroom_skinny_2.wav",
+        "Path": "SFX\\mushroom_skinny_2_10C4C929.wem"
+       },
+       {
+        "Id": "307841909",
+        "Language": "SFX",
+        "ShortName": "mushroom_tiny_2.wav",
+        "Path": "SFX\\mushroom_tiny_2_10C4C929.wem"
+       },
+       {
+        "Id": "340495881",
+        "Language": "SFX",
+        "ShortName": "mushroom_tiny_1.wav",
+        "Path": "SFX\\mushroom_tiny_1_10C4C929.wem"
+       },
+       {
+        "Id": "780672990",
+        "Language": "SFX",
+        "ShortName": "mushroom_skinny_3.wav",
+        "Path": "SFX\\mushroom_skinny_3_10C4C929.wem"
+       },
+       {
+        "Id": "793829561",
+        "Language": "SFX",
+        "ShortName": "mushroom_skinny_1.wav",
+        "Path": "SFX\\mushroom_skinny_1_10C4C929.wem"
+       }
+      ],
       "DefaultSwitchValue": "{AEA0E3E5-DA18-414B-AE06-A629EC0D56AD}",
-      "SwitchContainers": []
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{0893B94B-067A-4898-929F-32FEEA912F52}",
+        "Media": [
+         {
+          "Id": "118899840"
+         },
+         {
+          "Id": "164259074"
+         },
+         {
+          "Id": "307841909"
+         },
+         {
+          "Id": "340495881"
+         },
+         {
+          "Id": "780672990"
+         },
+         {
+          "Id": "793829561"
+         }
+        ]
+       }
+      ]
      },
      {
       "Id": "527872876",
@@ -397,26 +496,26 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_stone_wall_impact",
       "GUID": "{F6CC96AB-F363-4FD5-B2C7-1767BE1F42EC}",
       "DurationType": "OneShot",
-      "DurationMin": "1.490375",
-      "DurationMax": "1.490375",
+      "DurationMin": "2.507688",
+      "DurationMax": "2.635229",
       "IncludedMemoryFiles": [
        {
-        "Id": "91224221",
+        "Id": "29453528",
         "Language": "SFX",
-        "ShortName": "stone_wall_hit3.wav",
-        "Path": "SFX\\stone_wall_hit3_10C4C929.wem"
+        "ShortName": "new_stonewall_break_1.wav",
+        "Path": "SFX\\new_stonewall_break_1_10C4C929.wem"
        },
        {
-        "Id": "622474612",
+        "Id": "88573490",
         "Language": "SFX",
-        "ShortName": "stone_wall_hit1.wav",
-        "Path": "SFX\\stone_wall_hit1_10C4C929.wem"
+        "ShortName": "new_stonewall_break_3.wav",
+        "Path": "SFX\\new_stonewall_break_3_10C4C929.wem"
        },
        {
-        "Id": "947188190",
+        "Id": "682025321",
         "Language": "SFX",
-        "ShortName": "stone_wall_hit2.wav",
-        "Path": "SFX\\stone_wall_hit2_10C4C929.wem"
+        "ShortName": "new_stonewall_break_2.wav",
+        "Path": "SFX\\new_stonewall_break_2_10C4C929.wem"
        }
       ]
      },
