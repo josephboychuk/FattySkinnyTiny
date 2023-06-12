@@ -26,6 +26,10 @@
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_tree_impact" ID="{DD29A006-FC96-4E24-835D-551C0528C785}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_log_fall" ID="{BF263C14-44FA-401D-86F4-A686522380E9}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
 							<Position X="3" Y="0"/>
 						</Module>
