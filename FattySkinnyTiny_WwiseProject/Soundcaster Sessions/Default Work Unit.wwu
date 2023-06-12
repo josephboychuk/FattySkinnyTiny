@@ -41,6 +41,10 @@
 							<ObjectRef Name="Play_fireleaves_drop" ID="{FE0D6A0A-371B-41AE-B76E-F4B553D89012}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
 							<Position X="4" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_tree_impact" ID="{DD29A006-FC96-4E24-835D-551C0528C785}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="4" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
