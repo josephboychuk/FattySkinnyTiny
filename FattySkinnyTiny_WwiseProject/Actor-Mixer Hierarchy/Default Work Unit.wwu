@@ -573,6 +573,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="grass" ID="{668DAA38-E453-4EF3-97E6-9E9638D5CA4E}" ShortID="536909105">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -584,6 +588,10 @@
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="plant" ID="{9D423CA6-A377-4A37-95B5-464A1C5C5FCF}" ShortID="790398288">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -595,6 +603,10 @@
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="stone" ID="{AF59D754-787C-421A-B75D-3A76F0E0F1BA}" ShortID="249714599">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -606,6 +618,10 @@
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="wood" ID="{9A177250-714D-4064-B18B-BDADC331A44E}" ShortID="85015509">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -617,6 +633,10 @@
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="flower" ID="{60AF0655-164A-4A41-ACCF-2004442BD451}" ShortID="262242371">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -626,7 +646,14 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="test_flowerstep_f" ID="{F006B5A1-1B43-4847-BEC4-D54D8D150107}" ShortID="405575949">
+										<Sound Name="test_flowerstep_floop" ID="{2A7D1C24-A98B-4D6C-93A4-9108E8842BD3}" ShortID="491499345">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -636,17 +663,17 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="test_flowerstep_f" ID="{8FECAAFA-31F0-4B59-9B55-D76897AEBA10}">
+												<AudioFileSource Name="test_flowerstep_floop" ID="{E56FEB5A-F177-40EC-80EA-8DE617F8BC49}">
 													<Language>SFX</Language>
-													<AudioFile>test_flowerstep_f.wav</AudioFile>
+													<AudioFile>test_flowerstep_floop.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="648804657"/>
+														<MediaID ID="123569965"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists/>
 											<ActiveSourceList>
-												<ActiveSource Name="test_flowerstep_f" ID="{8FECAAFA-31F0-4B59-9B55-D76897AEBA10}" Platform="Linked"/>
+												<ActiveSource Name="test_flowerstep_floop" ID="{E56FEB5A-F177-40EC-80EA-8DE617F8BC49}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -1727,9 +1754,50 @@
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+														<CustomState Name="" ID="{9DCB0C0A-7C20-4672-A2CA-80050B34485F}" ShortID="197296313">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+														<CustomState Name="" ID="{F7A5CDB2-EC48-4976-859D-6166B41EA018}" ShortID="459087899">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+														<CustomState Name="" ID="{65CCEA9F-4216-4921-89E3-0C8AA63432E8}" ShortID="832347055"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="flower_tiny" ID="{41D043F2-7AB0-40DA-8816-A8D416B8A72F}" ShortID="683375706">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>24</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -1738,6 +1806,152 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="test_flowerstep_t1" ID="{5E3CAE3A-C375-4B1A-9AB3-8AC818BA30A7}" ShortID="772046734">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="test_flowerstep_t1" ID="{664CE9AE-1D1B-49AF-A305-0648436DB24A}">
+															<Language>SFX</Language>
+															<AudioFile>test_flowerstep_t1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="879038051"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="test_flowerstep_t1" ID="{664CE9AE-1D1B-49AF-A305-0648436DB24A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="test_flowerstep_t2" ID="{B4159BC6-8D80-4074-A939-384D110D29CE}" ShortID="1048747790">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="test_flowerstep_t2" ID="{2A2BC1AB-ECCD-46C8-8998-6339E50A2595}">
+															<Language>SFX</Language>
+															<AudioFile>test_flowerstep_t2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="47239814"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="test_flowerstep_t2" ID="{2A2BC1AB-ECCD-46C8-8998-6339E50A2595}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="test_flowerstep_t3" ID="{2625140F-19D8-4A52-AF53-77AA6E1DD77C}" ShortID="572824241">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="test_flowerstep_t3" ID="{95092B6C-661B-4444-B31D-FC12FEBF85E0}">
+															<Language>SFX</Language>
+															<AudioFile>test_flowerstep_t3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="9095580"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="test_flowerstep_t3" ID="{95092B6C-661B-4444-B31D-FC12FEBF85E0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="test_flowerstep_t4" ID="{8BC8F85B-3FA0-49C1-83C4-0138B4F3C7EA}" ShortID="188536917">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="test_flowerstep_t4" ID="{FA229F21-8B1A-4D12-87BF-A3C5BCCCBBB9}">
+															<Language>SFX</Language>
+															<AudioFile>test_flowerstep_t4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="478816173"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="test_flowerstep_t4" ID="{FA229F21-8B1A-4D12-87BF-A3C5BCCCBBB9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="test_flowerstep_t5" ID="{23D916FC-B535-43D6-9B3A-9D359CCDA8A6}" ShortID="380825949">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="test_flowerstep_t5" ID="{2F2778E5-A7E3-43BF-B0A7-63F9282D59B6}">
+															<Language>SFX</Language>
+															<AudioFile>test_flowerstep_t5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="147600730"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="test_flowerstep_t5" ID="{2F2778E5-A7E3-43BF-B0A7-63F9282D59B6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+														<CustomState Name="" ID="{510B86EF-8F75-45D9-9FDC-581DB746EE3F}" ShortID="900407529"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+														<CustomState Name="" ID="{61C2EAEF-B2DD-497C-9007-5BDFA2A105DD}" ShortID="351169074">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+														<CustomState Name="" ID="{A65B5B37-55FC-4438-88D8-FACB53A176C6}" ShortID="238024313">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
