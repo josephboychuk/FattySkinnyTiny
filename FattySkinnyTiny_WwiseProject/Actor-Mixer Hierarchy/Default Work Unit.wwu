@@ -585,21 +585,27 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
 										</Reference>
 									</ReferenceList>
-									<ObjectLists/>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="plant" ID="{9D423CA6-A377-4A37-95B5-464A1C5C5FCF}" ShortID="790398288">
-									<PropertyList>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
-										</Reference>
-									</ReferenceList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+												<CustomState Name="" ID="{2C524601-7FCD-4E33-ACE6-E35D7C1DDC40}" ShortID="37929134"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+												<CustomState Name="" ID="{AD666B44-41A1-4BF6-9D87-86915CDAE972}" ShortID="240309798"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+												<CustomState Name="" ID="{95F1EB4E-6FD9-473E-921D-68005826509E}" ShortID="941248950"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="stone" ID="{AF59D754-787C-421A-B75D-3A76F0E0F1BA}" ShortID="249714599">
@@ -695,9 +701,6 @@
 									<GroupingBehavior>
 										<ItemRef Name="flower" ID="{60AF0655-164A-4A41-ACCF-2004442BD451}"/>
 									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="plant" ID="{9D423CA6-A377-4A37-95B5-464A1C5C5FCF}"/>
-									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
 									<Grouping>
@@ -710,12 +713,6 @@
 										<SwitchRef Name="Wood" ID="{6F80DE84-DDC4-4CD5-BE95-4125503E2252}"/>
 										<ItemList>
 											<ItemRef Name="wood" ID="{9A177250-714D-4064-B18B-BDADC331A44E}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="Plant" ID="{0DED959B-4328-4439-84AF-F44676D27D0A}"/>
-										<ItemList>
-											<ItemRef Name="plant" ID="{9D423CA6-A377-4A37-95B5-464A1C5C5FCF}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -782,7 +779,7 @@
 									</ReferenceList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="plant" ID="{6C8A3901-E716-46F3-A483-4705D9325E63}" ShortID="510268667">
+								<RandomSequenceContainer Name="flower" ID="{6C8A3901-E716-46F3-A483-4705D9325E63}" ShortID="510268667">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -900,7 +897,7 @@
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
-										<ItemRef Name="plant" ID="{6C8A3901-E716-46F3-A483-4705D9325E63}"/>
+										<ItemRef Name="flower" ID="{6C8A3901-E716-46F3-A483-4705D9325E63}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="stone" ID="{1403E520-0F15-4166-80F1-D41A8DB2A7C4}"/>
@@ -935,9 +932,9 @@
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="Plant" ID="{0DED959B-4328-4439-84AF-F44676D27D0A}"/>
+										<SwitchRef Name="Flower" ID="{B379C8DC-CA84-4349-83EB-4F5968AB4023}"/>
 										<ItemList>
-											<ItemRef Name="plant" ID="{6C8A3901-E716-46F3-A483-4705D9325E63}"/>
+											<ItemRef Name="flower" ID="{6C8A3901-E716-46F3-A483-4705D9325E63}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -1565,59 +1562,6 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</BlendContainer>
-								<BlendContainer Name="plant" ID="{9C9FD6F9-3403-42C1-988D-594E877132FA}" ShortID="230087916">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<RandomSequenceContainer Name="plant_skinny" ID="{306C58E8-D1A3-473C-A6F5-1341017A9370}" ShortID="596073603">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
-												</Reference>
-											</ReferenceList>
-											<StateInfo>
-												<StateGroupList>
-													<StateGroupInfo>
-														<StateGroupRef Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}"/>
-													</StateGroupInfo>
-												</StateGroupList>
-												<CustomStateList>
-													<CustomState>
-														<StateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
-														<CustomState Name="" ID="{EBD47E23-20BD-4C48-A4E0-46F007CDD123}" ShortID="363478790">
-															<PropertyList>
-																<Property Name="Volume" Type="Real64" Value="-108"/>
-															</PropertyList>
-														</CustomState>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
-														<CustomState Name="" ID="{B8E54565-F9B5-4D21-992F-8FF920C8CBCD}" ShortID="821383277">
-															<PropertyList>
-																<Property Name="Volume" Type="Real64" Value="-108"/>
-															</PropertyList>
-														</CustomState>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
-														<CustomState Name="" ID="{3AC57F87-E038-40E7-85F1-DC9D1CC310C2}" ShortID="785006682"/>
-													</CustomState>
-												</CustomStateList>
-											</StateInfo>
-											<ObjectLists/>
-										</RandomSequenceContainer>
-									</ChildrenList>
-									<ObjectLists/>
-								</BlendContainer>
 								<BlendContainer Name="flower" ID="{64C721DF-AEC7-4EBB-B4FB-EEA4BC0A6E1F}" ShortID="244948099">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1974,9 +1918,6 @@
 										<ItemRef Name="grass" ID="{0B7CC1F4-5964-46FF-94A1-2E14D35986A8}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="plant" ID="{9C9FD6F9-3403-42C1-988D-594E877132FA}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
 										<ItemRef Name="stone" ID="{2C818EFE-3359-4C4B-A9E4-E72B2DA34CAD}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
@@ -1997,12 +1938,6 @@
 										<SwitchRef Name="Wood" ID="{6F80DE84-DDC4-4CD5-BE95-4125503E2252}"/>
 										<ItemList>
 											<ItemRef Name="wood" ID="{23AD7610-5BE5-4301-9770-8AB77FC123BB}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="Plant" ID="{0DED959B-4328-4439-84AF-F44676D27D0A}"/>
-										<ItemList>
-											<ItemRef Name="plant" ID="{9C9FD6F9-3403-42C1-988D-594E877132FA}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>

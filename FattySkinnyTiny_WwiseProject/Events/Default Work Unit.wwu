@@ -14,7 +14,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_bounce" ID="{5E44FED3-C634-40D8-880E-EA134921731D}">
+				<Event Name="Play_land_bounce" ID="{5E44FED3-C634-40D8-880E-EA134921731D}">
 					<ChildrenList>
 						<Action Name="" ID="{968F2D49-B3F5-4E6E-A6AB-144CCDB9B0FE}" ShortID="113036262">
 							<ReferenceList>
