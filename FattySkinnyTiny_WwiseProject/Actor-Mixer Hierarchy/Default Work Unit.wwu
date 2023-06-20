@@ -780,6 +780,13 @@
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="flower" ID="{6C8A3901-E716-46F3-A483-4705D9325E63}" ShortID="510268667">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -788,6 +795,77 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="flower_landing_f1" ID="{0FBAB492-3945-4A46-8D44-A7F4C23D5EEE}" ShortID="31896771">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="flower_landing_f1" ID="{3CEBD510-97C5-4CA1-AEC0-11FCDD45F482}">
+													<Language>SFX</Language>
+													<AudioFile>flower_landing_f1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="9969033"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="flower_landing_f1" ID="{3CEBD510-97C5-4CA1-AEC0-11FCDD45F482}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="flower_landing_f2" ID="{FD62B2A4-522D-486B-8FCC-F7F3F8F2458A}" ShortID="587714485">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="flower_landing_f2" ID="{18EEE703-2E4B-4394-BC6C-0AE32FDFA62A}">
+													<Language>SFX</Language>
+													<AudioFile>flower_landing_f2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="470238870"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="flower_landing_f2" ID="{18EEE703-2E4B-4394-BC6C-0AE32FDFA62A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="flower_landing_f3" ID="{516D189F-8BF5-4415-8796-09D55DA5FEB6}" ShortID="871532287">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="flower_landing_f3" ID="{1682009B-85A5-4CD9-843B-A340BAA2C441}">
+													<Language>SFX</Language>
+													<AudioFile>flower_landing_f3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="787641064"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="flower_landing_f3" ID="{1682009B-85A5-4CD9-843B-A340BAA2C441}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="mushroom" ID="{2C32B02A-5816-4150-8408-E3AD1E2BD080}" ShortID="675266427">
