@@ -557,6 +557,9 @@
 							<ObjectLists/>
 						</RandomSequenceContainer>
 						<SwitchContainer Name="rolling" ID="{F809D240-3996-4AEF-8DE7-8EA285BBD62E}" ShortID="505130878">
+							<PropertyList>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -636,6 +639,31 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="wood_foot_floop" ID="{1D6A0510-C6A6-40AF-9ACE-9FDE55761555}" ShortID="130345306">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="wood_foot_floop" ID="{79AA0FFE-9916-4499-A35F-E322ED20BA40}">
+													<Language>SFX</Language>
+													<AudioFile>wood_foot_floop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="263574096"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="wood_foot_floop" ID="{79AA0FFE-9916-4499-A35F-E322ED20BA40}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="flower" ID="{60AF0655-164A-4A41-ACCF-2004442BD451}" ShortID="262242371">
@@ -694,12 +722,36 @@
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="wood" ID="{9A177250-714D-4064-B18B-BDADC331A44E}"/>
+										<PropertyList>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>0.5</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>1</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="stone" ID="{AF59D754-787C-421A-B75D-3A76F0E0F1BA}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="flower" ID="{60AF0655-164A-4A41-ACCF-2004442BD451}"/>
+										<PropertyList>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>0.5</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>1</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
@@ -1473,6 +1525,123 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="stone_foot_s1" ID="{599CDF40-3563-455A-8023-1429B7154446}" ShortID="52813272">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="stone_foot_s1" ID="{BDDB3DA1-0964-4FBE-AC0E-6C09DB6E2240}">
+															<Language>SFX</Language>
+															<AudioFile>stone_foot_s1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="807150757"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="stone_foot_s1" ID="{BDDB3DA1-0964-4FBE-AC0E-6C09DB6E2240}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="stone_foot_s2" ID="{59E6DD4D-F7DF-4C95-859F-F8FBD26E405B}" ShortID="23944892">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="stone_foot_s2" ID="{B2510244-F2B7-44A6-A1FF-F52910969FD3}">
+															<Language>SFX</Language>
+															<AudioFile>stone_foot_s2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="944697262"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="stone_foot_s2" ID="{B2510244-F2B7-44A6-A1FF-F52910969FD3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="stone_foot_s3" ID="{9ACCAD14-F5D6-4B66-82E0-3C8B14AD687C}" ShortID="754756943">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="stone_foot_s3" ID="{DAD3C217-0A85-4A0E-94AE-3418FAA5762A}">
+															<Language>SFX</Language>
+															<AudioFile>stone_foot_s3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="670261214"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="stone_foot_s3" ID="{DAD3C217-0A85-4A0E-94AE-3418FAA5762A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="stone_foot_s4" ID="{7BAA2F24-7701-4D89-A33C-BCEDB8BB6380}" ShortID="549603649">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="stone_foot_s4" ID="{200F8725-155A-46FB-90F8-4B947C5B7204}">
+															<Language>SFX</Language>
+															<AudioFile>stone_foot_s4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="249519263"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="stone_foot_s4" ID="{200F8725-155A-46FB-90F8-4B947C5B7204}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="stone_foot_s5" ID="{07810BA4-1683-4E09-99CE-BA6E89FABABE}" ShortID="709062684">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="stone_foot_s5" ID="{95DEADD2-75B0-4D3F-B637-444F067B1B28}">
+															<Language>SFX</Language>
+															<AudioFile>stone_foot_s5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="353989153"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="stone_foot_s5" ID="{95DEADD2-75B0-4D3F-B637-444F067B1B28}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 											<StateInfo>
 												<StateGroupList>
 													<StateGroupInfo>
@@ -1505,6 +1674,18 @@
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="stone_tiny" ID="{0D09A51B-CC4C-4904-8F02-1D1E66648E24}" ShortID="754780040">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>18</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -1513,6 +1694,123 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="stone_foot_t1" ID="{FB333B1C-AD4C-4375-BC11-5E79E159A46D}" ShortID="754858723">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="stone_foot_t1" ID="{ABC0E2CB-2D07-403B-B1BC-524A953EF78D}">
+															<Language>SFX</Language>
+															<AudioFile>stone_foot_t1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1026542782"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="stone_foot_t1" ID="{ABC0E2CB-2D07-403B-B1BC-524A953EF78D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="stone_foot_t2" ID="{0D898B13-7EBF-42DD-B13F-A94EE5CE7E33}" ShortID="789634993">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="stone_foot_t2" ID="{801D2E13-E369-4E5E-A81C-F9B530F7828B}">
+															<Language>SFX</Language>
+															<AudioFile>stone_foot_t2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="141543729"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="stone_foot_t2" ID="{801D2E13-E369-4E5E-A81C-F9B530F7828B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="stone_foot_t3" ID="{2700F6FD-BA93-4414-B818-A835E0007AE4}" ShortID="591044633">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="stone_foot_t3" ID="{6C2807E2-406B-4205-9007-3283F6D478B2}">
+															<Language>SFX</Language>
+															<AudioFile>stone_foot_t3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="647739830"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="stone_foot_t3" ID="{6C2807E2-406B-4205-9007-3283F6D478B2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="stone_foot_t4" ID="{8414462E-E59D-46A7-9659-302A012D0D1E}" ShortID="173402751">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="stone_foot_t4" ID="{E33E6E92-EE50-4014-A6C3-2DE76A91D3FC}">
+															<Language>SFX</Language>
+															<AudioFile>stone_foot_t4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="113843800"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="stone_foot_t4" ID="{E33E6E92-EE50-4014-A6C3-2DE76A91D3FC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="stone_foot_t5" ID="{4E7942B4-1F52-4571-8487-70E56C98F4A5}" ShortID="392236968">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="stone_foot_t5" ID="{99158E28-3F07-4F4C-980F-AB74C506AD4B}">
+															<Language>SFX</Language>
+															<AudioFile>stone_foot_t5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="915049547"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="stone_foot_t5" ID="{99158E28-3F07-4F4C-980F-AB74C506AD4B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 											<StateInfo>
 												<StateGroupList>
 													<StateGroupInfo>
@@ -1558,6 +1856,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="wood_skinny" ID="{62D897F5-505B-4AB8-B46B-03023A8A4A96}" ShortID="884039025">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -1566,6 +1871,123 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="wood_foot_s1" ID="{DF1B8DCA-703C-4EFD-A011-C592CA8A1564}" ShortID="630834279">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wood_foot_s1" ID="{BCD94ECF-C8DE-4D4D-9BC6-05E95DFB19EF}">
+															<Language>SFX</Language>
+															<AudioFile>wood_foot_s1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="17535725"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="wood_foot_s1" ID="{BCD94ECF-C8DE-4D4D-9BC6-05E95DFB19EF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="wood_foot_s2" ID="{843E6D74-D25D-4D81-92CA-F70F5B9F18FB}" ShortID="575160542">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wood_foot_s2" ID="{F3DB7F08-2768-4D55-B257-10D37F021BC7}">
+															<Language>SFX</Language>
+															<AudioFile>wood_foot_s2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="932078029"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="wood_foot_s2" ID="{F3DB7F08-2768-4D55-B257-10D37F021BC7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="wood_foot_s3" ID="{0FD48D61-43BF-4465-B09B-15361BA6B640}" ShortID="972298329">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wood_foot_s3" ID="{871D9478-188C-44F6-8B5B-6E823B18C87E}">
+															<Language>SFX</Language>
+															<AudioFile>wood_foot_s3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1046404893"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="wood_foot_s3" ID="{871D9478-188C-44F6-8B5B-6E823B18C87E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="wood_foot_s4" ID="{655B11DC-AC3B-4924-93B4-635711C31002}" ShortID="1055150501">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wood_foot_s4" ID="{88FED54A-1BD6-434B-910C-506EB691C007}">
+															<Language>SFX</Language>
+															<AudioFile>wood_foot_s4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1067018637"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="wood_foot_s4" ID="{88FED54A-1BD6-434B-910C-506EB691C007}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="wood_foot_s5" ID="{D10CF081-5C9D-4E9E-8EEF-20F083A946CF}" ShortID="311807295">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wood_foot_s5" ID="{41B03857-DAE3-4BC3-BAA5-83D6D4F7A1E9}">
+															<Language>SFX</Language>
+															<AudioFile>wood_foot_s5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="990693830"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="wood_foot_s5" ID="{41B03857-DAE3-4BC3-BAA5-83D6D4F7A1E9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 											<StateInfo>
 												<StateGroupList>
 													<StateGroupInfo>
@@ -1598,6 +2020,13 @@
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="wood_tiny" ID="{89EB932A-C48E-4084-9BF2-6BCDE931F731}" ShortID="912286547">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -1606,6 +2035,123 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="wood_foot_t1" ID="{978F50C4-0507-43CB-B14A-0986E453703B}" ShortID="93917934">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wood_foot_t1" ID="{3344D8F4-E7A6-4B45-AB14-3EC37E06E36A}">
+															<Language>SFX</Language>
+															<AudioFile>wood_foot_t1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="286112895"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="wood_foot_t1" ID="{3344D8F4-E7A6-4B45-AB14-3EC37E06E36A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="wood_foot_t2" ID="{DF8FB91C-599B-4D36-86C5-C27FBF6A9A1B}" ShortID="90384238">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wood_foot_t2" ID="{19CCAF56-CEC9-4553-B3E3-688336E5FDAA}">
+															<Language>SFX</Language>
+															<AudioFile>wood_foot_t2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1040304054"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="wood_foot_t2" ID="{19CCAF56-CEC9-4553-B3E3-688336E5FDAA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="wood_foot_t3" ID="{79838787-94FE-40F6-B4CB-6FBBCEC19072}" ShortID="431525308">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wood_foot_t3" ID="{2C34BAE9-FE79-4478-962B-6619A7096447}">
+															<Language>SFX</Language>
+															<AudioFile>wood_foot_t3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="42340420"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="wood_foot_t3" ID="{2C34BAE9-FE79-4478-962B-6619A7096447}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="wood_foot_t4" ID="{DD46A778-2F63-4BB6-A0CC-A931CE7C4489}" ShortID="464702773">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wood_foot_t4" ID="{0F5E4096-8B62-4B65-ADBC-99425C507309}">
+															<Language>SFX</Language>
+															<AudioFile>wood_foot_t4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="834046182"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="wood_foot_t4" ID="{0F5E4096-8B62-4B65-ADBC-99425C507309}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="wood_foot_t5" ID="{AA24624E-B9AB-4D45-BD7A-03A30EDA44AD}" ShortID="374798770">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wood_foot_t5" ID="{170F2CE4-65F9-4BDA-9DF0-0C6080E0F7C6}">
+															<Language>SFX</Language>
+															<AudioFile>wood_foot_t5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="452118175"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="wood_foot_t5" ID="{170F2CE4-65F9-4BDA-9DF0-0C6080E0F7C6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 											<StateInfo>
 												<StateGroupList>
 													<StateGroupInfo>
