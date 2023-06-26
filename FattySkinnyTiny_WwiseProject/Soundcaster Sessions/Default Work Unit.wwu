@@ -53,10 +53,10 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="light" ID="{0444F154-1F0B-4F1B-88EB-B88A8F150FA8}"/>
-						<CurrentStateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+						<CurrentStateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Stone" ID="{F7C5A267-955F-4EC2-BD71-207AE7802797}"/>
+						<CurrentSwitchRef Name="Wood" ID="{6F80DE84-DDC4-4CD5-BE95-4125503E2252}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="fatty" ID="{C9B044FC-EEE6-4145-B851-D5F09F47D01F}">
