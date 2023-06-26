@@ -56,7 +56,117 @@
 						<CurrentStateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Wood" ID="{6F80DE84-DDC4-4CD5-BE95-4125503E2252}"/>
+						<CurrentSwitchRef Name="Stone" ID="{F7C5A267-955F-4EC2-BD71-207AE7802797}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="fatty" ID="{C9B044FC-EEE6-4145-B851-D5F09F47D01F}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_ambience" ID="{9EAE0423-FC96-438A-9004-13020A51A48B}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_rolling" ID="{82696220-DF16-4105-88B1-1054909BEC3F}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Music" ID="{8841BE0E-D058-4436-BE04-9C5A0C8E0F88}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_land_bounce" ID="{5E44FED3-C634-40D8-880E-EA134921731D}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_stone_wall_impact" ID="{F6CC96AB-F363-4FD5-B2C7-1767BE1F42EC}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="light" ID="{0444F154-1F0B-4F1B-88EB-B88A8F150FA8}"/>
+						<CurrentStateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Flower" ID="{B379C8DC-CA84-4349-83EB-4F5968AB4023}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="skinny" ID="{03B4B638-6B80-4B9E-B439-A0573EF1F531}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Music" ID="{8841BE0E-D058-4436-BE04-9C5A0C8E0F88}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_footsteps" ID="{BCF66B52-5FAD-4770-BBB1-2EE969C03758}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_ambience" ID="{9EAE0423-FC96-438A-9004-13020A51A48B}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_web" ID="{B2493A6C-AA4F-4A01-8940-25D49107F529}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_webbing" ID="{CD10D120-0AB8-4D30-9899-4E8684308E32}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="light" ID="{0444F154-1F0B-4F1B-88EB-B88A8F150FA8}"/>
+						<CurrentStateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Flower" ID="{B379C8DC-CA84-4349-83EB-4F5968AB4023}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="tiny" ID="{203042FA-294B-4622-9C82-3E4F8789256D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_ambience" ID="{9EAE0423-FC96-438A-9004-13020A51A48B}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_footsteps" ID="{BCF66B52-5FAD-4770-BBB1-2EE969C03758}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Music" ID="{8841BE0E-D058-4436-BE04-9C5A0C8E0F88}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_flying" ID="{B3F1F30D-7021-46E2-A19A-5E165BD2A16C}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_magic_shoot" ID="{8C04AA8D-B906-44F8-8684-BD0C1A637557}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_vines_break" ID="{89781431-C94C-42F4-9BB3-45AF96957D97}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="light" ID="{0444F154-1F0B-4F1B-88EB-B88A8F150FA8}"/>
+						<CurrentStateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Mushroom" ID="{0893B94B-067A-4898-929F-32FEEA912F52}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="objects" ID="{D0D7194A-385B-4EFD-8629-1C005B516CD4}">
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="light" ID="{0444F154-1F0B-4F1B-88EB-B88A8F150FA8}"/>
+						<CurrentStateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Stone" ID="{F7C5A267-955F-4EC2-BD71-207AE7802797}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
