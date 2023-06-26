@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A8928005-3DA6-4346-A504-EF826E462066}" SchemaVersion="103">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{A8928005-3DA6-4346-A504-EF826E462066}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Music" ID="{85C9FEB6-316F-4074-9A33-D52E61976D31}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

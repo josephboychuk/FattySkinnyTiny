@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{347E44FE-1B46-4F4B-A2F7-3C387AF86D9C}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{347E44FE-1B46-4F4B-A2F7-3C387AF86D9C}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Character" ID="{75B85D11-B75F-4BA4-A2A3-2CEB13EB1885}">
+					<ChildrenList>
+						<State Name="None" ID="{05F28469-4BFF-42A3-A922-1D862D8AEBAF}"/>
+						<State Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+						<State Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
+						<State Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="brightness" ID="{F1FEC7E1-51F1-40CD-AE1C-C041ABAE0A10}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{94A8D50C-4C24-4224-B17F-D1883688BCD2}"/>
+						<State Name="light" ID="{0444F154-1F0B-4F1B-88EB-B88A8F150FA8}"/>
+						<State Name="dark" ID="{C0EC49DD-426A-4208-8883-8586F4E62CB6}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="dark" ID="{C0EC49DD-426A-4208-8883-8586F4E62CB6}"/>
+							<EndState Name="light" ID="{0444F154-1F0B-4F1B-88EB-B88A8F150FA8}"/>
+							<Time>5</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
