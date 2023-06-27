@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="2512974117">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="4056392882">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="2325895218">
+		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="464140018">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -566,6 +566,9 @@
 				<Event Id="2888877088" Name="Play_web" ObjectPath="\Events\Default Work Unit\Play_web" GUID="{B2493A6C-AA4F-4A01-8940-25D49107F529}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="4172310830" Name="Play_webbing" ObjectPath="\Events\Default Work Unit\Play_webbing" GUID="{CD10D120-0AB8-4D30-9899-4E8684308E32}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1771175504" Name="rolling_speed" ObjectPath="\Game Parameters\Default Work Unit\rolling_speed" GUID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="970838549" Name="surface_materials" ObjectPath="\Switches\Default Work Unit\surface_materials" GUID="{5F050073-5151-46BA-ACB5-B3EB538B4979}">
 					<Switches>

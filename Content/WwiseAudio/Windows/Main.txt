@@ -90,6 +90,9 @@ Custom State	ID	Name	State Group	Owner		Notes
 	981830802	Tiny	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\grass\grass_skinny		
 	1012820795	Fatty	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\mushroom\mushroom_tiny		
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1771175504	rolling_speed			\Default Work Unit\rolling_speed	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	9095580	test_flowerstep_t3	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\test_flowerstep_t3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\flower\flower_tiny\test_flowerstep_t3		50446
 	9969033	flower_landing_f1	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Windows\SFX\flower_landing_f1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fatty\landing_bouncing\flower\flower_landing_f1		76174
