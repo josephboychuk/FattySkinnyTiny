@@ -212,6 +212,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_shimmery_movement" ID="{BD409C19-9194-40ED-96D6-205ED6128BAB}">
+					<ChildrenList>
+						<Action Name="" ID="{64AFE461-07F7-44A6-A5CC-9A70CE543A5B}" ShortID="934648593">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="shimmery_movement" ID="{A5321A2C-81C7-4257-B6F8-5BEA56F5AE91}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
