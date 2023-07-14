@@ -49,10 +49,10 @@
 				</Event>
 				<Event Name="Play_fireleaves_burn" ID="{251214DA-214C-45E5-AFF9-9FEED73AC53C}">
 					<ChildrenList>
-						<Action Name="" ID="{D5E910B3-3B78-448B-A888-EF7853507966}" ShortID="509789183">
+						<Action Name="" ID="{2B9632AE-89BF-49AE-9685-F0E338CEFEB1}" ShortID="450722977">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="leaves_burn" ID="{A57B1BE6-1B7E-4C48-AAAD-A9D4EB005B77}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+									<ObjectRef Name="burn" ID="{EAF036FC-866D-47EC-BB48-FDC430DEA365}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -93,10 +93,10 @@
 				</Event>
 				<Event Name="Play_web" ID="{B2493A6C-AA4F-4A01-8940-25D49107F529}">
 					<ChildrenList>
-						<Action Name="" ID="{F56C16FE-74E2-41E2-A740-DA827FD1E78D}" ShortID="471216461">
+						<Action Name="" ID="{7198B555-5F6F-4D9B-9341-555E256AF0C2}" ShortID="415885072">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="webbing" ID="{21FBAA6F-3E5E-4ADF-952E-ED4C28C37696}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+									<ObjectRef Name="web" ID="{95CA7D38-80F6-4943-B017-7FDD57F23E3D}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -113,12 +113,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_flower_platform_shrink" ID="{DB43039D-3938-438A-BB1C-A2D73E00555C}">
+				<Event Name="Play_flower_platform_move" ID="{DB43039D-3938-438A-BB1C-A2D73E00555C}">
 					<ChildrenList>
 						<Action Name="" ID="{7F6EA91F-C012-4A5C-93A6-D558BA0BDBE6}" ShortID="769446363">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="flower_platform_shrink" ID="{871C44E0-9F65-4706-B238-20432914CFF1}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+									<ObjectRef Name="flower_platform_move" ID="{871C44E0-9F65-4706-B238-20432914CFF1}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -135,12 +135,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_web_shoot" ID="{CD10D120-0AB8-4D30-9899-4E8684308E32}">
+				<Event Name="Play_webbing" ID="{CD10D120-0AB8-4D30-9899-4E8684308E32}">
 					<ChildrenList>
 						<Action Name="" ID="{39CD9828-A9E5-4CF5-95BE-FEAE76388FCB}" ShortID="442753241">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="web_shoot" ID="{04F4104D-8B37-4E47-AC16-5F49CDEDDC45}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+									<ObjectRef Name="webbing" ID="{04F4104D-8B37-4E47-AC16-5F49CDEDDC45}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -218,94 +218,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="shimmery_movement" ID="{A5321A2C-81C7-4257-B6F8-5BEA56F5AE91}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_ui_hover" ID="{5BE1B0C1-816F-4839-985A-3D7E24824D6D}">
-					<ChildrenList>
-						<Action Name="" ID="{7AA78BB9-CF32-40A9-85E3-96EAEAE6EAA2}" ShortID="655226949">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="ui_hover" ID="{80F4548A-4D3E-4627-9F3D-7AE6283D2DA0}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_web_sway" ID="{7FFDD789-BC46-4D3A-9AEE-7750BC1EA3F6}">
-					<ChildrenList>
-						<Action Name="" ID="{D47CAAAF-6C96-469F-90FB-768B9ECAB627}" ShortID="134756915">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="web_sway" ID="{E3AF310D-757E-4893-BB2F-60BBBA4607D3}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_switch_activate" ID="{458B7571-5C6B-4F66-93B5-CE063F3A2B0D}">
-					<ChildrenList>
-						<Action Name="" ID="{A5D5473F-742B-4767-8A68-DD195315CA29}" ShortID="174508861">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="switch_activate" ID="{08ED7A32-6754-4DC3-A21E-80D2401CCACA}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_switch_deactivate" ID="{9A6D6C6D-BC53-4C35-AFA4-3B2940D1DC85}">
-					<ChildrenList>
-						<Action Name="" ID="{C42CAED1-626B-422A-9D52-832726FB0FEB}" ShortID="905680206">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="switch_deactivate" ID="{9AAB481A-0356-4188-97BB-653FBC8BAADA}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_web_bounce" ID="{D4BCF473-2E30-4B94-9F8F-7C3BB1ED59E3}">
-					<ChildrenList>
-						<Action Name="" ID="{AD78E03C-15E8-47ED-A08C-4F8EB18DA092}" ShortID="87885793">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="web_bounce" ID="{9999D061-8842-41F5-8622-C091DC5467B6}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_mushroom_grow" ID="{C6062954-12F5-4F62-89BB-02A4C120F2F3}">
-					<ChildrenList>
-						<Action Name="" ID="{F5DAF747-C28D-4A7E-905D-01A77EB15FE5}" ShortID="733519351">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="mushroom_grow" ID="{1E3ADFDB-CD79-4F59-A807-D38FD15EEDF0}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_mushroom_shrink" ID="{8EB2D43F-CC74-4E37-8F92-ADABFF3E137E}">
-					<ChildrenList>
-						<Action Name="" ID="{1CE09258-6FDD-4F78-9A60-227D7B9E8CC0}" ShortID="160376480">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="mushroom_shrink" ID="{1B360EE9-02AA-4CE5-8072-4BF53297C862}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_web_burn" ID="{8146EB8F-CCB8-49B5-B9FB-9A39545C5F87}">
-					<ChildrenList>
-						<Action Name="" ID="{80789FB0-54AA-4723-8B16-E269EF784B33}" ShortID="46032464">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="web_burn" ID="{D80E07A6-777F-4645-A6CF-EFFA7F17EAD9}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
