@@ -4490,6 +4490,13 @@
 							<ObjectLists/>
 						</RandomSequenceContainer>
 						<Sound Name="switch_activate" ID="{F5B63E7F-FD5B-4640-BD3D-2278A6F835CB}" ShortID="824901335">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -4513,6 +4520,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="switch_deactivate" ID="{AF481FB5-BB1C-4A69-914B-0356CE86F39A}" ShortID="716497868">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
