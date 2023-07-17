@@ -90,7 +90,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="rolling_speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
-							<Value>50</Value>
+							<Value>1200</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
@@ -98,7 +98,7 @@
 						<CurrentStateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Flower" ID="{B379C8DC-CA84-4349-83EB-4F5968AB4023}"/>
+						<CurrentSwitchRef Name="Wood" ID="{6F80DE84-DDC4-4CD5-BE95-4125503E2252}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="skinny" ID="{03B4B638-6B80-4B9E-B439-A0573EF1F531}">
@@ -157,6 +157,10 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_fireleaves_burn" ID="{251214DA-214C-45E5-AFF9-9FEED73AC53C}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Music" ID="{8841BE0E-D058-4436-BE04-9C5A0C8E0F88}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -169,16 +173,16 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_web_burn" ID="{05696FC1-8244-4E13-BCCF-C62DEB8A720B}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_shimmery_movement" ID="{BD409C19-9194-40ED-96D6-205ED6128BAB}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_log_fall" ID="{BF263C14-44FA-401D-86F4-A686522380E9}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
 							<Position X="2" Y="2"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_fireleaves_burn" ID="{251214DA-214C-45E5-AFF9-9FEED73AC53C}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
-							<Position X="3" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -210,6 +214,10 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_fireleaves_drop" ID="{FE0D6A0A-371B-41AE-B76E-F4B553D89012}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Music" ID="{8841BE0E-D058-4436-BE04-9C5A0C8E0F88}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -222,7 +230,11 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_fireleaves_drop" ID="{FE0D6A0A-371B-41AE-B76E-F4B553D89012}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<ObjectRef Name="Play_fireleaves_burn" ID="{251214DA-214C-45E5-AFF9-9FEED73AC53C}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_interact_hover" ID="{8DF7C81B-11E1-4B57-B3A4-65923E194131}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
@@ -234,8 +246,8 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_fireleaves_burn" ID="{251214DA-214C-45E5-AFF9-9FEED73AC53C}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
-							<Position X="3" Y="0"/>
+							<ObjectRef Name="Play_web_burn" ID="{05696FC1-8244-4E13-BCCF-C62DEB8A720B}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_mushroom_shrink" ID="{68648D9D-32F7-4B9C-B96E-0538E788248F}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
@@ -246,14 +258,14 @@
 							<Position X="3" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_interact_hover" ID="{8DF7C81B-11E1-4B57-B3A4-65923E194131}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
-							<Position X="4" Y="0"/>
+							<ObjectRef Name="Play_moss_burn" ID="{4A08579E-5816-4C85-A42A-600862C5B3AC}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="3" Y="3"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="rolling_speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
-							<Value>50</Value>
+							<Value>1200</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
@@ -261,7 +273,7 @@
 						<CurrentStateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Stone" ID="{F7C5A267-955F-4EC2-BD71-207AE7802797}"/>
+						<CurrentSwitchRef Name="Flower" ID="{B379C8DC-CA84-4349-83EB-4F5968AB4023}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

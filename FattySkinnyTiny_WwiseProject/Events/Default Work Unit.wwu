@@ -289,6 +289,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_web_burn" ID="{05696FC1-8244-4E13-BCCF-C62DEB8A720B}">
+					<ChildrenList>
+						<Action Name="" ID="{8D97ED40-4B02-4186-8F23-6AE8C2E064AC}" ShortID="907628515">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="web_burn_loop" ID="{95FDEE97-9F94-4CDB-8DAB-93E5182CD73B}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_moss_burn" ID="{4A08579E-5816-4C85-A42A-600862C5B3AC}">
+					<ChildrenList>
+						<Action Name="" ID="{0EEC146D-13FB-42E7-9B23-593ECF351F67}" ShortID="631421420">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="moss_burn" ID="{B6D2D2ED-A048-436E-AF52-81D15819473D}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="464140018">
+		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="2381773120">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -33,7 +33,26 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1133619286" Name="Play_fireleaves_burn" ObjectPath="\Events\Default Work Unit\Play_fireleaves_burn" GUID="{251214DA-214C-45E5-AFF9-9FEED73AC53C}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1133619286" Name="Play_fireleaves_burn" ObjectPath="\Events\Default Work Unit\Play_fireleaves_burn" GUID="{251214DA-214C-45E5-AFF9-9FEED73AC53C}" MaxAttenuation="7000." DurationType="OneShot" DurationMin="45.002865" DurationMax="45.005405">
+					<IncludedMemoryFiles>
+						<File Id="55205816" Language="SFX">
+							<ShortName>leaves_burning_c.wav</ShortName>
+							<Path>SFX\leaves_burning_c_10C4C929.wem</Path>
+						</File>
+						<File Id="81931854" Language="SFX">
+							<ShortName>spark_1.wav</ShortName>
+							<Path>SFX\spark_1_75D5A19E.wem</Path>
+						</File>
+						<File Id="367405823" Language="SFX">
+							<ShortName>spark_3.wav</ShortName>
+							<Path>SFX\spark_3_FD31CB9D.wem</Path>
+						</File>
+						<File Id="679337435" Language="SFX">
+							<ShortName>spark_2.wav</ShortName>
+							<Path>SFX\spark_2_4F1C275F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3729125446" Name="Play_fireleaves_drop" ObjectPath="\Events\Default Work Unit\Play_fireleaves_drop" GUID="{FE0D6A0A-371B-41AE-B76E-F4B553D89012}" DurationType="OneShot" DurationMin="0.726125" DurationMax="1.045896">
 					<IncludedMemoryFiles>
 						<File Id="521725469" Language="SFX">
@@ -50,10 +69,47 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1175895827" Name="Play_flower_platform_grow" ObjectPath="\Events\Default Work Unit\Play_flower_platform_grow" GUID="{FD2ECB3E-954F-4FF5-B5C1-2956D28ACB41}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="2631540721" Name="Play_flower_platform_move" ObjectPath="\Events\Default Work Unit\Play_flower_platform_move" GUID="{DB43039D-3938-438A-BB1C-A2D73E00555C}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="3552089723" Name="Play_flying" ObjectPath="\Events\Default Work Unit\Play_flying" GUID="{B3F1F30D-7021-46E2-A19A-5E165BD2A16C}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="3854155799" Name="Play_footsteps" ObjectPath="\Events\Default Work Unit\Play_footsteps" GUID="{BCF66B52-5FAD-4770-BBB1-2EE969C03758}" DurationType="OneShot" DurationMin="0." DurationMax="0.715437">
+				<Event Id="1175895827" Name="Play_flower_platform_grow" ObjectPath="\Events\Default Work Unit\Play_flower_platform_grow" GUID="{FD2ECB3E-954F-4FF5-B5C1-2956D28ACB41}" DurationType="OneShot" DurationMin="3." DurationMax="3.5">
+					<IncludedMemoryFiles>
+						<File Id="839348163" Language="SFX">
+							<ShortName>flower_grow_2.wav</ShortName>
+							<Path>SFX\flower_grow_2_10C4C929.wem</Path>
+						</File>
+						<File Id="873424018" Language="SFX">
+							<ShortName>flower_grow_1.wav</ShortName>
+							<Path>SFX\flower_grow_1_10C4C929.wem</Path>
+						</File>
+						<File Id="994290795" Language="SFX">
+							<ShortName>flower_grow_3.wav</ShortName>
+							<Path>SFX\flower_grow_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1002633813" Name="Play_flower_platform_shrink" ObjectPath="\Events\Default Work Unit\Play_flower_platform_shrink" GUID="{DB43039D-3938-438A-BB1C-A2D73E00555C}" DurationType="OneShot" DurationMin="3.477333" DurationMax="3.5">
+					<IncludedMemoryFiles>
+						<File Id="757747" Language="SFX">
+							<ShortName>flower_shrink_3.wav</ShortName>
+							<Path>SFX\flower_shrink_3_10C4C929.wem</Path>
+						</File>
+						<File Id="66018449" Language="SFX">
+							<ShortName>flower_shrink_2.wav</ShortName>
+							<Path>SFX\flower_shrink_2_10C4C929.wem</Path>
+						</File>
+						<File Id="1018647662" Language="SFX">
+							<ShortName>flower_shrink_1.wav</ShortName>
+							<Path>SFX\flower_shrink_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3552089723" Name="Play_flying" ObjectPath="\Events\Default Work Unit\Play_flying" GUID="{B3F1F30D-7021-46E2-A19A-5E165BD2A16C}" DurationType="OneShot" DurationMin="1.293771" DurationMax="1.293771">
+					<IncludedMemoryFiles>
+						<File Id="767980904" Language="SFX">
+							<ShortName>wing_flaps_2.wav</ShortName>
+							<Path>SFX\wing_flaps_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3854155799" Name="Play_footsteps" ObjectPath="\Events\Default Work Unit\Play_footsteps" GUID="{BCF66B52-5FAD-4770-BBB1-2EE969C03758}" DurationType="OneShot" DurationMin="0.246688" DurationMax="0.940437">
 					<IncludedMemoryFiles>
 						<File Id="9095580" Language="SFX">
 							<ShortName>test_flowerstep_t3.wav</ShortName>
@@ -71,6 +127,10 @@
 							<ShortName>test_flowerstep_t2.wav</ShortName>
 							<Path>SFX\test_flowerstep_t2_10C4C929.wem</Path>
 						</File>
+						<File Id="92395805" Language="SFX">
+							<ShortName>grass_foot_t3.wav</ShortName>
+							<Path>SFX\grass_foot_t3_10C4C929.wem</Path>
+						</File>
 						<File Id="113843800" Language="SFX">
 							<ShortName>stone_foot_t4.wav</ShortName>
 							<Path>SFX\stone_foot_t4_10C4C929.wem</Path>
@@ -82,6 +142,10 @@
 						<File Id="130900004" Language="SFX">
 							<ShortName>test_flowerstep_s5.wav</ShortName>
 							<Path>SFX\test_flowerstep_s5_10C4C929.wem</Path>
+						</File>
+						<File Id="131682684" Language="SFX">
+							<ShortName>grass_foot_t4.wav</ShortName>
+							<Path>SFX\grass_foot_t4_10C4C929.wem</Path>
 						</File>
 						<File Id="141543729" Language="SFX">
 							<ShortName>stone_foot_t2.wav</ShortName>
@@ -99,9 +163,17 @@
 							<ShortName>stone_foot_s4.wav</ShortName>
 							<Path>SFX\stone_foot_s4_10C4C929.wem</Path>
 						</File>
+						<File Id="275187886" Language="SFX">
+							<ShortName>grass_foot_s1.wav</ShortName>
+							<Path>SFX\grass_foot_s1_10C4C929.wem</Path>
+						</File>
 						<File Id="286112895" Language="SFX">
 							<ShortName>wood_foot_t1.wav</ShortName>
 							<Path>SFX\wood_foot_t1_10C4C929.wem</Path>
+						</File>
+						<File Id="295252491" Language="SFX">
+							<ShortName>grass_foot_s4.wav</ShortName>
+							<Path>SFX\grass_foot_s4_10C4C929.wem</Path>
 						</File>
 						<File Id="307841909" Language="SFX">
 							<ShortName>mushroom_tiny_2.wav</ShortName>
@@ -123,9 +195,17 @@
 							<ShortName>test_flowerstep_t4.wav</ShortName>
 							<Path>SFX\test_flowerstep_t4_10C4C929.wem</Path>
 						</File>
+						<File Id="498937000" Language="SFX">
+							<ShortName>grass_foot_t1.wav</ShortName>
+							<Path>SFX\grass_foot_t1_10C4C929.wem</Path>
+						</File>
 						<File Id="516637231" Language="SFX">
 							<ShortName>test_flowerstep_s1.wav</ShortName>
 							<Path>SFX\test_flowerstep_s1_10C4C929.wem</Path>
+						</File>
+						<File Id="517560290" Language="SFX">
+							<ShortName>grass_foot_s3.wav</ShortName>
+							<Path>SFX\grass_foot_s3_10C4C929.wem</Path>
 						</File>
 						<File Id="647739830" Language="SFX">
 							<ShortName>stone_foot_t3.wav</ShortName>
@@ -134,6 +214,10 @@
 						<File Id="670261214" Language="SFX">
 							<ShortName>stone_foot_s3.wav</ShortName>
 							<Path>SFX\stone_foot_s3_10C4C929.wem</Path>
+						</File>
+						<File Id="747115677" Language="SFX">
+							<ShortName>grass_foot_s2.wav</ShortName>
+							<Path>SFX\grass_foot_s2_10C4C929.wem</Path>
 						</File>
 						<File Id="780672990" Language="SFX">
 							<ShortName>mushroom_skinny_3.wav</ShortName>
@@ -147,9 +231,21 @@
 							<ShortName>stone_foot_s1.wav</ShortName>
 							<Path>SFX\stone_foot_s1_10C4C929.wem</Path>
 						</File>
+						<File Id="815944383" Language="SFX">
+							<ShortName>grass_foot_s5.wav</ShortName>
+							<Path>SFX\grass_foot_s5_10C4C929.wem</Path>
+						</File>
 						<File Id="834046182" Language="SFX">
 							<ShortName>wood_foot_t4.wav</ShortName>
 							<Path>SFX\wood_foot_t4_10C4C929.wem</Path>
+						</File>
+						<File Id="835326900" Language="SFX">
+							<ShortName>grass_foot_t2.wav</ShortName>
+							<Path>SFX\grass_foot_t2_10C4C929.wem</Path>
+						</File>
+						<File Id="860303391" Language="SFX">
+							<ShortName>grass_foot_t5.wav</ShortName>
+							<Path>SFX\grass_foot_t5_10C4C929.wem</Path>
 						</File>
 						<File Id="879038051" Language="SFX">
 							<ShortName>test_flowerstep_t1.wav</ShortName>
@@ -254,7 +350,37 @@
 								<File Id="1062344466"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AEA0E3E5-DA18-414B-AE06-A629EC0D56AD}">
+							<Media>
+								<File Id="92395805"/>
+								<File Id="131682684"/>
+								<File Id="275187886"/>
+								<File Id="295252491"/>
+								<File Id="498937000"/>
+								<File Id="517560290"/>
+								<File Id="747115677"/>
+								<File Id="815944383"/>
+								<File Id="835326900"/>
+								<File Id="860303391"/>
+							</Media>
+						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="1575699743" Name="Play_interact_hover" ObjectPath="\Events\Default Work Unit\Play_interact_hover" GUID="{8DF7C81B-11E1-4B57-B3A4-65923E194131}" DurationType="OneShot" DurationMin="4." DurationMax="4.">
+					<IncludedMemoryFiles>
+						<File Id="161212549" Language="SFX">
+							<ShortName>interact_hover_1.wav</ShortName>
+							<Path>SFX\interact_hover_1_10C4C929.wem</Path>
+						</File>
+						<File Id="594112149" Language="SFX">
+							<ShortName>interact_hover_2.wav</ShortName>
+							<Path>SFX\interact_hover_2_10C4C929.wem</Path>
+						</File>
+						<File Id="857718114" Language="SFX">
+							<ShortName>interact_hover_3.wav</ShortName>
+							<Path>SFX\interact_hover_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2706477616" Name="Play_land_bounce" ObjectPath="\Events\Default Work Unit\Play_land_bounce" GUID="{5E44FED3-C634-40D8-880E-EA134921731D}" DurationType="OneShot" DurationMin="0." DurationMax="0.958333">
 					<IncludedMemoryFiles>
@@ -387,7 +513,46 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2154606991" Name="Play_magic_shoot" ObjectPath="\Events\Default Work Unit\Play_magic_shoot" GUID="{8C04AA8D-B906-44F8-8684-BD0C1A637557}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2154606991" Name="Play_magic_shoot" ObjectPath="\Events\Default Work Unit\Play_magic_shoot" GUID="{8C04AA8D-B906-44F8-8684-BD0C1A637557}" DurationType="OneShot" DurationMin="3." DurationMax="4.5">
+					<IncludedMemoryFiles>
+						<File Id="86327336" Language="SFX">
+							<ShortName>magic_shoot_2.wav</ShortName>
+							<Path>SFX\magic_shoot_2_10C4C929.wem</Path>
+						</File>
+						<File Id="518796768" Language="SFX">
+							<ShortName>magic_shoot_3.wav</ShortName>
+							<Path>SFX\magic_shoot_3_10C4C929.wem</Path>
+						</File>
+						<File Id="680057415" Language="SFX">
+							<ShortName>magic_shoot_1.wav</ShortName>
+							<Path>SFX\magic_shoot_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="211211304" Name="Play_moss_burn" ObjectPath="\Events\Default Work Unit\Play_moss_burn" GUID="{4A08579E-5816-4C85-A42A-600862C5B3AC}" MaxAttenuation="6000." DurationType="OneShot" DurationMin="11." DurationMax="11.">
+					<IncludedMemoryFiles>
+						<File Id="761861782" Language="SFX">
+							<ShortName>moss_burn.wav</ShortName>
+							<Path>SFX\moss_burn_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1531298894" Name="Play_mushroom_grow" ObjectPath="\Events\Default Work Unit\Play_mushroom_grow" GUID="{86967A76-2EBF-4BD7-8919-016E0E99D190}" DurationType="OneShot" DurationMin="2." DurationMax="2.">
+					<IncludedMemoryFiles>
+						<File Id="825867027" Language="SFX">
+							<ShortName>mushroom_grow.wav</ShortName>
+							<Path>SFX\mushroom_grow_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2298824608" Name="Play_mushroom_shrink" ObjectPath="\Events\Default Work Unit\Play_mushroom_shrink" GUID="{68648D9D-32F7-4B9C-B96E-0538E788248F}" DurationType="OneShot" DurationMin="2." DurationMax="2.">
+					<IncludedMemoryFiles>
+						<File Id="876644941" Language="SFX">
+							<ShortName>mushroom_shrink.wav</ShortName>
+							<Path>SFX\mushroom_shrink_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" GUID="{8841BE0E-D058-4436-BE04-9C5A0C8E0F88}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="36758138" Language="SFX">
@@ -522,6 +687,30 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="3964945276" Name="Play_shimmery_movement" ObjectPath="\Events\Default Work Unit\Play_shimmery_movement" GUID="{BD409C19-9194-40ED-96D6-205ED6128BAB}" DurationType="OneShot" DurationMin="2." DurationMax="2.">
+					<IncludedMemoryFiles>
+						<File Id="10540639" Language="SFX">
+							<ShortName>tiny_shimmery_2.wav</ShortName>
+							<Path>SFX\tiny_shimmery_2_10C4C929.wem</Path>
+						</File>
+						<File Id="268295636" Language="SFX">
+							<ShortName>tiny_shimmery_5.wav</ShortName>
+							<Path>SFX\tiny_shimmery_5_10C4C929.wem</Path>
+						</File>
+						<File Id="272626867" Language="SFX">
+							<ShortName>tiny_shimmery_1.wav</ShortName>
+							<Path>SFX\tiny_shimmery_1_10C4C929.wem</Path>
+						</File>
+						<File Id="368193432" Language="SFX">
+							<ShortName>tiny_shimmery_4.wav</ShortName>
+							<Path>SFX\tiny_shimmery_4_10C4C929.wem</Path>
+						</File>
+						<File Id="709068866" Language="SFX">
+							<ShortName>tiny_shimmery_3.wav</ShortName>
+							<Path>SFX\tiny_shimmery_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1311575309" Name="Play_stone_wall_impact" ObjectPath="\Events\Default Work Unit\Play_stone_wall_impact" GUID="{F6CC96AB-F363-4FD5-B2C7-1767BE1F42EC}" DurationType="OneShot" DurationMin="2.507688" DurationMax="2.635229">
 					<IncludedMemoryFiles>
 						<File Id="29453528" Language="SFX">
@@ -535,6 +724,22 @@
 						<File Id="682025321" Language="SFX">
 							<ShortName>new_stonewall_break_2.wav</ShortName>
 							<Path>SFX\new_stonewall_break_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1318653978" Name="Play_switch_activate" ObjectPath="\Events\Default Work Unit\Play_switch_activate" GUID="{C40399B8-DA0A-46FF-BE8C-D40E67D60345}" DurationType="OneShot" DurationMin="4." DurationMax="4.">
+					<IncludedMemoryFiles>
+						<File Id="165023550" Language="SFX">
+							<ShortName>switch_activate.wav</ShortName>
+							<Path>SFX\switch_activate_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1792375851" Name="Play_switch_deactivate" ObjectPath="\Events\Default Work Unit\Play_switch_deactivate" GUID="{1A296E51-EE24-424E-A1B5-DE6CD6E33DBC}" DurationType="OneShot" DurationMin="4.510667" DurationMax="4.510667">
+					<IncludedMemoryFiles>
+						<File Id="936662904" Language="SFX">
+							<ShortName>switch_deactivate.wav</ShortName>
+							<Path>SFX\switch_deactivate_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -554,9 +759,82 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1679516317" Name="Play_vines_break" ObjectPath="\Events\Default Work Unit\Play_vines_break" GUID="{89781431-C94C-42F4-9BB3-45AF96957D97}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="2888877088" Name="Play_web" ObjectPath="\Events\Default Work Unit\Play_web" GUID="{B2493A6C-AA4F-4A01-8940-25D49107F529}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="4172310830" Name="Play_webbing" ObjectPath="\Events\Default Work Unit\Play_webbing" GUID="{CD10D120-0AB8-4D30-9899-4E8684308E32}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1679516317" Name="Play_vines_break" ObjectPath="\Events\Default Work Unit\Play_vines_break" GUID="{89781431-C94C-42F4-9BB3-45AF96957D97}" DurationType="OneShot" DurationMin="2.983104" DurationMax="4.651771">
+					<IncludedMemoryFiles>
+						<File Id="50950470" Language="SFX">
+							<ShortName>vines_break_2.wav</ShortName>
+							<Path>SFX\vines_break_2_10C4C929.wem</Path>
+						</File>
+						<File Id="90735799" Language="SFX">
+							<ShortName>vines_break_3.wav</ShortName>
+							<Path>SFX\vines_break_3_10C4C929.wem</Path>
+						</File>
+						<File Id="416350205" Language="SFX">
+							<ShortName>vines_break_a.wav</ShortName>
+							<Path>SFX\vines_break_a_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="416673360" Name="Play_web_burn" ObjectPath="\Events\Default Work Unit\Play_web_burn" GUID="{05696FC1-8244-4E13-BCCF-C62DEB8A720B}" MaxAttenuation="5000." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="807060316" Language="SFX">
+							<ShortName>web_burn_loop.wav</ShortName>
+							<Path>SFX\web_burn_loop_EEF4497C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2704336968" Name="Play_web_shoot" ObjectPath="\Events\Default Work Unit\Play_web_shoot" GUID="{CD10D120-0AB8-4D30-9899-4E8684308E32}" DurationType="OneShot" DurationMin="0.543458" DurationMax="0.747667">
+					<IncludedMemoryFiles>
+						<File Id="41987040" Language="SFX">
+							<ShortName>web_shoot_3.wav</ShortName>
+							<Path>SFX\web_shoot_3_10C4C929.wem</Path>
+						</File>
+						<File Id="769235213" Language="SFX">
+							<ShortName>web_shoot_1.wav</ShortName>
+							<Path>SFX\web_shoot_1_10C4C929.wem</Path>
+						</File>
+						<File Id="1040412648" Language="SFX">
+							<ShortName>web_shoot_2.wav</ShortName>
+							<Path>SFX\web_shoot_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2228206939" Name="Play_web_sway" ObjectPath="\Events\Default Work Unit\Play_web_sway" GUID="{B2493A6C-AA4F-4A01-8940-25D49107F529}" DurationType="OneShot" DurationMin="1.667187" DurationMax="2.166354">
+					<IncludedMemoryFiles>
+						<File Id="231906951" Language="SFX">
+							<ShortName>web_sway_1.wav</ShortName>
+							<Path>SFX\web_sway_1_10C4C929.wem</Path>
+						</File>
+						<File Id="425142935" Language="SFX">
+							<ShortName>web_sway_3.wav</ShortName>
+							<Path>SFX\web_sway_3_10C4C929.wem</Path>
+						</File>
+						<File Id="477164178" Language="SFX">
+							<ShortName>web_sway_2.wav</ShortName>
+							<Path>SFX\web_sway_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4172310830" Name="Play_webbing" ObjectPath="\Events\Default Work Unit\Play_webbing" GUID="{8FFEFF20-C5E2-4750-AC33-D7E46BFDE1CB}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="406875199" Language="SFX">
+							<ShortName>webbing_1.wav</ShortName>
+							<Path>SFX\webbing_1_10C4C929.wem</Path>
+						</File>
+						<File Id="706298684" Language="SFX">
+							<ShortName>webbing_4.wav</ShortName>
+							<Path>SFX\webbing_4_10C4C929.wem</Path>
+						</File>
+						<File Id="734480679" Language="SFX">
+							<ShortName>webbing_2.wav</ShortName>
+							<Path>SFX\webbing_2_10C4C929.wem</Path>
+						</File>
+						<File Id="823926272" Language="SFX">
+							<ShortName>webbing_3.wav</ShortName>
+							<Path>SFX\webbing_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="1771175504" Name="rolling_speed" ObjectPath="\Game Parameters\Default Work Unit\rolling_speed" GUID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
