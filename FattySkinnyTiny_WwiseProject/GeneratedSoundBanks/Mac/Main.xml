@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="1331070571">
+		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="113748901">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -101,7 +101,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3552089723" Name="Play_flying" ObjectPath="\Events\Default Work Unit\Play_flying" GUID="{B3F1F30D-7021-46E2-A19A-5E165BD2A16C}" DurationType="OneShot" DurationMin="1.293771" DurationMax="1.293771">
+				<Event Id="3552089723" Name="Play_flying" ObjectPath="\Events\Default Work Unit\Play_flying" GUID="{B3F1F30D-7021-46E2-A19A-5E165BD2A16C}" DurationType="OneShot" DurationMin="1.275222" DurationMax="1.312589">
 					<IncludedMemoryFiles>
 						<File Id="767980904" Language="SFX">
 							<ShortName>wing_flaps_2.wav</ShortName>
@@ -382,7 +382,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2706477616" Name="Play_land_bounce" ObjectPath="\Events\Default Work Unit\Play_land_bounce" GUID="{5E44FED3-C634-40D8-880E-EA134921731D}" DurationType="OneShot" DurationMin="0." DurationMax="0.958333">
+				<Event Id="2706477616" Name="Play_land_bounce" ObjectPath="\Events\Default Work Unit\Play_land_bounce" GUID="{5E44FED3-C634-40D8-880E-EA134921731D}" DurationType="OneShot" DurationMin="0.174375" DurationMax="0.958333">
 					<IncludedMemoryFiles>
 						<File Id="9969033" Language="SFX">
 							<ShortName>flower_landing_f1.wav</ShortName>
@@ -396,6 +396,10 @@
 							<ShortName>mushroom_bounce_1.wav</ShortName>
 							<Path>SFX\mushroom_bounce_1_10C4C929.wem</Path>
 						</File>
+						<File Id="116585291" Language="SFX">
+							<ShortName>grass_land_3.wav</ShortName>
+							<Path>SFX\grass_land_3_10C4C929.wem</Path>
+						</File>
 						<File Id="179656664" Language="SFX">
 							<ShortName>stone_landing_1.wav</ShortName>
 							<Path>SFX\stone_landing_1_10C4C929.wem</Path>
@@ -407,6 +411,10 @@
 						<File Id="402964946" Language="SFX">
 							<ShortName>stone_landing_2.wav</ShortName>
 							<Path>SFX\stone_landing_2_10C4C929.wem</Path>
+						</File>
+						<File Id="413276276" Language="SFX">
+							<ShortName>grass_land_2.wav</ShortName>
+							<Path>SFX\grass_land_2_10C4C929.wem</Path>
 						</File>
 						<File Id="470238870" Language="SFX">
 							<ShortName>flower_landing_f2.wav</ShortName>
@@ -423,6 +431,10 @@
 						<File Id="787641064" Language="SFX">
 							<ShortName>flower_landing_f3.wav</ShortName>
 							<Path>SFX\flower_landing_f3_10C4C929.wem</Path>
+						</File>
+						<File Id="800742483" Language="SFX">
+							<ShortName>grass_land_1.wav</ShortName>
+							<Path>SFX\grass_land_1_10C4C929.wem</Path>
 						</File>
 						<File Id="963401520" Language="SFX">
 							<ShortName>wood_landing_1.wav</ShortName>
@@ -461,6 +473,13 @@
 								<File Id="9969033"/>
 								<File Id="470238870"/>
 								<File Id="787641064"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AEA0E3E5-DA18-414B-AE06-A629EC0D56AD}">
+							<Media>
+								<File Id="116585291"/>
+								<File Id="413276276"/>
+								<File Id="800742483"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -655,6 +674,14 @@
 				</Event>
 				<Event Id="1834004125" Name="Play_rolling" ObjectPath="\Events\Default Work Unit\Play_rolling" GUID="{82696220-DF16-4105-88B1-1054909BEC3F}" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="100503454" Language="SFX">
+							<ShortName>grass_roll_1.wav</ShortName>
+							<Path>SFX\grass_roll_1_10C4C929.wem</Path>
+						</File>
+						<File Id="111755283" Language="SFX">
+							<ShortName>grass_roll_4.wav</ShortName>
+							<Path>SFX\grass_roll_4_10C4C929.wem</Path>
+						</File>
 						<File Id="123569965" Language="SFX">
 							<ShortName>test_flowerstep_floop.wav</ShortName>
 							<Path>SFX\test_flowerstep_floop_10C4C929.wem</Path>
@@ -663,9 +690,17 @@
 							<ShortName>wood_foot_floop.wav</ShortName>
 							<Path>SFX\wood_foot_floop_10C4C929.wem</Path>
 						</File>
+						<File Id="330715417" Language="SFX">
+							<ShortName>grass_roll_3.wav</ShortName>
+							<Path>SFX\grass_roll_3_10C4C929.wem</Path>
+						</File>
 						<File Id="353193011" Language="SFX">
 							<ShortName>stone_foot_floop.wav</ShortName>
 							<Path>SFX\stone_foot_floop_10C4C929.wem</Path>
+						</File>
+						<File Id="923945319" Language="SFX">
+							<ShortName>grass_roll_2.wav</ShortName>
+							<Path>SFX\grass_roll_2_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<DefaultSwitchValue>{AEA0E3E5-DA18-414B-AE06-A629EC0D56AD}</DefaultSwitchValue>
@@ -683,6 +718,14 @@
 						<SwitchContainer SwitchValue="{B379C8DC-CA84-4349-83EB-4F5968AB4023}">
 							<Media>
 								<File Id="123569965"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AEA0E3E5-DA18-414B-AE06-A629EC0D56AD}">
+							<Media>
+								<File Id="100503454"/>
+								<File Id="111755283"/>
+								<File Id="330715417"/>
+								<File Id="923945319"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -775,11 +818,23 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="576992903" Name="Play_web_bounce" ObjectPath="\Events\Default Work Unit\Play_web_bounce" GUID="{4409CE79-B251-467B-8E56-88446AD16A67}" DurationType="OneShot" DurationMin="1.213917" DurationMax="1.532875">
+					<IncludedMemoryFiles>
+						<File Id="86207673" Language="SFX">
+							<ShortName>web_bounce_1.wav</ShortName>
+							<Path>SFX\web_bounce_1_10C4C929.wem</Path>
+						</File>
+						<File Id="107209002" Language="SFX">
+							<ShortName>web_bounce_delay.wav</ShortName>
+							<Path>SFX\web_bounce_delay_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="416673360" Name="Play_web_burn" ObjectPath="\Events\Default Work Unit\Play_web_burn" GUID="{05696FC1-8244-4E13-BCCF-C62DEB8A720B}" MaxAttenuation="5000." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="807060316" Language="SFX">
 							<ShortName>web_burn_loop.wav</ShortName>
-							<Path>SFX\web_burn_loop_B2A538C3.wem</Path>
+							<Path>SFX\web_burn_loop_EEF4497C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

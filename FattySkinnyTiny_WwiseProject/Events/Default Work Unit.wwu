@@ -311,6 +311,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_web_bounce" ID="{4409CE79-B251-467B-8E56-88446AD16A67}">
+					<ChildrenList>
+						<Action Name="" ID="{E9F946D2-CF09-4A06-8B5D-9A2AD9F3441D}" ShortID="411169303">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="web_bounce" ID="{77645435-DDD4-4A71-9E6C-8AA377A45C2A}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
