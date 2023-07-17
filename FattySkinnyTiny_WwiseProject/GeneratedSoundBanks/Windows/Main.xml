@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="113748901">
+		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="1709394635">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -32,6 +32,51 @@
 							<Path>SFX\ambience_pt2_b_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3784018649" Name="Play_bonks" ObjectPath="\Events\Default Work Unit\Play_bonks" GUID="{932530A0-0B8A-421B-BCCB-A5918C423446}" DurationType="OneShot" DurationMin="0.094495" DurationMax="0.304643">
+					<IncludedMemoryFiles>
+						<File Id="30920804" Language="SFX">
+							<ShortName>wood_bonk_3.wav</ShortName>
+							<Path>SFX\wood_bonk_3_10C4C929.wem</Path>
+						</File>
+						<File Id="158550986" Language="SFX">
+							<ShortName>stone_bonk_2.wav</ShortName>
+							<Path>SFX\stone_bonk_2_10C4C929.wem</Path>
+						</File>
+						<File Id="374929341" Language="SFX">
+							<ShortName>stone_bonk_1.wav</ShortName>
+							<Path>SFX\stone_bonk_1_10C4C929.wem</Path>
+						</File>
+						<File Id="495575702" Language="SFX">
+							<ShortName>wood_bonk_1.wav</ShortName>
+							<Path>SFX\wood_bonk_1_10C4C929.wem</Path>
+						</File>
+						<File Id="532024584" Language="SFX">
+							<ShortName>wood_bonk_2.wav</ShortName>
+							<Path>SFX\wood_bonk_2_10C4C929.wem</Path>
+						</File>
+						<File Id="1050400718" Language="SFX">
+							<ShortName>stone_bonk_3.wav</ShortName>
+							<Path>SFX\stone_bonk_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{6F80DE84-DDC4-4CD5-BE95-4125503E2252}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{F7C5A267-955F-4EC2-BD71-207AE7802797}">
+							<Media>
+								<File Id="158550986"/>
+								<File Id="374929341"/>
+								<File Id="1050400718"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{6F80DE84-DDC4-4CD5-BE95-4125503E2252}">
+							<Media>
+								<File Id="30920804"/>
+								<File Id="495575702"/>
+								<File Id="532024584"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="1133619286" Name="Play_fireleaves_burn" ObjectPath="\Events\Default Work Unit\Play_fireleaves_burn" GUID="{251214DA-214C-45E5-AFF9-9FEED73AC53C}" MaxAttenuation="7000." DurationType="OneShot" DurationMin="45.002865" DurationMax="45.005405">
 					<IncludedMemoryFiles>
