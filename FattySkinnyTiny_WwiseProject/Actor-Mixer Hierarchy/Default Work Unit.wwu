@@ -963,6 +963,27 @@
 									<ObjectLists/>
 								</RandomSequenceContainer>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="on_ground" ID="{82CA38BF-4A03-4E47-9A8A-6AEFA3171A5B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="ground" ID="{6D201CAA-2B31-4A92-B9A5-D79FF3F64EBC}"/>
+										<CustomState Name="" ID="{8191BC0C-DD39-44F9-B3A8-D0BE794CE4B6}" ShortID="963954406"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="air" ID="{06EA6456-ED72-4ACB-B4C5-92856287F017}"/>
+										<CustomState Name="" ID="{058307F9-EDE8-4168-8E90-9BD4D1B574C5}" ShortID="1016668826">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists/>
 							<GroupingInfo>
 								<GroupingBehaviorList>

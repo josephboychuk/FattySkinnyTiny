@@ -18,6 +18,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2154606991	Play_magic_shoot			\Default Work Unit\Play_magic_shoot	
 	2228206939	Play_web_sway			\Default Work Unit\Play_web_sway	
 	2298824608	Play_mushroom_shrink			\Default Work Unit\Play_mushroom_shrink	
+	2567045767	Stop_rolling			\Default Work Unit\Stop_rolling	
 	2704336968	Play_web_shoot			\Default Work Unit\Play_web_shoot	
 	2706477616	Play_land_bounce			\Default Work Unit\Play_land_bounce	
 	2932040671	Play_Music			\Default Work Unit\Play_Music	
@@ -42,6 +43,7 @@ Switch	ID	Name	Switch Group			Notes
 
 State Group	ID	Name			Wwise Object Path	Notes
 	436743010	Character			\Default Work Unit\Character	
+	543519824	on_ground			\Default Work Unit\on_ground	
 	4100859180	brightness			\Default Work Unit\brightness	
 
 State	ID	Name	State Group			Notes
@@ -49,6 +51,9 @@ State	ID	Name	State Group			Notes
 	2402792465	Skinny	Character			
 	2671143723	Tiny	Character			
 	2674154903	Fatty	Character			
+	748895195	None	on_ground			
+	1050421051	air	on_ground			
+	2528658256	ground	on_ground			
 	748895195	None	brightness			
 	1925914845	dark	brightness			
 	1935470627	light	brightness			
@@ -100,6 +105,7 @@ Custom State	ID	Name	State Group	Owner		Notes
 	939943030	Tiny	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\wood\wood_skinny		
 	981830802	Tiny	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\grass\grass_skinny		
 	1012820795	Fatty	Character	\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\mushroom\mushroom_tiny		
+	1016668826	air	on_ground	\Actor-Mixer Hierarchy\Default Work Unit\Fatty\rolling		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1771175504	rolling_speed			\Default Work Unit\rolling_speed	

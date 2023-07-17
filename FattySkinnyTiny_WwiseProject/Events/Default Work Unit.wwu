@@ -333,6 +333,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_rolling" ID="{838FB20D-CDB8-4DE1-994B-1C46D9AF21EB}">
+					<ChildrenList>
+						<Action Name="" ID="{A55D7D85-709F-48B8-A03D-EA474E4CC2E4}" ShortID="30880443">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="rolling" ID="{F809D240-3996-4AEF-8DE7-8EA285BBD62E}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

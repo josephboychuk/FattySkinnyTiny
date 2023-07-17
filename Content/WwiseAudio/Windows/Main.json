@@ -16,7 +16,7 @@
     "Id": "3161908922",
     "GUID": "{ECA3E31C-442D-42A7-8CFB-EE71058648FD}",
     "Language": "SFX",
-    "Hash": "113748901",
+    "Hash": "2548757225",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -51,6 +51,84 @@
         "Language": "SFX",
         "ShortName": "ambience_pt2_b.wav",
         "Path": "SFX\\ambience_pt2_b_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3784018649",
+      "Name": "Play_bonks",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_bonks",
+      "GUID": "{932530A0-0B8A-421B-BCCB-A5918C423446}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.094495",
+      "DurationMax": "0.304643",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "30920804",
+        "Language": "SFX",
+        "ShortName": "wood_bonk_3.wav",
+        "Path": "SFX\\wood_bonk_3_10C4C929.wem"
+       },
+       {
+        "Id": "158550986",
+        "Language": "SFX",
+        "ShortName": "stone_bonk_2.wav",
+        "Path": "SFX\\stone_bonk_2_10C4C929.wem"
+       },
+       {
+        "Id": "374929341",
+        "Language": "SFX",
+        "ShortName": "stone_bonk_1.wav",
+        "Path": "SFX\\stone_bonk_1_10C4C929.wem"
+       },
+       {
+        "Id": "495575702",
+        "Language": "SFX",
+        "ShortName": "wood_bonk_1.wav",
+        "Path": "SFX\\wood_bonk_1_10C4C929.wem"
+       },
+       {
+        "Id": "532024584",
+        "Language": "SFX",
+        "ShortName": "wood_bonk_2.wav",
+        "Path": "SFX\\wood_bonk_2_10C4C929.wem"
+       },
+       {
+        "Id": "1050400718",
+        "Language": "SFX",
+        "ShortName": "stone_bonk_3.wav",
+        "Path": "SFX\\stone_bonk_3_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{6F80DE84-DDC4-4CD5-BE95-4125503E2252}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{F7C5A267-955F-4EC2-BD71-207AE7802797}",
+        "Media": [
+         {
+          "Id": "158550986"
+         },
+         {
+          "Id": "374929341"
+         },
+         {
+          "Id": "1050400718"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{6F80DE84-DDC4-4CD5-BE95-4125503E2252}",
+        "Media": [
+         {
+          "Id": "30920804"
+         },
+         {
+          "Id": "495575702"
+         },
+         {
+          "Id": "532024584"
+         }
+        ]
        }
       ]
      },
@@ -1557,6 +1635,16 @@
         "Path": "SFX\\webbing_3_10C4C929.wem"
        }
       ]
+     },
+     {
+      "Id": "2567045767",
+      "Name": "Stop_rolling",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_rolling",
+      "GUID": "{838FB20D-CDB8-4DE1-994B-1C46D9AF21EB}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
      }
     ],
     "GameParameters": [
