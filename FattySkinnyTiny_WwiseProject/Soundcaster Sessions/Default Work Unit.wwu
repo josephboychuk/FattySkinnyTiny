@@ -102,7 +102,7 @@
 						<CurrentStateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Grass" ID="{AEA0E3E5-DA18-414B-AE06-A629EC0D56AD}"/>
+						<CurrentSwitchRef Name="Flower" ID="{B379C8DC-CA84-4349-83EB-4F5968AB4023}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="skinny" ID="{03B4B638-6B80-4B9E-B439-A0573EF1F531}">
