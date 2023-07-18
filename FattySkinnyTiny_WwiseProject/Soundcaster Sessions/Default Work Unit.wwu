@@ -52,7 +52,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="rolling_speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
+							<GameParameterRef Name="speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
 							<Value>3.78324361231972E-312</Value>
 						</RTPCValue>
 					</RTPCValueList>
@@ -97,7 +97,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="rolling_speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
+							<GameParameterRef Name="speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
 							<Value>1200</Value>
 						</RTPCValue>
 					</RTPCValueList>
@@ -139,7 +139,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="rolling_speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
+							<GameParameterRef Name="speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
 							<Value>50</Value>
 						</RTPCValue>
 					</RTPCValueList>
@@ -196,7 +196,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="rolling_speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
+							<GameParameterRef Name="speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
 							<Value>50</Value>
 						</RTPCValue>
 					</RTPCValueList>
@@ -273,7 +273,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="rolling_speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
+							<GameParameterRef Name="speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
 							<Value>1200</Value>
 						</RTPCValue>
 					</RTPCValueList>

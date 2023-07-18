@@ -8,6 +8,7 @@ State	ID	Name	State Group			Notes
 	2402792465	Skinny	Character			
 	2671143723	Tiny	Character			
 	2674154903	Fatty	Character			
+	748895195	None	on_ground			
 	1050421051	air	on_ground			
 	2528658256	ground	on_ground			
 	748895195	None	brightness			

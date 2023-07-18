@@ -34,6 +34,7 @@
 						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.2"/>
 					</PropertyList>
 					<ChildrenList>
+						<State Name="None" ID="{E77FC312-AFF6-48B8-B77D-7987B67CB897}"/>
 						<State Name="ground" ID="{6D201CAA-2B31-4A92-B9A5-D79FF3F64EBC}"/>
 						<State Name="air" ID="{06EA6456-ED72-4ACB-B4C5-92856287F017}"/>
 					</ChildrenList>
