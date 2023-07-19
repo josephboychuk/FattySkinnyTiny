@@ -1,5 +1,6 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	436743010	Character			\Default Work Unit\Character	
+	543519824	on_ground			\Default Work Unit\on_ground	
 	4100859180	brightness			\Default Work Unit\brightness	
 
 State	ID	Name	State Group			Notes
@@ -7,6 +8,8 @@ State	ID	Name	State Group			Notes
 	2402792465	Skinny	Character			
 	2671143723	Tiny	Character			
 	2674154903	Fatty	Character			
+	1050421051	air	on_ground			
+	2528658256	ground	on_ground			
 	748895195	None	brightness			
 	1925914845	dark	brightness			
 	1935470627	light	brightness			

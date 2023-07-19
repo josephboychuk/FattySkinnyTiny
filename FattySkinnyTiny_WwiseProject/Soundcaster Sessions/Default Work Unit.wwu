@@ -50,13 +50,18 @@
 							<Position X="3" Y="2"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="rolling_speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
+							<Value>3.78324361231972E-312</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="light" ID="{0444F154-1F0B-4F1B-88EB-B88A8F150FA8}"/>
 						<CurrentStateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Wood" ID="{6F80DE84-DDC4-4CD5-BE95-4125503E2252}"/>
+						<CurrentSwitchRef Name="Flower" ID="{B379C8DC-CA84-4349-83EB-4F5968AB4023}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="fatty" ID="{C9B044FC-EEE6-4145-B851-D5F09F47D01F}">
@@ -70,6 +75,10 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_bonks" ID="{932530A0-0B8A-421B-BCCB-A5918C423446}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Music" ID="{8841BE0E-D058-4436-BE04-9C5A0C8E0F88}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -81,11 +90,21 @@
 							<ObjectRef Name="Play_stone_wall_impact" ID="{F6CC96AB-F363-4FD5-B2C7-1767BE1F42EC}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
 							<Position X="2" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_web_bounce" ID="{4409CE79-B251-467B-8E56-88446AD16A67}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="2" Y="1"/>
+						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="rolling_speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
+							<Value>1200</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="light" ID="{0444F154-1F0B-4F1B-88EB-B88A8F150FA8}"/>
 						<CurrentStateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+						<CurrentStateRef Name="air" ID="{06EA6456-ED72-4ACB-B4C5-92856287F017}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Flower" ID="{B379C8DC-CA84-4349-83EB-4F5968AB4023}"/>
@@ -98,7 +117,7 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_footsteps" ID="{BCF66B52-5FAD-4770-BBB1-2EE969C03758}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<ObjectRef Name="Play_web_shoot" ID="{CD10D120-0AB8-4D30-9899-4E8684308E32}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
@@ -106,15 +125,24 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_web" ID="{B2493A6C-AA4F-4A01-8940-25D49107F529}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<ObjectRef Name="Play_web_sway" ID="{B2493A6C-AA4F-4A01-8940-25D49107F529}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_webbing" ID="{CD10D120-0AB8-4D30-9899-4E8684308E32}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<ObjectRef Name="Play_footsteps" ID="{BCF66B52-5FAD-4770-BBB1-2EE969C03758}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
 							<Position X="2" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_webbing" ID="{8FFEFF20-C5E2-4750-AC33-D7E46BFDE1CB}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="2" Y="1"/>
+						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="rolling_speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="light" ID="{0444F154-1F0B-4F1B-88EB-B88A8F150FA8}"/>
 						<CurrentStateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
@@ -134,6 +162,14 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_magic_shoot" ID="{8C04AA8D-B906-44F8-8684-BD0C1A637557}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_fireleaves_burn" ID="{251214DA-214C-45E5-AFF9-9FEED73AC53C}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Music" ID="{8841BE0E-D058-4436-BE04-9C5A0C8E0F88}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -142,31 +178,111 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_magic_shoot" ID="{8C04AA8D-B906-44F8-8684-BD0C1A637557}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<ObjectRef Name="Play_vines_break" ID="{89781431-C94C-42F4-9BB3-45AF96957D97}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_web_burn" ID="{05696FC1-8244-4E13-BCCF-C62DEB8A720B}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_shimmery_movement" ID="{BD409C19-9194-40ED-96D6-205ED6128BAB}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_vines_break" ID="{89781431-C94C-42F4-9BB3-45AF96957D97}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
-							<Position X="3" Y="1"/>
+							<ObjectRef Name="Play_log_fall" ID="{BF263C14-44FA-401D-86F4-A686522380E9}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="2" Y="2"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="rolling_speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="light" ID="{0444F154-1F0B-4F1B-88EB-B88A8F150FA8}"/>
 						<CurrentStateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Mushroom" ID="{0893B94B-067A-4898-929F-32FEEA912F52}"/>
+						<CurrentSwitchRef Name="Grass" ID="{AEA0E3E5-DA18-414B-AE06-A629EC0D56AD}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="objects" ID="{D0D7194A-385B-4EFD-8629-1C005B516CD4}">
-					<RTPCValueList ShowAll="true"/>
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_ambience" ID="{9EAE0423-FC96-438A-9004-13020A51A48B}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_switch_activate" ID="{C40399B8-DA0A-46FF-BE8C-D40E67D60345}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_switch_deactivate" ID="{1A296E51-EE24-424E-A1B5-DE6CD6E33DBC}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_fireleaves_drop" ID="{FE0D6A0A-371B-41AE-B76E-F4B553D89012}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Music" ID="{8841BE0E-D058-4436-BE04-9C5A0C8E0F88}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_light_switch_open" ID="{79D51D09-5B20-4786-A116-104104DDB7EE}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_light_switch_close" ID="{1350C5DF-26DC-4D93-AFC9-932F8ACED286}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_fireleaves_burn" ID="{251214DA-214C-45E5-AFF9-9FEED73AC53C}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_interact_hover" ID="{8DF7C81B-11E1-4B57-B3A4-65923E194131}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_flower_platform_grow" ID="{FD2ECB3E-954F-4FF5-B5C1-2956D28ACB41}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_flower_platform_shrink" ID="{DB43039D-3938-438A-BB1C-A2D73E00555C}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_web_burn" ID="{05696FC1-8244-4E13-BCCF-C62DEB8A720B}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_mushroom_shrink" ID="{68648D9D-32F7-4B9C-B96E-0538E788248F}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_mushroom_grow" ID="{86967A76-2EBF-4BD7-8919-016E0E99D190}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_moss_burn" ID="{4A08579E-5816-4C85-A42A-600862C5B3AC}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="rolling_speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
+							<Value>1200</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="light" ID="{0444F154-1F0B-4F1B-88EB-B88A8F150FA8}"/>
-						<CurrentStateRef Name="Fatty" ID="{957187A0-C962-4CCA-94F1-EF1C9ED49D78}"/>
+						<CurrentStateRef Name="dark" ID="{C0EC49DD-426A-4208-8883-8586F4E62CB6}"/>
+						<CurrentStateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Stone" ID="{F7C5A267-955F-4EC2-BD71-207AE7802797}"/>
+						<CurrentSwitchRef Name="Flower" ID="{B379C8DC-CA84-4349-83EB-4F5968AB4023}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

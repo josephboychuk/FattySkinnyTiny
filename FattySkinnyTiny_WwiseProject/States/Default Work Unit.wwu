@@ -29,6 +29,15 @@
 						</Transition>
 					</TransitionList>
 				</StateGroup>
+				<StateGroup Name="on_ground" ID="{82CA38BF-4A03-4E47-9A8A-6AEFA3171A5B}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="ground" ID="{6D201CAA-2B31-4A92-B9A5-D79FF3F64EBC}"/>
+						<State Name="air" ID="{06EA6456-ED72-4ACB-B4C5-92856287F017}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
