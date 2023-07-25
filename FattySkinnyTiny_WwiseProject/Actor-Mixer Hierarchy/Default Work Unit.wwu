@@ -1078,6 +1078,34 @@
 						</SwitchContainer>
 						<SwitchContainer Name="landing_bouncing" ID="{D5CFE986-6578-412A-AA50-6750FFEA1B79}" ShortID="300722743">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{27B8D170-45C1-4F6E-87CF-4AC00DBE9E0F}" ShortID="772144434">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}" WorkUnitID="{D9D963F9-3537-4DCE-BCC5-71AC5D092E09}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6B4682FF-0F03-4C4E-98F1-98D768A582BF}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>9</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1200</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<RTPCList>
 										<RTPC Name="" ID="{2CED8E6A-4E85-406B-A289-747CC3B7CD73}" ShortID="154524514">
@@ -1213,6 +1241,13 @@
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="wood" ID="{8316D6FB-5032-4869-B8BD-E6883276094D}" ShortID="698892440">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>14</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
