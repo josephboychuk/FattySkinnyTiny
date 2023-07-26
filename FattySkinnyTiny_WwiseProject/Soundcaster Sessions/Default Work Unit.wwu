@@ -52,7 +52,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="rolling_speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
+							<GameParameterRef Name="speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
 							<Value>3.78324361231972E-312</Value>
 						</RTPCValue>
 					</RTPCValueList>
@@ -97,7 +97,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="rolling_speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
+							<GameParameterRef Name="speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
 							<Value>1200</Value>
 						</RTPCValue>
 					</RTPCValueList>
@@ -107,7 +107,7 @@
 						<CurrentStateRef Name="air" ID="{06EA6456-ED72-4ACB-B4C5-92856287F017}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Flower" ID="{B379C8DC-CA84-4349-83EB-4F5968AB4023}"/>
+						<CurrentSwitchRef Name="Wood" ID="{6F80DE84-DDC4-4CD5-BE95-4125503E2252}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="skinny" ID="{03B4B638-6B80-4B9E-B439-A0573EF1F531}">
@@ -139,7 +139,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="rolling_speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
+							<GameParameterRef Name="speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
 							<Value>50</Value>
 						</RTPCValue>
 					</RTPCValueList>
@@ -196,7 +196,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="rolling_speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
+							<GameParameterRef Name="speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
 							<Value>50</Value>
 						</RTPCValue>
 					</RTPCValueList>
@@ -273,7 +273,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="rolling_speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
+							<GameParameterRef Name="speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
 							<Value>1200</Value>
 						</RTPCValue>
 					</RTPCValueList>
