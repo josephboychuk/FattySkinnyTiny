@@ -593,6 +593,9 @@
 							<PropertyList>
 								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{4A74B48A-EF0B-49F3-9DAD-4B6768920E9A}" ShortID="243368276">
 											<ReferenceList>
@@ -4457,7 +4460,7 @@
 											<Custom>
 												<Attenuation Name="Attenuation (Custom)" ID="{46AA9BE1-A490-4E25-9C69-13015F01D515}" ShortID="826562490">
 													<PropertyList>
-														<Property Name="RadiusMax" Type="Real64" Value="3000"/>
+														<Property Name="RadiusMax" Type="Real64" Value="4000"/>
 													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
@@ -4474,7 +4477,7 @@
 																			<SegmentShape>Exp2</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>3000</XPos>
+																			<XPos>4000</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -4504,7 +4507,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>3000</XPos>
+																			<XPos>4000</XPos>
 																			<YPos>49</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -5295,7 +5298,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -5535,6 +5538,28 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="web_burning" ID="{85371092-1B9F-46CF-9166-31306BCB9416}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="burning" ID="{74AC5340-AF61-42FB-8EBB-B7AB71ADAD19}"/>
+										<CustomState Name="" ID="{68F8A2F4-4EBB-44C5-898E-CBA9571FB9B6}" ShortID="750353104"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="not_burning" ID="{1440BCF6-0ACD-43FE-8B63-0D39B5F8B41A}"/>
+										<CustomState Name="" ID="{E3AB2E40-5A33-434A-B8D9-440C26960657}" ShortID="998061593">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16" Value="76"/>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="web_burn_loop" ID="{73F34ECC-7B0E-4F5E-BADF-10D39F0D422D}" Platform="Linked"/>

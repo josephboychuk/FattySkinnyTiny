@@ -347,15 +347,15 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_moss_burn" ID="{93A0BB01-2857-47C7-9F9C-106B733B4C50}">
+				<Event Name="Stop_web_burn" ID="{8F589AC8-1E19-47F5-81FE-C0202BA678EC}">
 					<ChildrenList>
-						<Action Name="" ID="{3B1623E4-6A6E-464F-B821-00CF8DFED3FC}" ShortID="989887393">
+						<Action Name="" ID="{3C79D7AF-DEDD-4F95-8235-5F14771C3712}" ShortID="927550553">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="moss_burn" ID="{B6D2D2ED-A048-436E-AF52-81D15819473D}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+									<ObjectRef Name="web_burn_loop" ID="{95FDEE97-9F94-4CDB-8DAB-93E5182CD73B}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
