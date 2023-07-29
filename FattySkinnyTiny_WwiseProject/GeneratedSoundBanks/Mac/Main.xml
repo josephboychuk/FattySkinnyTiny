@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="2597714847">
+		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="1558122317">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -601,6 +601,26 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1753170089" Name="Play_moss_slip" ObjectPath="\Events\Default Work Unit\Play_moss_slip" GUID="{97062605-D9DF-4247-8D20-5CF5D649ED9C}" DurationType="OneShot" DurationMin="1.500958" DurationMax="1.500958">
+					<IncludedMemoryFiles>
+						<File Id="43047524" Language="SFX">
+							<ShortName>moss_slip_2.wav</ShortName>
+							<Path>SFX\moss_slip_2_10C4C929.wem</Path>
+						</File>
+						<File Id="481757369" Language="SFX">
+							<ShortName>moss_slip_3.wav</ShortName>
+							<Path>SFX\moss_slip_3_10C4C929.wem</Path>
+						</File>
+						<File Id="578775763" Language="SFX">
+							<ShortName>moss_slip_a.wav</ShortName>
+							<Path>SFX\moss_slip_a_10C4C929.wem</Path>
+						</File>
+						<File Id="1013965838" Language="SFX">
+							<ShortName>moss_slip_1.wav</ShortName>
+							<Path>SFX\moss_slip_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1531298894" Name="Play_mushroom_grow" ObjectPath="\Events\Default Work Unit\Play_mushroom_grow" GUID="{86967A76-2EBF-4BD7-8919-016E0E99D190}" DurationType="OneShot" DurationMin="2." DurationMax="2.">
 					<IncludedMemoryFiles>
 						<File Id="825867027" Language="SFX">
@@ -936,7 +956,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2567045767" Name="Stop_rolling" ObjectPath="\Events\Default Work Unit\Stop_rolling" GUID="{838FB20D-CDB8-4DE1-994B-1C46D9AF21EB}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="3772962382" Name="Stop_web_burn" ObjectPath="\Events\Default Work Unit\Stop_web_burn" GUID="{8F589AC8-1E19-47F5-81FE-C0202BA678EC}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3770180988" Name="Stop_webbing" ObjectPath="\Events\Default Work Unit\Stop_webbing" GUID="{43B9FE81-7C91-469C-9230-0A90D75640AA}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="640949982" Name="speed" ObjectPath="\Game Parameters\Default Work Unit\speed" GUID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>

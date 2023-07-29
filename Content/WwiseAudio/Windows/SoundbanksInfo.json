@@ -28,7 +28,7 @@
     "Id": "3161908922",
     "GUID": "{ECA3E31C-442D-42A7-8CFB-EE71058648FD}",
     "Language": "SFX",
-    "Hash": "2597714847",
+    "Hash": "1558122317",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -1075,6 +1075,41 @@
       ]
      },
      {
+      "Id": "1753170089",
+      "Name": "Play_moss_slip",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_moss_slip",
+      "GUID": "{97062605-D9DF-4247-8D20-5CF5D649ED9C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.500958",
+      "DurationMax": "1.500958",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "43047524",
+        "Language": "SFX",
+        "ShortName": "moss_slip_2.wav",
+        "Path": "SFX\\moss_slip_2_10C4C929.wem"
+       },
+       {
+        "Id": "481757369",
+        "Language": "SFX",
+        "ShortName": "moss_slip_3.wav",
+        "Path": "SFX\\moss_slip_3_10C4C929.wem"
+       },
+       {
+        "Id": "578775763",
+        "Language": "SFX",
+        "ShortName": "moss_slip_a.wav",
+        "Path": "SFX\\moss_slip_a_10C4C929.wem"
+       },
+       {
+        "Id": "1013965838",
+        "Language": "SFX",
+        "ShortName": "moss_slip_1.wav",
+        "Path": "SFX\\moss_slip_1_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "1531298894",
       "Name": "Play_mushroom_grow",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_mushroom_grow",
@@ -1659,10 +1694,10 @@
       "DurationMax": "0."
      },
      {
-      "Id": "3772962382",
-      "Name": "Stop_web_burn",
-      "ObjectPath": "\\Events\\Default Work Unit\\Stop_web_burn",
-      "GUID": "{8F589AC8-1E19-47F5-81FE-C0202BA678EC}",
+      "Id": "3770180988",
+      "Name": "Stop_webbing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_webbing",
+      "GUID": "{43B9FE81-7C91-469C-9230-0A90D75640AA}",
       "MaxAttenuation": "0.",
       "DurationType": "OneShot",
       "DurationMin": "0.",
