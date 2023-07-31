@@ -39,6 +39,21 @@
 						<State Name="air" ID="{06EA6456-ED72-4ACB-B4C5-92856287F017}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="web_burning" ID="{85371092-1B9F-46CF-9166-31306BCB9416}">
+					<ChildrenList>
+						<State Name="None" ID="{9E897DAA-1103-4D88-B553-BB12BDF0772F}"/>
+						<State Name="burning" ID="{74AC5340-AF61-42FB-8EBB-B7AB71ADAD19}"/>
+						<State Name="not_burning" ID="{1440BCF6-0ACD-43FE-8B63-0D39B5F8B41A}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="burning" ID="{74AC5340-AF61-42FB-8EBB-B7AB71ADAD19}"/>
+							<EndState Name="not_burning" ID="{1440BCF6-0ACD-43FE-8B63-0D39B5F8B41A}"/>
+							<Time>0.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

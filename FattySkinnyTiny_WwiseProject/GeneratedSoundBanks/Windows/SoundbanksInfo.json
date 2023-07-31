@@ -19,7 +19,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "1089034679",
+    "Hash": "2725229165",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk"
@@ -28,7 +28,7 @@
     "Id": "3161908922",
     "GUID": "{ECA3E31C-442D-42A7-8CFB-EE71058648FD}",
     "Language": "SFX",
-    "Hash": "3715985784",
+    "Hash": "3434160536",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -149,7 +149,7 @@
       "Name": "Play_fireleaves_burn",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_fireleaves_burn",
       "GUID": "{251214DA-214C-45E5-AFF9-9FEED73AC53C}",
-      "MaxAttenuation": "7000.",
+      "MaxAttenuation": "4000.",
       "DurationType": "OneShot",
       "DurationMin": "45.002865",
       "DurationMax": "45.005405",
@@ -1075,6 +1075,41 @@
       ]
      },
      {
+      "Id": "1753170089",
+      "Name": "Play_moss_slip",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_moss_slip",
+      "GUID": "{97062605-D9DF-4247-8D20-5CF5D649ED9C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.500958",
+      "DurationMax": "1.500958",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "43047524",
+        "Language": "SFX",
+        "ShortName": "moss_slip_2.wav",
+        "Path": "SFX\\moss_slip_2_10C4C929.wem"
+       },
+       {
+        "Id": "481757369",
+        "Language": "SFX",
+        "ShortName": "moss_slip_3.wav",
+        "Path": "SFX\\moss_slip_3_10C4C929.wem"
+       },
+       {
+        "Id": "578775763",
+        "Language": "SFX",
+        "ShortName": "moss_slip_a.wav",
+        "Path": "SFX\\moss_slip_a_10C4C929.wem"
+       },
+       {
+        "Id": "1013965838",
+        "Language": "SFX",
+        "ShortName": "moss_slip_1.wav",
+        "Path": "SFX\\moss_slip_1_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "1531298894",
       "Name": "Play_mushroom_grow",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_mushroom_grow",
@@ -1653,6 +1688,16 @@
       "Name": "Stop_rolling",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_rolling",
       "GUID": "{838FB20D-CDB8-4DE1-994B-1C46D9AF21EB}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "3770180988",
+      "Name": "Stop_webbing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_webbing",
+      "GUID": "{43B9FE81-7C91-469C-9230-0A90D75640AA}",
       "MaxAttenuation": "0.",
       "DurationType": "OneShot",
       "DurationMin": "0.",

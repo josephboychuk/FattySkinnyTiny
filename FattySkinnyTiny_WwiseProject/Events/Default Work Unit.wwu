@@ -347,6 +347,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_moss_slip" ID="{97062605-D9DF-4247-8D20-5CF5D649ED9C}">
+					<ChildrenList>
+						<Action Name="" ID="{2FC8670C-52D0-44E0-94A2-1523A2FC838F}" ShortID="1022433502">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="moss_slip" ID="{23A8944E-52C1-4568-B37A-C735A19884FE}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_webbing" ID="{43B9FE81-7C91-469C-9230-0A90D75640AA}">
+					<ChildrenList>
+						<Action Name="" ID="{96F782BA-E094-4FD8-B6B0-362910976D96}" ShortID="909681264">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="webbing" ID="{636D1500-C647-4133-A656-3DE92AB3330B}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

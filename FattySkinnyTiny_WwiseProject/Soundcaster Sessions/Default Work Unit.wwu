@@ -274,11 +274,12 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
-							<Value>1200</Value>
+							<Value>1114.91875923191</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="dark" ID="{C0EC49DD-426A-4208-8883-8586F4E62CB6}"/>
+						<CurrentStateRef Name="burning" ID="{74AC5340-AF61-42FB-8EBB-B7AB71ADAD19}"/>
 						<CurrentStateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">

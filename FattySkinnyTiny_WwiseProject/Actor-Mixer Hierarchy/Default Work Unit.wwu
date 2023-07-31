@@ -593,6 +593,9 @@
 							<PropertyList>
 								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{4A74B48A-EF0B-49F3-9DAD-4B6768920E9A}" ShortID="243368276">
 											<ReferenceList>
@@ -2105,6 +2108,38 @@
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{3CBA8143-B0DF-4786-9AB3-74243A3626BD}" ShortID="53191536">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}" WorkUnitID="{D9D963F9-3537-4DCE-BCC5-71AC5D092E09}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{4063A7DE-F544-4FA2-9773-D0B7EBD27631}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>1200</XPos>
+														<YPos>2.56335</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2116,6 +2151,21 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="w1" ID="{1D3B05B5-B393-458F-A15B-54517B28368F}" ShortID="284824308">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2CD23D1D-EAF5-47E6-87D5-BC70824A180C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -2221,6 +2271,21 @@
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="w2" ID="{17260B56-3673-465B-8FDF-92D54C177B24}" ShortID="804517126">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3A7E1AF7-19C9-447C-8B57-45B7EA82B807}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -4457,7 +4522,7 @@
 											<Custom>
 												<Attenuation Name="Attenuation (Custom)" ID="{46AA9BE1-A490-4E25-9C69-13015F01D515}" ShortID="826562490">
 													<PropertyList>
-														<Property Name="RadiusMax" Type="Real64" Value="7000"/>
+														<Property Name="RadiusMax" Type="Real64" Value="4000"/>
 													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
@@ -4474,7 +4539,7 @@
 																			<SegmentShape>Exp2</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>7000</XPos>
+																			<XPos>4000</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -4504,7 +4569,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>7000</XPos>
+																			<XPos>4000</XPos>
 																			<YPos>49</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -5295,7 +5360,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -5535,6 +5600,28 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="web_burning" ID="{85371092-1B9F-46CF-9166-31306BCB9416}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="burning" ID="{74AC5340-AF61-42FB-8EBB-B7AB71ADAD19}"/>
+										<CustomState Name="" ID="{68F8A2F4-4EBB-44C5-898E-CBA9571FB9B6}" ShortID="750353104"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="not_burning" ID="{1440BCF6-0ACD-43FE-8B63-0D39B5F8B41A}"/>
+										<CustomState Name="" ID="{E3AB2E40-5A33-434A-B8D9-440C26960657}" ShortID="998061593">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16" Value="76"/>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="web_burn_loop" ID="{73F34ECC-7B0E-4F5E-BADF-10D39F0D422D}" Platform="Linked"/>
@@ -5642,6 +5729,111 @@
 								<ActiveSource Name="moss_burn" ID="{287610F3-CB78-411A-BFFB-591A201103D2}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="moss_slip" ID="{23A8944E-52C1-4568-B37A-C735A19884FE}" ShortID="792717308">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="moss_slip_1" ID="{C0073CAA-0417-40CC-8079-87A8DE353503}" ShortID="899463814">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="moss_slip_1" ID="{E566733B-0002-4BDD-BF58-9778209A3C93}">
+											<Language>SFX</Language>
+											<AudioFile>moss_slip_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1013965838"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="moss_slip_1" ID="{E566733B-0002-4BDD-BF58-9778209A3C93}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="moss_slip_2" ID="{6F290DDF-C479-4558-B3AA-9A4529E54603}" ShortID="792717573">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="moss_slip_2" ID="{82A56BDA-C88E-4168-8466-3B6CB3C154AA}">
+											<Language>SFX</Language>
+											<AudioFile>moss_slip_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="43047524"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="moss_slip_2" ID="{82A56BDA-C88E-4168-8466-3B6CB3C154AA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="moss_slip_3" ID="{3EC517B8-F56B-4072-B4D3-F2488A2EE7CF}" ShortID="421170412">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="moss_slip_3" ID="{272F222D-2010-41C0-9227-FB9CD008CAB2}">
+											<Language>SFX</Language>
+											<AudioFile>moss_slip_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="481757369"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="moss_slip_3" ID="{272F222D-2010-41C0-9227-FB9CD008CAB2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="moss_slip_a" ID="{B9D58E3B-BEA7-46F7-BEF1-081B2116D074}" ShortID="660296133">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="moss_slip_a" ID="{479D30D3-3B44-4C7B-AA40-6B7BBC1413D9}">
+											<Language>SFX</Language>
+											<AudioFile>moss_slip_a.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="578775763"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="moss_slip_a" ID="{479D30D3-3B44-4C7B-AA40-6B7BBC1413D9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
