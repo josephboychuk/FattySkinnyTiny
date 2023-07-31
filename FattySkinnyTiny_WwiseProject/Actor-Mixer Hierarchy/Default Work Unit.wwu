@@ -2109,6 +2109,9 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{3CBA8143-B0DF-4786-9AB3-74243A3626BD}" ShortID="53191536">
 											<ReferenceList>
@@ -2129,7 +2132,7 @@
 													</Point>
 													<Point>
 														<XPos>1200</XPos>
-														<YPos>0</YPos>
+														<YPos>2.56335</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -2148,6 +2151,21 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="w1" ID="{1D3B05B5-B393-458F-A15B-54517B28368F}" ShortID="284824308">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2CD23D1D-EAF5-47E6-87D5-BC70824A180C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -2253,6 +2271,21 @@
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="w2" ID="{17260B56-3673-465B-8FDF-92D54C177B24}" ShortID="804517126">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3A7E1AF7-19C9-447C-8B57-45B7EA82B807}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
