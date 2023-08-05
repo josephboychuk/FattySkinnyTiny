@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="3434160536">
+		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="2778675232">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -927,7 +927,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2228206939" Name="Play_web_sway" ObjectPath="\Events\Default Work Unit\Play_web_sway" GUID="{B2493A6C-AA4F-4A01-8940-25D49107F529}" DurationType="OneShot" DurationMin="1.667187" DurationMax="2.166354">
+				<Event Id="2228206939" Name="Play_web_sway" ObjectPath="\Events\Default Work Unit\Play_web_sway" GUID="{B2493A6C-AA4F-4A01-8940-25D49107F529}" MaxAttenuation="2500." DurationType="OneShot" DurationMin="1.667187" DurationMax="2.166354">
 					<IncludedMemoryFiles>
 						<File Id="231906951" Language="SFX">
 							<ShortName>web_sway_1.wav</ShortName>
