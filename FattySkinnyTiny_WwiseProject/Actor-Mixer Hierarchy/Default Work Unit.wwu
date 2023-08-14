@@ -600,7 +600,7 @@
 										<RTPC Name="" ID="{4A74B48A-EF0B-49F3-9DAD-4B6768920E9A}" ShortID="243368276">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}" WorkUnitID="{D9D963F9-3537-4DCE-BCC5-71AC5D092E09}"/>
+													<ObjectRef Name="fatty_speed" ID="{0C108618-5016-4612-A5AC-D276E835D7A9}" WorkUnitID="{D9D963F9-3537-4DCE-BCC5-71AC5D092E09}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{DB7691CA-7856-4928-A08C-A2391A892F33}">
@@ -619,8 +619,8 @@
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>800</XPos>
-														<YPos>0</YPos>
+														<XPos>1000.29542</XPos>
+														<YPos>-0</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
@@ -1100,7 +1100,7 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>1200</XPos>
+														<XPos>600</XPos>
 														<YPos>0</YPos>
 														<Flags>37</Flags>
 													</Point>
@@ -1129,7 +1129,7 @@
 														<SegmentShape>Log2</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>1200</XPos>
+														<XPos>600</XPos>
 														<YPos>0</YPos>
 														<Flags>37</Flags>
 													</Point>
@@ -2186,7 +2186,7 @@
 														<SegmentShape>Log2</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>1200</XPos>
+														<XPos>600</XPos>
 														<YPos>2.56335</YPos>
 														<Flags>37</Flags>
 													</Point>
@@ -2789,7 +2789,7 @@
 														<SegmentShape>Log2</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>1200</XPos>
+														<XPos>600</XPos>
 														<YPos>0</YPos>
 														<Flags>37</Flags>
 													</Point>

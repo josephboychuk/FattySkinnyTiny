@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="2725229165">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="624897147">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="2778675232">
+		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="2998640134">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -968,6 +968,7 @@
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="640949982" Name="speed" ObjectPath="\Game Parameters\Default Work Unit\speed" GUID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
+				<GameParameter Id="2029860635" Name="fatty_speed" ObjectPath="\Game Parameters\Default Work Unit\fatty_speed" GUID="{0C108618-5016-4612-A5AC-D276E835D7A9}"/>
 			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="970838549" Name="surface_materials" ObjectPath="\Switches\Default Work Unit\surface_materials" GUID="{5F050073-5151-46BA-ACB5-B3EB538B4979}">
