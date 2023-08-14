@@ -372,6 +372,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_tiny_voice" ID="{8BFB7AAA-4245-4241-82DA-7C79A70A74FC}">
+					<ChildrenList>
+						<Action Name="" ID="{AA9E85F1-848C-406F-9164-9F4478223975}" ShortID="425691482">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="tiny_voice" ID="{67F3BF73-C830-426F-9336-66FF157CEA8A}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -620,7 +620,7 @@
 													</Point>
 													<Point>
 														<XPos>1000.29542</XPos>
-														<YPos>-0</YPos>
+														<YPos>0</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
@@ -2754,6 +2754,414 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
+						<BlendContainer Name="tiny_voice" ID="{67F3BF73-C830-426F-9336-66FF157CEA8A}" ShortID="277238598">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="tiny_dismount" ID="{4FC44E03-2F3D-477A-B182-417D894CCFE2}" ShortID="719662146">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C3441D6D-F284-4D38-86DE-A68E19340E91}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="tiny_dismount_1" ID="{A4E65EF6-C486-4525-B452-1D1B8656429A}" ShortID="367370997">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="tiny_dismount_1" ID="{31A28FEF-86AC-42A0-9529-9DE161613755}">
+													<Language>SFX</Language>
+													<AudioFile>tiny_dismount_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="834045532"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="tiny_dismount_1" ID="{31A28FEF-86AC-42A0-9529-9DE161613755}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="tiny_dismount_2" ID="{E527A71B-3015-4FBE-BF7E-7A40A8FE097F}" ShortID="566497999">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="tiny_dismount_2" ID="{A786904D-1B12-41C7-94E8-AD82CB2A7FF3}">
+													<Language>SFX</Language>
+													<AudioFile>tiny_dismount_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="120667692"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="tiny_dismount_2" ID="{A786904D-1B12-41C7-94E8-AD82CB2A7FF3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="tiny_dismount_3" ID="{08CF34EC-9191-40F3-A3DC-37E29D8797A8}" ShortID="532126943">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="tiny_dismount_3" ID="{43A33551-ED8C-4889-9D58-D925A686F33E}">
+													<Language>SFX</Language>
+													<AudioFile>tiny_dismount_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="915316316"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="tiny_dismount_3" ID="{43A33551-ED8C-4889-9D58-D925A686F33E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="tiny_dismount_4" ID="{2F51F081-36FD-446C-BDC8-06C0224DF8C8}" ShortID="866200643">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="tiny_dismount_4" ID="{B272CF04-47C3-4859-894A-046B3F47F9E8}">
+													<Language>SFX</Language>
+													<AudioFile>tiny_dismount_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="303505836"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="tiny_dismount_4" ID="{B272CF04-47C3-4859-894A-046B3F47F9E8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="tiny_dismount_5" ID="{D8ECFB5E-B59B-4272-9FAD-B0479C40B6C6}" ShortID="627000580">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="tiny_dismount_5" ID="{39BF8060-44CE-4274-B3A6-267075B719B9}">
+													<Language>SFX</Language>
+													<AudioFile>tiny_dismount_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="378795227"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="tiny_dismount_5" ID="{39BF8060-44CE-4274-B3A6-267075B719B9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="tiny_dismount_6" ID="{1E5A0194-9E73-4215-B301-E0854997F25A}" ShortID="49171654">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="tiny_dismount_6" ID="{BB6721CB-6591-4DC6-A246-867B05CA0FFB}">
+													<Language>SFX</Language>
+													<AudioFile>tiny_dismount_6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="816102120"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="tiny_dismount_6" ID="{BB6721CB-6591-4DC6-A246-867B05CA0FFB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="tiny_voice" ID="{493FA45C-415E-4D80-807B-58DBB10E3CFB}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="dismount" ID="{AFC9E2CB-D611-45B8-BF4A-615B0E721F55}"/>
+												<CustomState Name="" ID="{62626CDE-378D-4E80-A59F-892415156B8E}" ShortID="179836085"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="jump" ID="{186AE67A-14F8-4B7A-8D6E-92F95BE98AAA}"/>
+												<CustomState Name="" ID="{394FA50F-C422-4637-B71E-AE4914B235C5}" ShortID="241521405">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="tiny_jump" ID="{56FBF658-CB3A-418D-AC21-FBD34ABC3979}" ShortID="265052328">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{ECF1CDC8-8AC4-4380-AD83-B6394669E820}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F8A51F0C-8E77-4312-B0D2-71E083E56CDB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="tiny_jump_1" ID="{F34DB135-AF57-4E80-8FA1-D7325877A8BF}" ShortID="567338347">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="tiny_jump_1" ID="{5E8B36E2-419C-4F1E-A0CC-F1EE1BFDD133}">
+													<Language>SFX</Language>
+													<AudioFile>tiny_jump_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="736855190"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="tiny_jump_1" ID="{5E8B36E2-419C-4F1E-A0CC-F1EE1BFDD133}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="tiny_jump_2" ID="{56F99268-0B93-49E5-A616-2A7EB791E094}" ShortID="673426025">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="tiny_jump_2" ID="{C34ABFF9-0DC7-4134-B313-4393EC7404EF}">
+													<Language>SFX</Language>
+													<AudioFile>tiny_jump_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="817000702"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="tiny_jump_2" ID="{C34ABFF9-0DC7-4134-B313-4393EC7404EF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="tiny_jump_3" ID="{22A27A5E-454B-42D0-B9D0-B784AFE14578}" ShortID="92874832">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="tiny_jump_3" ID="{D4CEFA0B-E370-425C-A913-629CBA2A5560}">
+													<Language>SFX</Language>
+													<AudioFile>tiny_jump_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="170554947"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="tiny_jump_3" ID="{D4CEFA0B-E370-425C-A913-629CBA2A5560}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="tiny_jump_4" ID="{1B0BFDDB-8837-40BE-B9A3-1AFFFCB22896}" ShortID="63453179">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="tiny_jump_4" ID="{5A4E7B08-23B6-4A4B-A6E3-27D98C08A525}">
+													<Language>SFX</Language>
+													<AudioFile>tiny_jump_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="173895325"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="tiny_jump_4" ID="{5A4E7B08-23B6-4A4B-A6E3-27D98C08A525}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="tiny_jump_5" ID="{66427FDB-4E73-4557-933D-BC10F024E566}" ShortID="1043940083">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="tiny_jump_5" ID="{E961C2DE-7E8E-43E9-B8B7-49E705C5E5E7}">
+													<Language>SFX</Language>
+													<AudioFile>tiny_jump_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="528457058"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="tiny_jump_5" ID="{E961C2DE-7E8E-43E9-B8B7-49E705C5E5E7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="tiny_jump_6" ID="{E7AE0742-57EE-4C09-9BC0-0539C8146EF6}" ShortID="434684676">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="tiny_jump_6" ID="{1AC60444-2EE1-42E0-9A4C-9197F709F6FC}">
+													<Language>SFX</Language>
+													<AudioFile>tiny_jump_6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="623584310"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="tiny_jump_6" ID="{1AC60444-2EE1-42E0-9A4C-9197F709F6FC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="tiny_voice" ID="{493FA45C-415E-4D80-807B-58DBB10E3CFB}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="dismount" ID="{AFC9E2CB-D611-45B8-BF4A-615B0E721F55}"/>
+												<CustomState Name="" ID="{43F34856-F949-4F4C-BF83-7A500B6EBFBF}" ShortID="1886744">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="jump" ID="{186AE67A-14F8-4B7A-8D6E-92F95BE98AAA}"/>
+												<CustomState Name="" ID="{BB8F39C7-9A20-4DB3-A47C-71DE8D16D436}" ShortID="847743393"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+						</BlendContainer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>

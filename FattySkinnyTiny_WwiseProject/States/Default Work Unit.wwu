@@ -54,6 +54,16 @@
 						</Transition>
 					</TransitionList>
 				</StateGroup>
+				<StateGroup Name="tiny_voice" ID="{493FA45C-415E-4D80-807B-58DBB10E3CFB}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{7A73DB10-7390-46A8-A304-D776EEBB1984}"/>
+						<State Name="jump" ID="{186AE67A-14F8-4B7A-8D6E-92F95BE98AAA}"/>
+						<State Name="dismount" ID="{AFC9E2CB-D611-45B8-BF4A-615B0E721F55}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

@@ -16,7 +16,7 @@
     "Id": "3161908922",
     "GUID": "{ECA3E31C-442D-42A7-8CFB-EE71058648FD}",
     "Language": "SFX",
-    "Hash": "2998640134",
+    "Hash": "1089190078",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -1480,6 +1480,89 @@
         "Language": "SFX",
         "ShortName": "switch_deactivate.wav",
         "Path": "SFX\\switch_deactivate_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3391677915",
+      "Name": "Play_tiny_voice",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_tiny_voice",
+      "GUID": "{8BFB7AAA-4245-4241-82DA-7C79A70A74FC}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.508748",
+      "DurationMax": "1.107842",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "120667692",
+        "Language": "SFX",
+        "ShortName": "tiny_dismount_2.wav",
+        "Path": "SFX\\tiny_dismount_2_10C4C929.wem"
+       },
+       {
+        "Id": "170554947",
+        "Language": "SFX",
+        "ShortName": "tiny_jump_3.wav",
+        "Path": "SFX\\tiny_jump_3_10C4C929.wem"
+       },
+       {
+        "Id": "173895325",
+        "Language": "SFX",
+        "ShortName": "tiny_jump_4.wav",
+        "Path": "SFX\\tiny_jump_4_10C4C929.wem"
+       },
+       {
+        "Id": "303505836",
+        "Language": "SFX",
+        "ShortName": "tiny_dismount_4.wav",
+        "Path": "SFX\\tiny_dismount_4_10C4C929.wem"
+       },
+       {
+        "Id": "378795227",
+        "Language": "SFX",
+        "ShortName": "tiny_dismount_5.wav",
+        "Path": "SFX\\tiny_dismount_5_10C4C929.wem"
+       },
+       {
+        "Id": "528457058",
+        "Language": "SFX",
+        "ShortName": "tiny_jump_5.wav",
+        "Path": "SFX\\tiny_jump_5_10C4C929.wem"
+       },
+       {
+        "Id": "623584310",
+        "Language": "SFX",
+        "ShortName": "tiny_jump_6.wav",
+        "Path": "SFX\\tiny_jump_6_10C4C929.wem"
+       },
+       {
+        "Id": "736855190",
+        "Language": "SFX",
+        "ShortName": "tiny_jump_1.wav",
+        "Path": "SFX\\tiny_jump_1_10C4C929.wem"
+       },
+       {
+        "Id": "816102120",
+        "Language": "SFX",
+        "ShortName": "tiny_dismount_6.wav",
+        "Path": "SFX\\tiny_dismount_6_10C4C929.wem"
+       },
+       {
+        "Id": "817000702",
+        "Language": "SFX",
+        "ShortName": "tiny_jump_2.wav",
+        "Path": "SFX\\tiny_jump_2_10C4C929.wem"
+       },
+       {
+        "Id": "834045532",
+        "Language": "SFX",
+        "ShortName": "tiny_dismount_1.wav",
+        "Path": "SFX\\tiny_dismount_1_10C4C929.wem"
+       },
+       {
+        "Id": "915316316",
+        "Language": "SFX",
+        "ShortName": "tiny_dismount_3.wav",
+        "Path": "SFX\\tiny_dismount_3_10C4C929.wem"
        }
       ]
      },
