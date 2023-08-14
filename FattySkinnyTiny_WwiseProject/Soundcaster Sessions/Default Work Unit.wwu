@@ -139,8 +139,12 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="fatty_speed" ID="{0C108618-5016-4612-A5AC-D276E835D7A9}"/>
+							<Value>1.2283381437583E-312</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
-							<Value>50</Value>
+							<Value>600</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
@@ -148,7 +152,7 @@
 						<CurrentStateRef Name="Skinny" ID="{EF763067-8011-4DAA-9168-4BECED18A53D}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Flower" ID="{B379C8DC-CA84-4349-83EB-4F5968AB4023}"/>
+						<CurrentSwitchRef Name="Grass" ID="{AEA0E3E5-DA18-414B-AE06-A629EC0D56AD}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="tiny" ID="{203042FA-294B-4622-9C82-3E4F8789256D}">

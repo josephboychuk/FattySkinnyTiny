@@ -16,7 +16,7 @@
     "Id": "3161908922",
     "GUID": "{ECA3E31C-442D-42A7-8CFB-EE71058648FD}",
     "Language": "SFX",
-    "Hash": "2778675232",
+    "Hash": "2998640134",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -1699,6 +1699,12 @@
       "Name": "speed",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\speed",
       "GUID": "{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"
+     },
+     {
+      "Id": "2029860635",
+      "Name": "fatty_speed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\fatty_speed",
+      "GUID": "{0C108618-5016-4612-A5AC-D276E835D7A9}"
      }
     ],
     "SwitchGroups": [

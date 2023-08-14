@@ -6,6 +6,11 @@
 				<GameParameter Name="speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="600"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="fatty_speed" ID="{0C108618-5016-4612-A5AC-D276E835D7A9}">
+					<PropertyList>
 						<Property Name="Max" Type="Real64" Value="1200"/>
 					</PropertyList>
 				</GameParameter>
