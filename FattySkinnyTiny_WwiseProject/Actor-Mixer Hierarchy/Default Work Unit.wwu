@@ -1086,7 +1086,7 @@
 										<RTPC Name="" ID="{27B8D170-45C1-4F6E-87CF-4AC00DBE9E0F}" ShortID="772144434">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}" WorkUnitID="{D9D963F9-3537-4DCE-BCC5-71AC5D092E09}"/>
+													<ObjectRef Name="fatty_speed" ID="{0C108618-5016-4612-A5AC-D276E835D7A9}" WorkUnitID="{D9D963F9-3537-4DCE-BCC5-71AC5D092E09}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{6B4682FF-0F03-4C4E-98F1-98D768A582BF}">
@@ -1100,7 +1100,7 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>600</XPos>
+														<XPos>1200</XPos>
 														<YPos>0</YPos>
 														<Flags>37</Flags>
 													</Point>
@@ -1114,7 +1114,7 @@
 										<RTPC Name="" ID="{2CED8E6A-4E85-406B-A289-747CC3B7CD73}" ShortID="154524514">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}" WorkUnitID="{D9D963F9-3537-4DCE-BCC5-71AC5D092E09}"/>
+													<ObjectRef Name="fatty_speed" ID="{0C108618-5016-4612-A5AC-D276E835D7A9}" WorkUnitID="{D9D963F9-3537-4DCE-BCC5-71AC5D092E09}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{D3F009C7-2BB1-4774-A075-3689FAAD56A9}">
@@ -1124,12 +1124,12 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-200</YPos>
+														<YPos>-6.12339</YPos>
 														<Flags>5</Flags>
 														<SegmentShape>Log2</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>600</XPos>
+														<XPos>1200</XPos>
 														<YPos>0</YPos>
 														<Flags>37</Flags>
 													</Point>
@@ -3192,7 +3192,7 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-200</YPos>
+														<YPos>-5.71932</YPos>
 														<Flags>5</Flags>
 														<SegmentShape>Log2</SegmentShape>
 													</Point>
@@ -3390,6 +3390,13 @@
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="grass_tiny" ID="{81235696-B472-4325-B40A-FC031A9096D0}" ShortID="664451024">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -3410,6 +3417,12 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="grass_foot_t1" ID="{63A716C1-62ED-468F-9E4C-5BE764A52476}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.151463698140201"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0856638948497853"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.237127592989987"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>grass_foot_t1.wav</AudioFile>
 															<MediaIDList>
@@ -3433,6 +3446,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="grass_foot_t2" ID="{8E4F7CAE-C3A0-47D8-84E6-A8382DB188B0}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.120426233905579"/>
+																<Property Name="FadeOutShape" Type="int16" Value="4"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0330372854077253"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.160923551502147"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>grass_foot_t2.wav</AudioFile>
 															<MediaIDList>
@@ -3456,6 +3476,12 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="grass_foot_t3" ID="{A1402BF7-B8E7-4608-9226-296D248133BE}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.143958243919886"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0659248032904149"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.22333708869814"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>grass_foot_t3.wav</AudioFile>
 															<MediaIDList>
@@ -3479,6 +3505,12 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="grass_foot_t4" ID="{75639E90-E382-4AF7-A772-6E320C7A2753}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0414055793991416"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.105814258464473"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.241992608488316"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>grass_foot_t4.wav</AudioFile>
 															<MediaIDList>
@@ -3502,6 +3534,12 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="grass_foot_t5" ID="{5C65AA7B-5B7C-4C99-9678-01A202A5758E}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0375482832618026"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.107638412017167"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.276605686695279"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>grass_foot_t5.wav</AudioFile>
 															<MediaIDList>
@@ -4310,7 +4348,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>1</Value>
+														<Value>-2</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
