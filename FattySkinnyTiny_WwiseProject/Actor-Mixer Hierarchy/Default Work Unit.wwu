@@ -17,7 +17,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3233,6 +3233,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="grass_skinny" ID="{BE95AB2C-D21E-4122-927D-5C631D1C5A2E}" ShortID="809020937">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -4004,13 +4011,6 @@
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="stone_tiny" ID="{0D09A51B-CC4C-4904-8F02-1D1E66648E24}" ShortID="754780040">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>3</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -4348,7 +4348,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-2</Value>
+														<Value>-3</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -4711,6 +4711,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="test_flowerstep_t1" ID="{664CE9AE-1D1B-49AF-A305-0648436DB24A}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.227220493562232"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.258949481402002"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>test_flowerstep_t1.wav</AudioFile>
 															<MediaIDList>
@@ -4724,6 +4729,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="test_flowerstep_t2" ID="{B4159BC6-8D80-4074-A939-384D110D29CE}" ShortID="1048747790">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -4734,6 +4746,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="test_flowerstep_t2" ID="{2A2BC1AB-ECCD-46C8-8998-6339E50A2595}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.200293276108726"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.253704816404388"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>test_flowerstep_t2.wav</AudioFile>
 															<MediaIDList>
@@ -4747,6 +4764,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="test_flowerstep_t3" ID="{2625140F-19D8-4A52-AF53-77AA6E1DD77C}" ShortID="572824241">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -4757,6 +4781,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="test_flowerstep_t3" ID="{95092B6C-661B-4444-B31D-FC12FEBF85E0}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.202717274678112"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.253771995708153"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>test_flowerstep_t3.wav</AudioFile>
 															<MediaIDList>
@@ -4780,6 +4809,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="test_flowerstep_t4" ID="{FA229F21-8B1A-4D12-87BF-A3C5BCCCBBB9}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.194267793276109"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.248881229136863"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>test_flowerstep_t4.wav</AudioFile>
 															<MediaIDList>
@@ -4803,6 +4837,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="test_flowerstep_t5" ID="{2F2778E5-A7E3-43BF-B0A7-63F9282D59B6}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.201725321888411"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.242212446351931"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>test_flowerstep_t5.wav</AudioFile>
 															<MediaIDList>
@@ -5023,7 +5062,7 @@
 											<Custom>
 												<Attenuation Name="Attenuation (Custom)" ID="{46AA9BE1-A490-4E25-9C69-13015F01D515}" ShortID="826562490">
 													<PropertyList>
-														<Property Name="RadiusMax" Type="Real64" Value="4000"/>
+														<Property Name="RadiusMax" Type="Real64" Value="3000"/>
 													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
@@ -5040,7 +5079,13 @@
 																			<SegmentShape>Exp2</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>4000</XPos>
+																			<XPos>1740.39735</XPos>
+																			<YPos>-5.88622</YPos>
+																			<Flags>0</Flags>
+																			<SegmentShape>Log2</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>3000</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -5070,7 +5115,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>4000</XPos>
+																			<XPos>3000</XPos>
 																			<YPos>49</YPos>
 																			<Flags>37</Flags>
 																		</Point>
