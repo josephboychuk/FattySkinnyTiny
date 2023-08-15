@@ -16,7 +16,7 @@
     "Id": "3161908922",
     "GUID": "{ECA3E31C-442D-42A7-8CFB-EE71058648FD}",
     "Language": "SFX",
-    "Hash": "1589280079",
+    "Hash": "263825405",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -278,14 +278,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_footsteps",
       "GUID": "{BCF66B52-5FAD-4770-BBB1-2EE969C03758}",
       "DurationType": "OneShot",
-      "DurationMin": "0.246688",
-      "DurationMax": "0.715437",
+      "DurationMin": "0.242212",
+      "DurationMax": "0.497917",
       "IncludedMemoryFiles": [
        {
         "Id": "9095580",
         "Language": "SFX",
         "ShortName": "test_flowerstep_t3.wav",
-        "Path": "SFX\\test_flowerstep_t3_10C4C929.wem"
+        "Path": "SFX\\test_flowerstep_t3_1DDCF631.wem"
        },
        {
         "Id": "17535725",
@@ -303,7 +303,7 @@
         "Id": "47239814",
         "Language": "SFX",
         "ShortName": "test_flowerstep_t2.wav",
-        "Path": "SFX\\test_flowerstep_t2_10C4C929.wem"
+        "Path": "SFX\\test_flowerstep_t2_C7934274.wem"
        },
        {
         "Id": "92395805",
@@ -345,7 +345,7 @@
         "Id": "147600730",
         "Language": "SFX",
         "ShortName": "test_flowerstep_t5.wav",
-        "Path": "SFX\\test_flowerstep_t5_10C4C929.wem"
+        "Path": "SFX\\test_flowerstep_t5_29FD3B8F.wem"
        },
        {
         "Id": "164259074",
@@ -405,7 +405,7 @@
         "Id": "478816173",
         "Language": "SFX",
         "ShortName": "test_flowerstep_t4.wav",
-        "Path": "SFX\\test_flowerstep_t4_10C4C929.wem"
+        "Path": "SFX\\test_flowerstep_t4_7B45D77B.wem"
        },
        {
         "Id": "498937000",
@@ -489,7 +489,7 @@
         "Id": "879038051",
         "Language": "SFX",
         "ShortName": "test_flowerstep_t1.wav",
-        "Path": "SFX\\test_flowerstep_t1_10C4C929.wem"
+        "Path": "SFX\\test_flowerstep_t1_BDB550B8.wem"
        },
        {
         "Id": "915049547",

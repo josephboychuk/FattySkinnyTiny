@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="1589280079">
+		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="3504039929">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -154,11 +154,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3854155799" Name="Play_footsteps" ObjectPath="\Events\Default Work Unit\Play_footsteps" GUID="{BCF66B52-5FAD-4770-BBB1-2EE969C03758}" DurationType="OneShot" DurationMin="0.246688" DurationMax="0.715437">
+				<Event Id="3854155799" Name="Play_footsteps" ObjectPath="\Events\Default Work Unit\Play_footsteps" GUID="{BCF66B52-5FAD-4770-BBB1-2EE969C03758}" DurationType="OneShot" DurationMin="0.242212" DurationMax="0.497917">
 					<IncludedMemoryFiles>
 						<File Id="9095580" Language="SFX">
 							<ShortName>test_flowerstep_t3.wav</ShortName>
-							<Path>SFX\test_flowerstep_t3_10C4C929.wem</Path>
+							<Path>SFX\test_flowerstep_t3_2A718580.wem</Path>
 						</File>
 						<File Id="17535725" Language="SFX">
 							<ShortName>wood_foot_s1.wav</ShortName>
@@ -170,7 +170,7 @@
 						</File>
 						<File Id="47239814" Language="SFX">
 							<ShortName>test_flowerstep_t2.wav</ShortName>
-							<Path>SFX\test_flowerstep_t2_10C4C929.wem</Path>
+							<Path>SFX\test_flowerstep_t2_A53EB996.wem</Path>
 						</File>
 						<File Id="92395805" Language="SFX">
 							<ShortName>grass_foot_t3.wav</ShortName>
@@ -198,7 +198,7 @@
 						</File>
 						<File Id="147600730" Language="SFX">
 							<ShortName>test_flowerstep_t5.wav</ShortName>
-							<Path>SFX\test_flowerstep_t5_10C4C929.wem</Path>
+							<Path>SFX\test_flowerstep_t5_C3F87F40.wem</Path>
 						</File>
 						<File Id="164259074" Language="SFX">
 							<ShortName>mushroom_skinny_2.wav</ShortName>
@@ -238,7 +238,7 @@
 						</File>
 						<File Id="478816173" Language="SFX">
 							<ShortName>test_flowerstep_t4.wav</ShortName>
-							<Path>SFX\test_flowerstep_t4_10C4C929.wem</Path>
+							<Path>SFX\test_flowerstep_t4_DFB54D72.wem</Path>
 						</File>
 						<File Id="498937000" Language="SFX">
 							<ShortName>grass_foot_t1.wav</ShortName>
@@ -294,7 +294,7 @@
 						</File>
 						<File Id="879038051" Language="SFX">
 							<ShortName>test_flowerstep_t1.wav</ShortName>
-							<Path>SFX\test_flowerstep_t1_10C4C929.wem</Path>
+							<Path>SFX\test_flowerstep_t1_D038D9EF.wem</Path>
 						</File>
 						<File Id="915049547" Language="SFX">
 							<ShortName>stone_foot_t5.wav</ShortName>
