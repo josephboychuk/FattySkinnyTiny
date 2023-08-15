@@ -5062,7 +5062,7 @@
 											<Custom>
 												<Attenuation Name="Attenuation (Custom)" ID="{46AA9BE1-A490-4E25-9C69-13015F01D515}" ShortID="826562490">
 													<PropertyList>
-														<Property Name="RadiusMax" Type="Real64" Value="4000"/>
+														<Property Name="RadiusMax" Type="Real64" Value="3000"/>
 													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
@@ -5079,7 +5079,13 @@
 																			<SegmentShape>Exp2</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>4000</XPos>
+																			<XPos>1740.39735</XPos>
+																			<YPos>-5.88622</YPos>
+																			<Flags>0</Flags>
+																			<SegmentShape>Log2</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>3000</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -5109,7 +5115,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>4000</XPos>
+																			<XPos>3000</XPos>
 																			<YPos>49</YPos>
 																			<Flags>37</Flags>
 																		</Point>

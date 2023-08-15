@@ -28,7 +28,7 @@
     "Id": "3161908922",
     "GUID": "{ECA3E31C-442D-42A7-8CFB-EE71058648FD}",
     "Language": "SFX",
-    "Hash": "3504039929",
+    "Hash": "3813564089",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -149,7 +149,7 @@
       "Name": "Play_fireleaves_burn",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_fireleaves_burn",
       "GUID": "{251214DA-214C-45E5-AFF9-9FEED73AC53C}",
-      "MaxAttenuation": "4000.",
+      "MaxAttenuation": "3000.",
       "DurationType": "OneShot",
       "DurationMin": "45.002865",
       "DurationMax": "45.005405",
@@ -297,7 +297,7 @@
         "Id": "9095580",
         "Language": "SFX",
         "ShortName": "test_flowerstep_t3.wav",
-        "Path": "SFX\\test_flowerstep_t3_2A718580.wem"
+        "Path": "SFX\\test_flowerstep_t3_1DDCF631.wem"
        },
        {
         "Id": "17535725",
@@ -315,7 +315,7 @@
         "Id": "47239814",
         "Language": "SFX",
         "ShortName": "test_flowerstep_t2.wav",
-        "Path": "SFX\\test_flowerstep_t2_A53EB996.wem"
+        "Path": "SFX\\test_flowerstep_t2_C7934274.wem"
        },
        {
         "Id": "92395805",
@@ -357,7 +357,7 @@
         "Id": "147600730",
         "Language": "SFX",
         "ShortName": "test_flowerstep_t5.wav",
-        "Path": "SFX\\test_flowerstep_t5_C3F87F40.wem"
+        "Path": "SFX\\test_flowerstep_t5_29FD3B8F.wem"
        },
        {
         "Id": "164259074",
@@ -417,7 +417,7 @@
         "Id": "478816173",
         "Language": "SFX",
         "ShortName": "test_flowerstep_t4.wav",
-        "Path": "SFX\\test_flowerstep_t4_DFB54D72.wem"
+        "Path": "SFX\\test_flowerstep_t4_7B45D77B.wem"
        },
        {
         "Id": "498937000",
@@ -501,7 +501,7 @@
         "Id": "879038051",
         "Language": "SFX",
         "ShortName": "test_flowerstep_t1.wav",
-        "Path": "SFX\\test_flowerstep_t1_D038D9EF.wem"
+        "Path": "SFX\\test_flowerstep_t1_BDB550B8.wem"
        },
        {
         "Id": "915049547",
