@@ -383,6 +383,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_portal_tiny" ID="{0D31AAB6-71B2-4A8F-89DA-9CAC3157ED74}">
+					<ChildrenList>
+						<Action Name="" ID="{E576FF9B-8D3A-48C8-8DC6-38BD710BE397}" ShortID="800545647">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="portal_tiny_enter_loop" ID="{B8503086-1B00-4F54-9F30-9E870C1263EE}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_portal_skinny" ID="{3A8EE00B-0223-43AA-9547-7A55AB6432C4}">
+					<ChildrenList>
+						<Action Name="" ID="{1CFC3DD4-0499-4C07-BD41-B9EEE34F60A5}" ShortID="622007443">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="portal_skinny_enter_loop" ID="{FC70ECA2-F402-40BD-A9FB-2717893E1D90}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_portal_fatty" ID="{37A86241-74B5-40C2-8C61-83FFFAE58E55}">
+					<ChildrenList>
+						<Action Name="" ID="{E8B2F5AC-09B8-4055-B914-21030E065443}" ShortID="288086798">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="portal_fatty_enter_loop" ID="{C2AD8BD5-4F4A-49E9-B1F8-7E49C06036C2}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Portal" ID="{A38115CC-0F72-4453-ABB3-FE0A1A43B89C}">
+					<ChildrenList>
+						<Action Name="" ID="{4225FD26-F8D9-4E3E-8D2C-2507F2F9D119}" ShortID="602298921">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="portal_passive_loop" ID="{91C1079B-F3DB-4354-A239-6D32427454AD}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_portal_endgame_final" ID="{A692E580-4762-4A6C-A0A3-E26351372EC3}">
+					<ChildrenList>
+						<Action Name="" ID="{77D34401-039D-4C61-B41E-05EB10C516FE}" ShortID="772089133">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="portal_endgame_final" ID="{E1719A98-7287-41B0-92B5-57507E44D6DD}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

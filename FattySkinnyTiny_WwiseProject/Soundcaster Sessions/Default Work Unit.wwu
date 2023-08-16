@@ -300,8 +300,65 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="dark" ID="{C0EC49DD-426A-4208-8883-8586F4E62CB6}"/>
+						<CurrentStateRef Name="tiny_in" ID="{EE6919DF-587B-489B-93BB-04F959C16ED9}"/>
 						<CurrentStateRef Name="burning" ID="{74AC5340-AF61-42FB-8EBB-B7AB71ADAD19}"/>
+						<CurrentStateRef Name="win" ID="{CF6FD365-ECED-429D-9EEC-ADFF59F8CA25}"/>
 						<CurrentStateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Flower" ID="{B379C8DC-CA84-4349-83EB-4F5968AB4023}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="portal" ID="{0568AC93-D066-4528-AB53-93FF8A02A820}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Portal" ID="{A38115CC-0F72-4453-ABB3-FE0A1A43B89C}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Music" ID="{8841BE0E-D058-4436-BE04-9C5A0C8E0F88}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_portal_fatty" ID="{37A86241-74B5-40C2-8C61-83FFFAE58E55}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_ambience" ID="{9EAE0423-FC96-438A-9004-13020A51A48B}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_portal_skinny" ID="{3A8EE00B-0223-43AA-9547-7A55AB6432C4}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_portal_endgame_final" ID="{A692E580-4762-4A6C-A0A3-E26351372EC3}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_portal_tiny" ID="{0D31AAB6-71B2-4A8F-89DA-9CAC3157ED74}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="fatty_speed" ID="{0C108618-5016-4612-A5AC-D276E835D7A9}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="speed" ID="{D8397AB2-81F8-4748-86B8-21BBD99D5D3E}"/>
+							<Value>600</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="dark" ID="{C0EC49DD-426A-4208-8883-8586F4E62CB6}"/>
+						<CurrentStateRef Name="tiny_in" ID="{EE6919DF-587B-489B-93BB-04F959C16ED9}"/>
+						<CurrentStateRef Name="fatty_in" ID="{22DE5E78-5AC9-4772-9FC0-B6563E8AEBE0}"/>
+						<CurrentStateRef Name="char3" ID="{AACADCA1-B0F9-4371-9B8F-08413C0819CF}"/>
+						<CurrentStateRef Name="skinny_in" ID="{9C692FBB-2BEF-4B5B-8EDF-0E4B8C285E7F}"/>
+						<CurrentStateRef Name="win" ID="{CF6FD365-ECED-429D-9EEC-ADFF59F8CA25}"/>
+						<CurrentStateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
+						<CurrentStateRef Name="None" ID="{7A73DB10-7390-46A8-A304-D776EEBB1984}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Flower" ID="{B379C8DC-CA84-4349-83EB-4F5968AB4023}"/>

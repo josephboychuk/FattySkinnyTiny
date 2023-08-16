@@ -1569,6 +1569,43 @@
 							</ObjectLists>
 						</MusicSegment>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Portal" ID="{C8586FDC-E0F4-47A9-8B98-F395A7F7A4AD}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="char3" ID="{AACADCA1-B0F9-4371-9B8F-08413C0819CF}"/>
+								<CustomState Name="" ID="{5AB8991F-42B3-41DB-A136-DD5B2A108C45}" ShortID="270888810">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char1" ID="{23A62D9D-9671-4557-8420-2F4CDACAE4FF}"/>
+								<CustomState Name="" ID="{82E7B78F-56F6-4D52-9042-4D50A9EE44B4}" ShortID="1021676705">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-6"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char0" ID="{D1060786-7194-4D0C-8091-F2891EE76ADE}"/>
+								<CustomState Name="" ID="{BA4E077E-1AD0-4EEC-8C30-FDFA5A53C590}" ShortID="775750761"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char2" ID="{5846F73B-EF3B-4E48-B2FC-9F3392523F70}"/>
+								<CustomState Name="" ID="{D5C1F927-1AC0-4993-918F-B70A5E0852C2}" ShortID="1070972018">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-12"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{0A2AF040-1FD8-4CD6-B200-875B93B71932}">
 							<PropertyList>

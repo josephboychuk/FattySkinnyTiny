@@ -64,6 +64,58 @@
 						<State Name="dismount" ID="{AFC9E2CB-D611-45B8-BF4A-615B0E721F55}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Portal" ID="{C8586FDC-E0F4-47A9-8B98-F395A7F7A4AD}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{E6123E4E-2C0E-4423-B214-C69D7477655F}"/>
+						<State Name="char1" ID="{23A62D9D-9671-4557-8420-2F4CDACAE4FF}"/>
+						<State Name="char2" ID="{5846F73B-EF3B-4E48-B2FC-9F3392523F70}"/>
+						<State Name="char3" ID="{AACADCA1-B0F9-4371-9B8F-08413C0819CF}"/>
+						<State Name="char0" ID="{D1060786-7194-4D0C-8091-F2891EE76ADE}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="fatty_portal" ID="{5983A81A-D0C3-46E7-942B-9873F813372A}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{79DB62E8-F85D-40B7-B21E-9A3CD37B9664}"/>
+						<State Name="fatty_in" ID="{22DE5E78-5AC9-4772-9FC0-B6563E8AEBE0}"/>
+						<State Name="fatty_out" ID="{02E189AD-8F3A-410A-B721-96AC48F856FD}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="tiny_portal" ID="{5D634631-DF48-46A6-A49C-588DB14ECE45}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{956BB2B5-A378-4C94-B02E-04CA2D11A29A}"/>
+						<State Name="tiny_in" ID="{EE6919DF-587B-489B-93BB-04F959C16ED9}"/>
+						<State Name="tiny_out" ID="{64334A60-0465-4B1D-8397-46B9468F990B}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="skinny_portal" ID="{3E7C4D3D-D345-4921-B0E9-5D5D62D76B34}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{5D539BFB-197C-4094-94B3-F9A72D7431EA}"/>
+						<State Name="skinny_in" ID="{9C692FBB-2BEF-4B5B-8EDF-0E4B8C285E7F}"/>
+						<State Name="skinny_out" ID="{E9C06C23-5081-4471-8C06-2C232BECDABC}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="portal_win" ID="{5E9B5096-6994-4B7A-8CB2-01ABE9327BF6}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="4"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{A167A7D4-12BF-44A7-A18F-198574B485E2}"/>
+						<State Name="running" ID="{9C1FBE26-340E-4343-8CC8-E032843C3347}"/>
+						<State Name="win" ID="{CF6FD365-ECED-429D-9EEC-ADFF59F8CA25}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

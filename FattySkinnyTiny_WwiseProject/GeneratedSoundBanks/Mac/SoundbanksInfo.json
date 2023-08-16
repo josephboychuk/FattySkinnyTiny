@@ -19,7 +19,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "2351005276",
+    "Hash": "1512116662",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk"
@@ -28,7 +28,7 @@
     "Id": "3161908922",
     "GUID": "{ECA3E31C-442D-42A7-8CFB-EE71058648FD}",
     "Language": "SFX",
-    "Hash": "1801788055",
+    "Hash": "1983295347",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -1294,6 +1294,83 @@
         "Language": "SFX",
         "ShortName": "Fatty_pt4_b.wav",
         "Path": "SFX\\Fatty_pt4_b_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2424882924",
+      "Name": "Play_Portal",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Portal",
+      "GUID": "{A38115CC-0F72-4453-ABB3-FE0A1A43B89C}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "13567171",
+        "Language": "SFX",
+        "ShortName": "portal_passive_loop.wav",
+        "Path": "SFX\\portal_passive_loop_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "459329081",
+      "Name": "Play_portal_endgame_final",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_portal_endgame_final",
+      "GUID": "{A692E580-4762-4A6C-A0A3-E26351372EC3}",
+      "DurationType": "OneShot",
+      "DurationMin": "13.",
+      "DurationMax": "13.",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "754785674",
+        "Language": "SFX",
+        "ShortName": "portal_endgame_final.wav",
+        "Path": "SFX\\portal_endgame_final_14B86CEB.wem"
+       }
+      ]
+     },
+     {
+      "Id": "772996397",
+      "Name": "Play_portal_fatty",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_portal_fatty",
+      "GUID": "{37A86241-74B5-40C2-8C61-83FFFAE58E55}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "314073111",
+        "Language": "SFX",
+        "ShortName": "portal_fatty_enter_loop.wav",
+        "Path": "SFX\\portal_fatty_enter_loop_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3267728223",
+      "Name": "Play_portal_skinny",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_portal_skinny",
+      "GUID": "{3A8EE00B-0223-43AA-9547-7A55AB6432C4}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "810334520",
+        "Language": "SFX",
+        "ShortName": "portal_skinny_enter_loop.wav",
+        "Path": "SFX\\portal_skinny_enter_loop_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2994947309",
+      "Name": "Play_portal_tiny",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_portal_tiny",
+      "GUID": "{0D31AAB6-71B2-4A8F-89DA-9CAC3157ED74}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "521730399",
+        "Language": "SFX",
+        "ShortName": "portal_tiny_enter_loop.wav",
+        "Path": "SFX\\portal_tiny_enter_loop_D79FB2B7.wem"
        }
       ]
      },

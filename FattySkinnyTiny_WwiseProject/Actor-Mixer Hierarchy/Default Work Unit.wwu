@@ -367,6 +367,43 @@
 							<ObjectLists/>
 						</BlendContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Portal" ID="{C8586FDC-E0F4-47A9-8B98-F395A7F7A4AD}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="char3" ID="{AACADCA1-B0F9-4371-9B8F-08413C0819CF}"/>
+								<CustomState Name="" ID="{DE3CBAF7-08A8-4750-B475-41F812C01CE8}" ShortID="305738261">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char1" ID="{23A62D9D-9671-4557-8420-2F4CDACAE4FF}"/>
+								<CustomState Name="" ID="{1315EAFA-205D-4357-BAED-1B1316B82195}" ShortID="803868346">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-6"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char0" ID="{D1060786-7194-4D0C-8091-F2891EE76ADE}"/>
+								<CustomState Name="" ID="{1D634427-5E2F-4B4B-AD8A-28BAC116AB9A}" ShortID="262778467"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char2" ID="{5846F73B-EF3B-4E48-B2FC-9F3392523F70}"/>
+								<CustomState Name="" ID="{A718A9B4-BE4B-4A78-A661-0792E358C370}" ShortID="604459969">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-12"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="Fatty" ID="{24571B39-045E-445E-BB04-755F7CF66F65}" ShortID="508047796">
@@ -1926,6 +1963,43 @@
 							</GroupingInfo>
 						</SwitchContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Portal" ID="{C8586FDC-E0F4-47A9-8B98-F395A7F7A4AD}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="char3" ID="{AACADCA1-B0F9-4371-9B8F-08413C0819CF}"/>
+								<CustomState Name="" ID="{216F05D6-755B-4FBB-9CF2-700543AB17DF}" ShortID="738503067">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char1" ID="{23A62D9D-9671-4557-8420-2F4CDACAE4FF}"/>
+								<CustomState Name="" ID="{6699D12D-7C4B-4BFB-A85B-6AF665DD406F}" ShortID="603134517">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-6"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char0" ID="{D1060786-7194-4D0C-8091-F2891EE76ADE}"/>
+								<CustomState Name="" ID="{116B2704-5EBE-4BC8-A514-AEFF1F58894E}" ShortID="1051481231"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char2" ID="{5846F73B-EF3B-4E48-B2FC-9F3392523F70}"/>
+								<CustomState Name="" ID="{88EA1C4A-DE08-45A9-B497-D368A7BCC621}" ShortID="497587459">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-12"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="Skinny" ID="{03901CB5-8F63-479B-BAED-0E929AF48981}" ShortID="561774785">
@@ -2460,6 +2534,43 @@
 							</Playlist>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Portal" ID="{C8586FDC-E0F4-47A9-8B98-F395A7F7A4AD}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="char3" ID="{AACADCA1-B0F9-4371-9B8F-08413C0819CF}"/>
+								<CustomState Name="" ID="{1A507CD7-D60A-4B2A-B5F3-8D48EE9506A4}" ShortID="75026567">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char1" ID="{23A62D9D-9671-4557-8420-2F4CDACAE4FF}"/>
+								<CustomState Name="" ID="{B2AB0F7E-D532-49C6-A173-C61C1C8D9BB5}" ShortID="905530540">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-6"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char0" ID="{D1060786-7194-4D0C-8091-F2891EE76ADE}"/>
+								<CustomState Name="" ID="{302502EC-FA81-4F28-86BD-13F6F347E83D}" ShortID="199559901"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char2" ID="{5846F73B-EF3B-4E48-B2FC-9F3392523F70}"/>
+								<CustomState Name="" ID="{AB74D005-F316-41D2-A25C-5F90E919C221}" ShortID="336687991">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-12"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="Tiny" ID="{25265799-2F7C-4592-B638-5E628585A027}" ShortID="247018725">
@@ -3170,6 +3281,43 @@
 							<ObjectLists/>
 						</BlendContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Portal" ID="{C8586FDC-E0F4-47A9-8B98-F395A7F7A4AD}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="char3" ID="{AACADCA1-B0F9-4371-9B8F-08413C0819CF}"/>
+								<CustomState Name="" ID="{B453DFE0-231E-4D2C-88C5-716A78D5FD95}" ShortID="817421719">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char1" ID="{23A62D9D-9671-4557-8420-2F4CDACAE4FF}"/>
+								<CustomState Name="" ID="{783E4B65-8E5B-4004-8F52-3A577AFB83C0}" ShortID="1013108486">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-6"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char0" ID="{D1060786-7194-4D0C-8091-F2891EE76ADE}"/>
+								<CustomState Name="" ID="{4E353CD7-5D36-472B-A929-173977670708}" ShortID="1020143516"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char2" ID="{5846F73B-EF3B-4E48-B2FC-9F3392523F70}"/>
+								<CustomState Name="" ID="{57CA6123-28B1-4DD5-A2E0-851CC1BDEBF7}" ShortID="383119141">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-12"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="Footsteps" ID="{293564A3-86C2-4175-B40F-CC3AD5F3EB31}" ShortID="222434408">
@@ -4951,6 +5099,43 @@
 							</GroupingInfo>
 						</SwitchContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Portal" ID="{C8586FDC-E0F4-47A9-8B98-F395A7F7A4AD}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="char3" ID="{AACADCA1-B0F9-4371-9B8F-08413C0819CF}"/>
+								<CustomState Name="" ID="{14FFC9AD-F45C-45BF-B942-F37DCB9D1787}" ShortID="333370310">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char1" ID="{23A62D9D-9671-4557-8420-2F4CDACAE4FF}"/>
+								<CustomState Name="" ID="{DE4A31F7-D1F3-4FD4-8CC9-370D8938E239}" ShortID="137484040">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-6"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char0" ID="{D1060786-7194-4D0C-8091-F2891EE76ADE}"/>
+								<CustomState Name="" ID="{E312851F-66F2-485F-96EF-A6C03B1E8679}" ShortID="940770500"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char2" ID="{5846F73B-EF3B-4E48-B2FC-9F3392523F70}"/>
+								<CustomState Name="" ID="{84503BBA-118A-4235-8D86-5D13396BDBD6}" ShortID="165911769">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-12"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="Interactables" ID="{B365ADE4-5E07-4A56-B509-1CFE4211505D}" ShortID="984198046">
@@ -5597,6 +5782,43 @@
 							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Portal" ID="{C8586FDC-E0F4-47A9-8B98-F395A7F7A4AD}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="char3" ID="{AACADCA1-B0F9-4371-9B8F-08413C0819CF}"/>
+								<CustomState Name="" ID="{5BAF2A4F-4491-4D6D-9A54-E25EC9C6FDCB}" ShortID="330771680">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char1" ID="{23A62D9D-9671-4557-8420-2F4CDACAE4FF}"/>
+								<CustomState Name="" ID="{20A0B745-2C95-4FB3-9EF2-8493EC040272}" ShortID="897033105">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-6"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char0" ID="{D1060786-7194-4D0C-8091-F2891EE76ADE}"/>
+								<CustomState Name="" ID="{94B74A2D-B8FC-43E3-BA21-D79599EF5DFB}" ShortID="997155976"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char2" ID="{5846F73B-EF3B-4E48-B2FC-9F3392523F70}"/>
+								<CustomState Name="" ID="{C0559926-0038-4320-AA91-13C5A847F96D}" ShortID="494665310">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-12"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="Objects" ID="{0BF39FBB-6635-4EAE-9DD7-AB45AED7527C}" ShortID="17630073">
@@ -6447,8 +6669,306 @@
 							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Portal" ID="{C8586FDC-E0F4-47A9-8B98-F395A7F7A4AD}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="char3" ID="{AACADCA1-B0F9-4371-9B8F-08413C0819CF}"/>
+								<CustomState Name="" ID="{0CCCC639-8740-448D-8825-1208CD66453B}" ShortID="195616759">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char1" ID="{23A62D9D-9671-4557-8420-2F4CDACAE4FF}"/>
+								<CustomState Name="" ID="{C1A855E1-B45C-4842-8215-F8E5EDFEB9AD}" ShortID="673106678">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-6"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char0" ID="{D1060786-7194-4D0C-8091-F2891EE76ADE}"/>
+								<CustomState Name="" ID="{4F724A54-E446-4381-9E81-1734BE1E1C28}" ShortID="1007099238"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="char2" ID="{5846F73B-EF3B-4E48-B2FC-9F3392523F70}"/>
+								<CustomState Name="" ID="{1949A9B0-7E95-41F2-BE11-61BEC87494CE}" ShortID="49030019">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-12"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<ObjectLists/>
 				</ActorMixer>
+				<Sound Name="portal_tiny_enter_loop" ID="{B8503086-1B00-4F54-9F30-9E870C1263EE}" ShortID="693953734">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="portal_tiny_enter_loop" ID="{24DACEB5-CC3C-465B-BA45-8D71F2C65BBB}">
+							<Language>SFX</Language>
+							<AudioFile>portal_tiny_enter_loop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="521730399"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="tiny_portal" ID="{5D634631-DF48-46A6-A49C-588DB14ECE45}"/>
+							</StateGroupInfo>
+							<StateGroupInfo>
+								<StateGroupRef Name="portal_win" ID="{5E9B5096-6994-4B7A-8CB2-01ABE9327BF6}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="win" ID="{CF6FD365-ECED-429D-9EEC-ADFF59F8CA25}"/>
+								<CustomState Name="" ID="{954D4D01-5334-404E-BB46-CE5A9F9FEB04}" ShortID="919846346">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="running" ID="{9C1FBE26-340E-4343-8CC8-E032843C3347}"/>
+								<CustomState Name="" ID="{0CFC2B9F-6175-4E27-857D-ED038081E73E}" ShortID="158359428"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="tiny_in" ID="{EE6919DF-587B-489B-93BB-04F959C16ED9}"/>
+								<CustomState Name="" ID="{CD107249-B52D-4D84-ABED-66C2F2DF796A}" ShortID="359895139"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="tiny_out" ID="{64334A60-0465-4B1D-8397-46B9468F990B}"/>
+								<CustomState Name="" ID="{739A1E9F-C0B5-4E00-8852-3C5CA7F05EE0}" ShortID="174676442">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="portal_tiny_enter_loop" ID="{24DACEB5-CC3C-465B-BA45-8D71F2C65BBB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="portal_skinny_enter_loop" ID="{FC70ECA2-F402-40BD-A9FB-2717893E1D90}" ShortID="421188350">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="portal_skinny_enter_loop" ID="{307ACCF3-7823-4A91-83FC-3520B2A313A9}">
+							<Language>SFX</Language>
+							<AudioFile>portal_skinny_enter_loop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="810334520"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="skinny_portal" ID="{3E7C4D3D-D345-4921-B0E9-5D5D62D76B34}"/>
+							</StateGroupInfo>
+							<StateGroupInfo>
+								<StateGroupRef Name="portal_win" ID="{5E9B5096-6994-4B7A-8CB2-01ABE9327BF6}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="win" ID="{CF6FD365-ECED-429D-9EEC-ADFF59F8CA25}"/>
+								<CustomState Name="" ID="{141655B1-8C4A-4919-8084-403AE0EC3BF5}" ShortID="150397360">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="running" ID="{9C1FBE26-340E-4343-8CC8-E032843C3347}"/>
+								<CustomState Name="" ID="{8AA8CB2A-473B-4DC4-B4BA-9A99EC6837C2}" ShortID="216727883"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="skinny_out" ID="{E9C06C23-5081-4471-8C06-2C232BECDABC}"/>
+								<CustomState Name="" ID="{1B1384FA-C630-44B0-B028-1988AC5643FE}" ShortID="221580092">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="skinny_in" ID="{9C692FBB-2BEF-4B5B-8EDF-0E4B8C285E7F}"/>
+								<CustomState Name="" ID="{24CB4F20-643B-4EFD-AA4A-9980001D61ED}" ShortID="372942504"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="portal_skinny_enter_loop" ID="{307ACCF3-7823-4A91-83FC-3520B2A313A9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="portal_fatty_enter_loop" ID="{C2AD8BD5-4F4A-49E9-B1F8-7E49C06036C2}" ShortID="264655780">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="portal_fatty_enter_loop" ID="{3731B734-32DC-4DE1-B991-61169BADB3EE}">
+							<Language>SFX</Language>
+							<AudioFile>portal_fatty_enter_loop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="314073111"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="fatty_portal" ID="{5983A81A-D0C3-46E7-942B-9873F813372A}"/>
+							</StateGroupInfo>
+							<StateGroupInfo>
+								<StateGroupRef Name="portal_win" ID="{5E9B5096-6994-4B7A-8CB2-01ABE9327BF6}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="fatty_out" ID="{02E189AD-8F3A-410A-B721-96AC48F856FD}"/>
+								<CustomState Name="" ID="{60DAC0F9-2761-491D-AFB5-4FCC2E61CC20}" ShortID="81949805">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="win" ID="{CF6FD365-ECED-429D-9EEC-ADFF59F8CA25}"/>
+								<CustomState Name="" ID="{A11FB000-67CB-427F-AAF0-FBFBCD4D4977}" ShortID="448591118">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="running" ID="{9C1FBE26-340E-4343-8CC8-E032843C3347}"/>
+								<CustomState Name="" ID="{20FD3FD6-EA7E-4888-B0C0-C1E056D6FE0F}" ShortID="1068102540"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="fatty_in" ID="{22DE5E78-5AC9-4772-9FC0-B6563E8AEBE0}"/>
+								<CustomState Name="" ID="{E2662F1B-F31E-41CB-8192-DAAD8C1EB150}" ShortID="580651056"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="portal_fatty_enter_loop" ID="{3731B734-32DC-4DE1-B991-61169BADB3EE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="portal_endgame_final" ID="{E1719A98-7287-41B0-92B5-57507E44D6DD}" ShortID="74107819">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="portal_endgame_final" ID="{FAED8015-5D8D-4FF8-A5C5-AFC172025364}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="4.22174535050071"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>portal_endgame_final.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="754785674"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="portal_endgame_final" ID="{FAED8015-5D8D-4FF8-A5C5-AFC172025364}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="portal_passive_loop" ID="{91C1079B-F3DB-4354-A239-6D32427454AD}" ShortID="970225815">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07727225-9D94-4641-AC18-4C01063E11D5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="portal_passive_loop" ID="{B046D68F-9541-4BB6-AFAF-195A8A89FD9A}">
+							<Language>SFX</Language>
+							<AudioFile>portal_passive_loop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="13567171"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="portal_win" ID="{5E9B5096-6994-4B7A-8CB2-01ABE9327BF6}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="win" ID="{CF6FD365-ECED-429D-9EEC-ADFF59F8CA25}"/>
+								<CustomState Name="" ID="{BDF9857A-F9C1-4EF3-B131-DAAE36F297AF}" ShortID="186438722">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="running" ID="{9C1FBE26-340E-4343-8CC8-E032843C3347}"/>
+								<CustomState Name="" ID="{079F1618-F047-4F60-A9AE-8C2DC320F066}" ShortID="101355472"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="portal_passive_loop" ID="{B046D68F-9541-4BB6-AFAF-195A8A89FD9A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
