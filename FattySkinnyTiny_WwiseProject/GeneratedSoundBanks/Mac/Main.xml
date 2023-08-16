@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="3813564089">
+		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="1801788055">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -98,7 +98,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3729125446" Name="Play_fireleaves_drop" ObjectPath="\Events\Default Work Unit\Play_fireleaves_drop" GUID="{FE0D6A0A-371B-41AE-B76E-F4B553D89012}" DurationType="OneShot" DurationMin="0.726125" DurationMax="1.045896">
+				<Event Id="3729125446" Name="Play_fireleaves_drop" ObjectPath="\Events\Default Work Unit\Play_fireleaves_drop" GUID="{FE0D6A0A-371B-41AE-B76E-F4B553D89012}" MaxAttenuation="3000." DurationType="OneShot" DurationMin="0.726125" DurationMax="1.045896">
 					<IncludedMemoryFiles>
 						<File Id="521725469" Language="SFX">
 							<ShortName>fire_leaves_drop_3.wav</ShortName>
