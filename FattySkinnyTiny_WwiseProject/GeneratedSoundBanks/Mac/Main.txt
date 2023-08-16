@@ -3,7 +3,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	278617630	Play_ambience			\Default Work Unit\Play_ambience	
 	416673360	Play_web_burn			\Default Work Unit\Play_web_burn	
 	416991207	Play_tree_impact			\Default Work Unit\Play_tree_impact	
-	459329081	Play_portal_endgame_final			\Default Work Unit\Play_portal_endgame_final	
 	527872876	Play_light_switch_close			\Default Work Unit\Play_light_switch_close	
 	576992903	Play_web_bounce			\Default Work Unit\Play_web_bounce	
 	772996397	Play_portal_fatty			\Default Work Unit\Play_portal_fatty	
@@ -12,6 +11,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1175895827	Play_flower_platform_grow			\Default Work Unit\Play_flower_platform_grow	
 	1311575309	Play_stone_wall_impact			\Default Work Unit\Play_stone_wall_impact	
 	1318653978	Play_switch_activate			\Default Work Unit\Play_switch_activate	
+	1413455396	Play_portal_endgame			\Default Work Unit\Play_portal_endgame	
 	1531298894	Play_mushroom_grow			\Default Work Unit\Play_mushroom_grow	
 	1575699743	Play_interact_hover			\Default Work Unit\Play_interact_hover	
 	1679516317	Play_vines_break			\Default Work Unit\Play_vines_break	
@@ -309,7 +309,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	744327706	branch_switch_close_2	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Mac\SFX\branch_switch_close_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactables\light_switch_close\branch_switch_close_2		143288
 	747115677	grass_foot_s2	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Mac\SFX\grass_foot_s2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps\grass\grass_skinny\grass_foot_s2		38868
 	751605722	Tiny	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Mac\SFX\Tiny_pt1_b_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_01\Tiny		1240680
-	754785674	portal_endgame_final	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Mac\SFX\portal_endgame_final_14B86CEB.wem		\Actor-Mixer Hierarchy\Default Work Unit\portal_endgame_final		2496064
+	754785674	portal_endgame_final	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Mac\SFX\portal_endgame_final_638E67E1.wem		\Actor-Mixer Hierarchy\Default Work Unit\portal_endgame_final		2496064
 	761861782	moss_burn	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Mac\SFX\moss_burn_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\moss_burn		1056064
 	763445320	Fatty	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Mac\SFX\Fatty_pt1_a_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\pt_01\Fatty		1240680
 	767980904	wing_flaps_2	C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\.cache\Mac\SFX\wing_flaps_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tiny\flying\wing_flaps_2		124266

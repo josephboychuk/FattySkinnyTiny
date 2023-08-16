@@ -427,7 +427,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_portal_endgame_final" ID="{A692E580-4762-4A6C-A0A3-E26351372EC3}">
+				<Event Name="Play_portal_endgame" ID="{A692E580-4762-4A6C-A0A3-E26351372EC3}">
 					<ChildrenList>
 						<Action Name="" ID="{77D34401-039D-4C61-B41E-05EB10C516FE}" ShortID="772089133">
 							<ReferenceList>

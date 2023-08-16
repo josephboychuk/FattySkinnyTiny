@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Users\marcu\Documents\GitHub\FattySkinnyTiny\FattySkinnyTiny_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="1801788055">
+		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="1022406642">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -737,6 +737,46 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2424882924" Name="Play_Portal" ObjectPath="\Events\Default Work Unit\Play_Portal" GUID="{A38115CC-0F72-4453-ABB3-FE0A1A43B89C}" MaxAttenuation="10000." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="13567171" Language="SFX">
+							<ShortName>portal_passive_loop.wav</ShortName>
+							<Path>SFX\portal_passive_loop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1413455396" Name="Play_portal_endgame" ObjectPath="\Events\Default Work Unit\Play_portal_endgame" GUID="{A692E580-4762-4A6C-A0A3-E26351372EC3}" DurationType="OneShot" DurationMin="13." DurationMax="13.">
+					<IncludedMemoryFiles>
+						<File Id="754785674" Language="SFX">
+							<ShortName>portal_endgame_final.wav</ShortName>
+							<Path>SFX\portal_endgame_final_638E67E1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="772996397" Name="Play_portal_fatty" ObjectPath="\Events\Default Work Unit\Play_portal_fatty" GUID="{37A86241-74B5-40C2-8C61-83FFFAE58E55}" MaxAttenuation="10000." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="314073111" Language="SFX">
+							<ShortName>portal_fatty_enter_loop.wav</ShortName>
+							<Path>SFX\portal_fatty_enter_loop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3267728223" Name="Play_portal_skinny" ObjectPath="\Events\Default Work Unit\Play_portal_skinny" GUID="{3A8EE00B-0223-43AA-9547-7A55AB6432C4}" MaxAttenuation="10000." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="810334520" Language="SFX">
+							<ShortName>portal_skinny_enter_loop.wav</ShortName>
+							<Path>SFX\portal_skinny_enter_loop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2994947309" Name="Play_portal_tiny" ObjectPath="\Events\Default Work Unit\Play_portal_tiny" GUID="{0D31AAB6-71B2-4A8F-89DA-9CAC3157ED74}" MaxAttenuation="10000." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="521730399" Language="SFX">
+							<ShortName>portal_tiny_enter_loop.wav</ShortName>
+							<Path>SFX\portal_tiny_enter_loop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1834004125" Name="Play_rolling" ObjectPath="\Events\Default Work Unit\Play_rolling" GUID="{82696220-DF16-4105-88B1-1054909BEC3F}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="100503454" Language="SFX">
@@ -971,7 +1011,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2228206939" Name="Play_web_sway" ObjectPath="\Events\Default Work Unit\Play_web_sway" GUID="{B2493A6C-AA4F-4A01-8940-25D49107F529}" MaxAttenuation="2500." DurationType="OneShot" DurationMin="1.667187" DurationMax="2.166354">
+				<Event Id="2228206939" Name="Play_web_sway" ObjectPath="\Events\Default Work Unit\Play_web_sway" GUID="{B2493A6C-AA4F-4A01-8940-25D49107F529}" MaxAttenuation="4000." DurationType="OneShot" DurationMin="1.667187" DurationMax="2.166354">
 					<IncludedMemoryFiles>
 						<File Id="231906951" Language="SFX">
 							<ShortName>web_sway_1.wav</ShortName>

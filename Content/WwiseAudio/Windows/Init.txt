@@ -1,11 +1,19 @@
 State Group	ID	Name			Wwise Object Path	Notes
+	337164984	portal_win			\Default Work Unit\portal_win	
 	436743010	Character			\Default Work Unit\Character	
 	543519824	on_ground			\Default Work Unit\on_ground	
+	1512942720	tiny_portal			\Default Work Unit\tiny_portal	
 	2589916561	web_burning			\Default Work Unit\web_burning	
+	3118032615	Portal			\Default Work Unit\Portal	
 	3434655684	tiny_voice			\Default Work Unit\tiny_voice	
+	3533159044	fatty_portal			\Default Work Unit\fatty_portal	
+	4077428182	skinny_portal			\Default Work Unit\skinny_portal	
 	4100859180	brightness			\Default Work Unit\brightness	
 
 State	ID	Name	State Group			Notes
+	748895195	None	portal_win			
+	979765101	win	portal_win			
+	3863236874	running	portal_win			
 	748895195	None	Character			
 	2402792465	Skinny	Character			
 	2671143723	Tiny	Character			
@@ -13,12 +21,26 @@ State	ID	Name	State Group			Notes
 	748895195	None	on_ground			
 	1050421051	air	on_ground			
 	2528658256	ground	on_ground			
+	480037546	tiny_out	tiny_portal			
+	748895195	None	tiny_portal			
+	2350499991	tiny_in	tiny_portal			
 	748895195	None	web_burning			
 	3518279182	burning	web_burning			
 	4104232280	not_burning	web_burning			
+	434268436	char3	Portal			
+	434268437	char2	Portal			
+	434268438	char1	Portal			
+	434268439	char0	Portal			
+	748895195	None	Portal			
 	748895195	None	tiny_voice			
 	3833651337	jump	tiny_voice			
 	3932660258	dismount	tiny_voice			
+	419056150	fatty_out	fatty_portal			
+	748895195	None	fatty_portal			
+	1057299195	fatty_in	fatty_portal			
+	748895195	None	skinny_portal			
+	1674142792	skinny_out	skinny_portal			
+	1814012713	skinny_in	skinny_portal			
 	748895195	None	brightness			
 	1925914845	dark	brightness			
 	1935470627	light	brightness			

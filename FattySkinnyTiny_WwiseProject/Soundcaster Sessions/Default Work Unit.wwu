@@ -332,7 +332,7 @@
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_portal_endgame_final" ID="{A692E580-4762-4A6C-A0A3-E26351372EC3}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
+							<ObjectRef Name="Play_portal_endgame" ID="{A692E580-4762-4A6C-A0A3-E26351372EC3}" WorkUnitID="{56C44EEC-5A5E-49EB-B968-56C46638BD06}"/>
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
