@@ -542,13 +542,6 @@
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="tree" ID="{4402F199-C078-4652-9871-B7026FBEF4A8}" ShortID="399305239">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>6</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -558,7 +551,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="new_tree_thump_1" ID="{4BECB171-EEA0-4ADC-A3FE-0DEE68CADEC5}" ShortID="561099997">
+										<Sound Name="new_tree_hit_1" ID="{8D2ABB1B-F00F-4F47-8736-A77CFF873844}" ShortID="449070501">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -568,20 +561,20 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="new_tree_thump_1" ID="{A6D2C7D5-2D5E-4E64-85FC-560224917129}">
+												<AudioFileSource Name="new_tree_hit_1" ID="{42BE63E6-8E49-4387-8E12-C55675A0ABBE}">
 													<Language>SFX</Language>
-													<AudioFile>new_tree_thump_1.wav</AudioFile>
+													<AudioFile>new_tree_hit_1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="922419729"/>
+														<MediaID ID="271736074"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists/>
 											<ActiveSourceList>
-												<ActiveSource Name="new_tree_thump_1" ID="{A6D2C7D5-2D5E-4E64-85FC-560224917129}" Platform="Linked"/>
+												<ActiveSource Name="new_tree_hit_1" ID="{42BE63E6-8E49-4387-8E12-C55675A0ABBE}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="new_tree_thump_2" ID="{CD913B3A-E35A-4020-B25A-E14CE16C4E1F}" ShortID="420403309">
+										<Sound Name="new_tree_hit_2" ID="{AFCDC5A4-DB06-4BD7-8179-D276C8C8B6FD}" ShortID="398380596">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -591,20 +584,20 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="new_tree_thump_2" ID="{F9730570-8D8B-48C0-9FC5-C0F08800D6EB}">
+												<AudioFileSource Name="new_tree_hit_2" ID="{EC731895-6784-4522-AE6C-EF104E10E9E6}">
 													<Language>SFX</Language>
-													<AudioFile>new_tree_thump_2.wav</AudioFile>
+													<AudioFile>new_tree_hit_2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="890404607"/>
+														<MediaID ID="542560666"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists/>
 											<ActiveSourceList>
-												<ActiveSource Name="new_tree_thump_2" ID="{F9730570-8D8B-48C0-9FC5-C0F08800D6EB}" Platform="Linked"/>
+												<ActiveSource Name="new_tree_hit_2" ID="{EC731895-6784-4522-AE6C-EF104E10E9E6}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="new_tree_thump_3" ID="{88489B3A-A0EF-4895-8D88-F2DCC4849FC6}" ShortID="218073896">
+										<Sound Name="new_tree_hit_3" ID="{D03A1350-B349-43CB-86B1-9190CC119ED3}" ShortID="525503460">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
@@ -614,17 +607,17 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="new_tree_thump_3" ID="{83E65CD0-0C3E-4769-98D1-EAFC8C110A47}">
+												<AudioFileSource Name="new_tree_hit_3" ID="{4487C3C0-1307-42C8-8EF1-3B097C4B3965}">
 													<Language>SFX</Language>
-													<AudioFile>new_tree_thump_3.wav</AudioFile>
+													<AudioFile>new_tree_hit_3.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="726434562"/>
+														<MediaID ID="844543740"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists/>
 											<ActiveSourceList>
-												<ActiveSource Name="new_tree_thump_3" ID="{83E65CD0-0C3E-4769-98D1-EAFC8C110A47}" Platform="Linked"/>
+												<ActiveSource Name="new_tree_hit_3" ID="{4487C3C0-1307-42C8-8EF1-3B097C4B3965}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -6142,7 +6135,85 @@
 							<ObjectLists/>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="interact_hover" ID="{6D012B9F-46AD-4114-99CE-B2E31CF98738}" ShortID="230216362">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{9DBCABAC-33E5-4543-BA73-46EFC8AD4A63}" ShortID="833929800">
+											<PropertyList>
+												<Property Name="HeightSpreadEnable" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RadiusMax" Type="Real64" Value="4000"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{9C03D5E2-C93D-4E90-8523-FF7CF4DCA1B3}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Exp1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>4000</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{BC1DAC50-9708-4465-A013-6B34F81B6375}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>4000</XPos>
+																	<YPos>40</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA751DD4-9400-4A2F-AEF2-1278550FEF40}"/>
 								</Reference>

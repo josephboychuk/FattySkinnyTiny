@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="2036671042">
+		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="1988480609">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -390,7 +390,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1575699743" Name="Play_interact_hover" ObjectPath="\Events\Default Work Unit\Play_interact_hover" GUID="{8DF7C81B-11E1-4B57-B3A4-65923E194131}" DurationType="OneShot" DurationMin="4." DurationMax="4.">
+				<Event Id="1575699743" Name="Play_interact_hover" ObjectPath="\Events\Default Work Unit\Play_interact_hover" GUID="{8DF7C81B-11E1-4B57-B3A4-65923E194131}" MaxAttenuation="4000." DurationType="OneShot" DurationMin="4." DurationMax="4.">
 					<IncludedMemoryFiles>
 						<File Id="161212549" Language="SFX">
 							<ShortName>interact_hover_1.wav</ShortName>
@@ -938,19 +938,19 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="416991207" Name="Play_tree_impact" ObjectPath="\Events\Default Work Unit\Play_tree_impact" GUID="{DD29A006-FC96-4E24-835D-551C0528C785}" DurationType="OneShot" DurationMin="5.298333" DurationMax="5.298333">
+				<Event Id="416991207" Name="Play_tree_impact" ObjectPath="\Events\Default Work Unit\Play_tree_impact" GUID="{DD29A006-FC96-4E24-835D-551C0528C785}" DurationType="OneShot" DurationMin="4.881146" DurationMax="5.338021">
 					<IncludedMemoryFiles>
-						<File Id="726434562" Language="SFX">
-							<ShortName>new_tree_thump_3.wav</ShortName>
-							<Path>SFX\new_tree_thump_3_10C4C929.wem</Path>
+						<File Id="271736074" Language="SFX">
+							<ShortName>new_tree_hit_1.wav</ShortName>
+							<Path>SFX\new_tree_hit_1_10C4C929.wem</Path>
 						</File>
-						<File Id="890404607" Language="SFX">
-							<ShortName>new_tree_thump_2.wav</ShortName>
-							<Path>SFX\new_tree_thump_2_10C4C929.wem</Path>
+						<File Id="542560666" Language="SFX">
+							<ShortName>new_tree_hit_2.wav</ShortName>
+							<Path>SFX\new_tree_hit_2_10C4C929.wem</Path>
 						</File>
-						<File Id="922419729" Language="SFX">
-							<ShortName>new_tree_thump_1.wav</ShortName>
-							<Path>SFX\new_tree_thump_1_10C4C929.wem</Path>
+						<File Id="844543740" Language="SFX">
+							<ShortName>new_tree_hit_3.wav</ShortName>
+							<Path>SFX\new_tree_hit_3_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

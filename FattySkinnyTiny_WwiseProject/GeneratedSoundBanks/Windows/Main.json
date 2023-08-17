@@ -16,7 +16,7 @@
     "Id": "3161908922",
     "GUID": "{ECA3E31C-442D-42A7-8CFB-EE71058648FD}",
     "Language": "SFX",
-    "Hash": "2036671042",
+    "Hash": "1988480609",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -682,6 +682,7 @@
       "Name": "Play_interact_hover",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_interact_hover",
       "GUID": "{8DF7C81B-11E1-4B57-B3A4-65923E194131}",
+      "MaxAttenuation": "4000.",
       "DurationType": "OneShot",
       "DurationMin": "4.",
       "DurationMax": "4.",
@@ -1634,26 +1635,26 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_tree_impact",
       "GUID": "{DD29A006-FC96-4E24-835D-551C0528C785}",
       "DurationType": "OneShot",
-      "DurationMin": "5.298333",
-      "DurationMax": "5.298333",
+      "DurationMin": "4.881146",
+      "DurationMax": "5.338021",
       "IncludedMemoryFiles": [
        {
-        "Id": "726434562",
+        "Id": "271736074",
         "Language": "SFX",
-        "ShortName": "new_tree_thump_3.wav",
-        "Path": "SFX\\new_tree_thump_3_10C4C929.wem"
+        "ShortName": "new_tree_hit_1.wav",
+        "Path": "SFX\\new_tree_hit_1_10C4C929.wem"
        },
        {
-        "Id": "890404607",
+        "Id": "542560666",
         "Language": "SFX",
-        "ShortName": "new_tree_thump_2.wav",
-        "Path": "SFX\\new_tree_thump_2_10C4C929.wem"
+        "ShortName": "new_tree_hit_2.wav",
+        "Path": "SFX\\new_tree_hit_2_10C4C929.wem"
        },
        {
-        "Id": "922419729",
+        "Id": "844543740",
         "Language": "SFX",
-        "ShortName": "new_tree_thump_1.wav",
-        "Path": "SFX\\new_tree_thump_1_10C4C929.wem"
+        "ShortName": "new_tree_hit_3.wav",
+        "Path": "SFX\\new_tree_hit_3_10C4C929.wem"
        }
       ]
      },
