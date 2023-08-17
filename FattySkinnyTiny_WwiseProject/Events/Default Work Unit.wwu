@@ -327,7 +327,7 @@
 						<Action Name="" ID="{A95BA086-6CA1-490E-A88E-657D7C876783}" ShortID="1007734005">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="bonks" ID="{0CCC576A-5E93-409E-AE2D-2843401254A9}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+									<ObjectRef Name="stone_bonks" ID="{E585DA06-F9A9-4712-BF21-CD867C9FBAFA}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -433,6 +433,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="portal_endgame_final" ID="{E1719A98-7287-41B0-92B5-57507E44D6DD}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_stone_bonks" ID="{CAAC7969-8BE8-4B9E-8C07-C5B80ACF0561}">
+					<ChildrenList>
+						<Action Name="" ID="{16D96827-0893-4A0D-A1E1-E198BBE442EA}" ShortID="949125025">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stone_bonks" ID="{E585DA06-F9A9-4712-BF21-CD867C9FBAFA}" WorkUnitID="{E3E1EE3E-576F-4D10-9682-CE06135E34A7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
