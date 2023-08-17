@@ -16,7 +16,7 @@
     "Id": "3161908922",
     "GUID": "{ECA3E31C-442D-42A7-8CFB-EE71058648FD}",
     "Language": "SFX",
-    "Hash": "1022406642",
+    "Hash": "2987327455",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -61,14 +61,8 @@
       "GUID": "{932530A0-0B8A-421B-BCCB-A5918C423446}",
       "DurationType": "OneShot",
       "DurationMin": "0.094495",
-      "DurationMax": "0.304643",
+      "DurationMax": "0.12383",
       "IncludedMemoryFiles": [
-       {
-        "Id": "30920804",
-        "Language": "SFX",
-        "ShortName": "wood_bonk_3.wav",
-        "Path": "SFX\\wood_bonk_3_10C4C929.wem"
-       },
        {
         "Id": "158550986",
         "Language": "SFX",
@@ -82,53 +76,10 @@
         "Path": "SFX\\stone_bonk_1_10C4C929.wem"
        },
        {
-        "Id": "495575702",
-        "Language": "SFX",
-        "ShortName": "wood_bonk_1.wav",
-        "Path": "SFX\\wood_bonk_1_10C4C929.wem"
-       },
-       {
-        "Id": "532024584",
-        "Language": "SFX",
-        "ShortName": "wood_bonk_2.wav",
-        "Path": "SFX\\wood_bonk_2_10C4C929.wem"
-       },
-       {
         "Id": "1050400718",
         "Language": "SFX",
         "ShortName": "stone_bonk_3.wav",
         "Path": "SFX\\stone_bonk_3_10C4C929.wem"
-       }
-      ],
-      "DefaultSwitchValue": "{6F80DE84-DDC4-4CD5-BE95-4125503E2252}",
-      "SwitchContainers": [
-       {
-        "SwitchValue": "{F7C5A267-955F-4EC2-BD71-207AE7802797}",
-        "Media": [
-         {
-          "Id": "158550986"
-         },
-         {
-          "Id": "374929341"
-         },
-         {
-          "Id": "1050400718"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{6F80DE84-DDC4-4CD5-BE95-4125503E2252}",
-        "Media": [
-         {
-          "Id": "30920804"
-         },
-         {
-          "Id": "495575702"
-         },
-         {
-          "Id": "532024584"
-         }
-        ]
        }
       ]
      },
@@ -731,6 +682,7 @@
       "Name": "Play_interact_hover",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_interact_hover",
       "GUID": "{8DF7C81B-11E1-4B57-B3A4-65923E194131}",
+      "MaxAttenuation": "4000.",
       "DurationType": "OneShot",
       "DurationMin": "4.",
       "DurationMax": "4.",
@@ -1050,7 +1002,7 @@
       "Name": "Play_moss_burn",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_moss_burn",
       "GUID": "{4A08579E-5816-4C85-A42A-600862C5B3AC}",
-      "MaxAttenuation": "6000.",
+      "MaxAttenuation": "15000.",
       "DurationType": "OneShot",
       "DurationMin": "11.",
       "DurationMax": "11.",
@@ -1503,6 +1455,35 @@
       ]
      },
      {
+      "Id": "1957786667",
+      "Name": "Play_stone_bonks",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_stone_bonks",
+      "GUID": "{CAAC7969-8BE8-4B9E-8C07-C5B80ACF0561}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.094495",
+      "DurationMax": "0.12383",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "158550986",
+        "Language": "SFX",
+        "ShortName": "stone_bonk_2.wav",
+        "Path": "SFX\\stone_bonk_2_10C4C929.wem"
+       },
+       {
+        "Id": "374929341",
+        "Language": "SFX",
+        "ShortName": "stone_bonk_1.wav",
+        "Path": "SFX\\stone_bonk_1_10C4C929.wem"
+       },
+       {
+        "Id": "1050400718",
+        "Language": "SFX",
+        "ShortName": "stone_bonk_3.wav",
+        "Path": "SFX\\stone_bonk_3_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "1311575309",
       "Name": "Play_stone_wall_impact",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_stone_wall_impact",
@@ -1654,26 +1635,26 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_tree_impact",
       "GUID": "{DD29A006-FC96-4E24-835D-551C0528C785}",
       "DurationType": "OneShot",
-      "DurationMin": "5.298333",
-      "DurationMax": "5.298333",
+      "DurationMin": "4.881146",
+      "DurationMax": "5.338021",
       "IncludedMemoryFiles": [
        {
-        "Id": "726434562",
+        "Id": "271736074",
         "Language": "SFX",
-        "ShortName": "new_tree_thump_3.wav",
-        "Path": "SFX\\new_tree_thump_3_10C4C929.wem"
+        "ShortName": "new_tree_hit_1.wav",
+        "Path": "SFX\\new_tree_hit_1_10C4C929.wem"
        },
        {
-        "Id": "890404607",
+        "Id": "542560666",
         "Language": "SFX",
-        "ShortName": "new_tree_thump_2.wav",
-        "Path": "SFX\\new_tree_thump_2_10C4C929.wem"
+        "ShortName": "new_tree_hit_2.wav",
+        "Path": "SFX\\new_tree_hit_2_10C4C929.wem"
        },
        {
-        "Id": "922419729",
+        "Id": "844543740",
         "Language": "SFX",
-        "ShortName": "new_tree_thump_1.wav",
-        "Path": "SFX\\new_tree_thump_1_10C4C929.wem"
+        "ShortName": "new_tree_hit_3.wav",
+        "Path": "SFX\\new_tree_hit_3_10C4C929.wem"
        }
       ]
      },

@@ -354,7 +354,7 @@
 						<CurrentStateRef Name="dark" ID="{C0EC49DD-426A-4208-8883-8586F4E62CB6}"/>
 						<CurrentStateRef Name="tiny_in" ID="{EE6919DF-587B-489B-93BB-04F959C16ED9}"/>
 						<CurrentStateRef Name="fatty_in" ID="{22DE5E78-5AC9-4772-9FC0-B6563E8AEBE0}"/>
-						<CurrentStateRef Name="char3" ID="{AACADCA1-B0F9-4371-9B8F-08413C0819CF}"/>
+						<CurrentStateRef Name="char0" ID="{D1060786-7194-4D0C-8091-F2891EE76ADE}"/>
 						<CurrentStateRef Name="skinny_in" ID="{9C692FBB-2BEF-4B5B-8EDF-0E4B8C285E7F}"/>
 						<CurrentStateRef Name="win" ID="{CF6FD365-ECED-429D-9EEC-ADFF59F8CA25}"/>
 						<CurrentStateRef Name="Tiny" ID="{CC1D8CA7-2D6D-43E3-BE41-4879C783E2B3}"/>
