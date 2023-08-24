@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="1181551666">
+		<SoundBank Id="3161908922" GUID="{ECA3E31C-442D-42A7-8CFB-EE71058648FD}" Language="SFX" Hash="3122346915">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -125,7 +125,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3552089723" Name="Play_flying" ObjectPath="\Events\Default Work Unit\Play_flying" GUID="{B3F1F30D-7021-46E2-A19A-5E165BD2A16C}" DurationType="OneShot" DurationMin="1.275222" DurationMax="1.312589">
+				<Event Id="3552089723" Name="Play_flying" ObjectPath="\Events\Default Work Unit\Play_flying" GUID="{B3F1F30D-7021-46E2-A19A-5E165BD2A16C}" MaxAttenuation="2500." DurationType="OneShot" DurationMin="1.275222" DurationMax="1.312589">
 					<IncludedMemoryFiles>
 						<File Id="767980904" Language="SFX">
 							<ShortName>wing_flaps_2.wav</ShortName>
@@ -133,7 +133,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3854155799" Name="Play_footsteps" ObjectPath="\Events\Default Work Unit\Play_footsteps" GUID="{BCF66B52-5FAD-4770-BBB1-2EE969C03758}" DurationType="OneShot" DurationMin="0.242212" DurationMax="0.497917">
+				<Event Id="3854155799" Name="Play_footsteps" ObjectPath="\Events\Default Work Unit\Play_footsteps" GUID="{BCF66B52-5FAD-4770-BBB1-2EE969C03758}" MaxAttenuation="2500." DurationType="OneShot" DurationMin="0.242212" DurationMax="0.497917">
 					<IncludedMemoryFiles>
 						<File Id="9095580" Language="SFX">
 							<ShortName>test_flowerstep_t3.wav</ShortName>
@@ -406,7 +406,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2706477616" Name="Play_land_bounce" ObjectPath="\Events\Default Work Unit\Play_land_bounce" GUID="{5E44FED3-C634-40D8-880E-EA134921731D}" DurationType="OneShot" DurationMin="0.174375" DurationMax="0.958333">
+				<Event Id="2706477616" Name="Play_land_bounce" ObjectPath="\Events\Default Work Unit\Play_land_bounce" GUID="{5E44FED3-C634-40D8-880E-EA134921731D}" MaxAttenuation="4000." DurationType="OneShot" DurationMin="0.174375" DurationMax="0.958333">
 					<IncludedMemoryFiles>
 						<File Id="9969033" Language="SFX">
 							<ShortName>flower_landing_f1.wav</ShortName>
@@ -756,7 +756,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1834004125" Name="Play_rolling" ObjectPath="\Events\Default Work Unit\Play_rolling" GUID="{82696220-DF16-4105-88B1-1054909BEC3F}" DurationType="Infinite">
+				<Event Id="1834004125" Name="Play_rolling" ObjectPath="\Events\Default Work Unit\Play_rolling" GUID="{82696220-DF16-4105-88B1-1054909BEC3F}" MaxAttenuation="4000." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="100503454" Language="SFX">
 							<ShortName>grass_roll_1.wav</ShortName>
@@ -814,7 +814,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3964945276" Name="Play_shimmery_movement" ObjectPath="\Events\Default Work Unit\Play_shimmery_movement" GUID="{BD409C19-9194-40ED-96D6-205ED6128BAB}" DurationType="OneShot" DurationMin="2." DurationMax="2.">
+				<Event Id="3964945276" Name="Play_shimmery_movement" ObjectPath="\Events\Default Work Unit\Play_shimmery_movement" GUID="{BD409C19-9194-40ED-96D6-205ED6128BAB}" MaxAttenuation="1200." DurationType="OneShot" DurationMin="2." DurationMax="2.">
 					<IncludedMemoryFiles>
 						<File Id="10540639" Language="SFX">
 							<ShortName>tiny_shimmery_2.wav</ShortName>
